@@ -7,37 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 13:18:46 +0000</lastBuildDate>
-    <item>
-      <title>Charte d'engagement GEO</title>
-      <link>https://www.geo.fr/page/charte-engagement</link>
-      <description>Charte d'engagement GEO</description>
-      <guid isPermaLink="false">https://www.geo.fr/page/charte-engagement</guid>
-    </item>
-    <item>
-      <title>Tous nos auteurs</title>
-      <link>https://www.geo.fr/equipe-editoriale/tous-nos-auteurs</link>
-      <description>Tous nos auteurs</description>
-      <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale/tous-nos-auteurs</guid>
-    </item>
-    <item>
-      <title>Equipe éditoriale</title>
-      <link>https://www.geo.fr/equipe-editoriale</link>
-      <description>Equipe éditoriale</description>
-      <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale</guid>
-    </item>
-    <item>
-      <title>Gérer le consentement Utiq</title>
-      <link>https://www.geo.fr/page/service-utiq</link>
-      <description>Gérer le consentement Utiq</description>
-      <guid isPermaLink="false">https://www.geo.fr/page/service-utiq</guid>
-    </item>
-    <item>
-      <title>Accessibilité : non conforme</title>
-      <link>https://www.geo.fr/page/accessibilite</link>
-      <description>Accessibilité : non conforme</description>
-      <guid isPermaLink="false">https://www.geo.fr/page/accessibilite</guid>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 13:36:55 +0000</lastBuildDate>
     <item>
       <title>ArchéologieDes fragments d’une peinture romaine révèlent un usage surprenant du "bleu égyptien"</title>
       <link>https://www.geo.fr/histoire/des-fragments-dune-peinture-romaine-revelent-un-usage-surprenant-du-bleu-egyptien-233627</link>
@@ -339,76 +309,10 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</guid>
     </item>
     <item>
-      <title>Charles III</title>
-      <link>https://www.geo.fr/evenement/charles-iii-roi-du-royaume-uni-de-grande-bretagne-et-dirlande-du-nord</link>
-      <description>Charles III</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/charles-iii-roi-du-royaume-uni-de-grande-bretagne-et-dirlande-du-nord</guid>
-    </item>
-    <item>
-      <title>Jules César</title>
-      <link>https://www.geo.fr/evenement/pourquoi-jules-cesar-a-marque-lhistoire</link>
-      <description>Jules César</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/pourquoi-jules-cesar-a-marque-lhistoire</guid>
-    </item>
-    <item>
-      <title>Secrets des monuments français</title>
-      <link>https://www.geo.fr/evenement/monuments</link>
-      <description>Secrets des monuments français</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/monuments</guid>
-    </item>
-    <item>
       <title>La guerre d'Algérie</title>
       <link>https://www.geo.fr/evenement/la-guerre-dalgerie</link>
       <description>La guerre d'Algérie</description>
       <guid isPermaLink="false">https://www.geo.fr/evenement/la-guerre-dalgerie</guid>
-    </item>
-    <item>
-      <title>Napoléon</title>
-      <link>https://www.geo.fr/evenement/napoleon</link>
-      <description>Napoléon</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/napoleon</guid>
-    </item>
-    <item>
-      <title>Religion</title>
-      <link>https://www.geo.fr/tag/religion</link>
-      <description>Religion</description>
-      <guid isPermaLink="false">https://www.geo.fr/tag/religion</guid>
-    </item>
-    <item>
-      <title>Paleontologie</title>
-      <link>https://www.geo.fr/tag/paleontologie</link>
-      <description>Paleontologie</description>
-      <guid isPermaLink="false">https://www.geo.fr/tag/paleontologie</guid>
-    </item>
-    <item>
-      <title>Antiquite</title>
-      <link>https://www.geo.fr/tag/antiquite</link>
-      <description>Antiquite</description>
-      <guid isPermaLink="false">https://www.geo.fr/tag/antiquite</guid>
-    </item>
-    <item>
-      <title>Pompéi</title>
-      <link>https://www.geo.fr/evenement/pompei</link>
-      <description>Pompéi</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/pompei</guid>
-    </item>
-    <item>
-      <title>Notre-Dame</title>
-      <link>https://www.geo.fr/evenement/notre-dame-de-paris-petites-et-grandes-histoires</link>
-      <description>Notre-Dame</description>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/notre-dame-de-paris-petites-et-grandes-histoires</guid>
-    </item>
-    <item>
-      <title>Archéologie</title>
-      <link>https://www.geo.fr/tag/archeologie</link>
-      <description>Archéologie</description>
-      <guid isPermaLink="false">https://www.geo.fr/tag/archeologie</guid>
-    </item>
-    <item>
-      <title>Podcasts</title>
-      <link>https://www.geo.fr/tag/podcast</link>
-      <description>Podcasts</description>
-      <guid isPermaLink="false">https://www.geo.fr/tag/podcast</guid>
     </item>
     <item>
       <title>Quiz de culture générale</title>
@@ -421,60 +325,6 @@
       <link>https://www.geo.fr/evenement/vacances-en-france</link>
       <description>Voyages en France</description>
       <guid isPermaLink="false">https://www.geo.fr/evenement/vacances-en-france</guid>
-    </item>
-    <item>
-      <title>Aventure</title>
-      <link>https://www.geo.fr/aventure</link>
-      <description>Aventure</description>
-      <guid isPermaLink="false">https://www.geo.fr/aventure</guid>
-    </item>
-    <item>
-      <title>Animaux</title>
-      <link>https://www.geo.fr/animaux</link>
-      <description>Animaux</description>
-      <guid isPermaLink="false">https://www.geo.fr/animaux</guid>
-    </item>
-    <item>
-      <title>Histoire</title>
-      <link>https://www.geo.fr/histoire</link>
-      <description>Histoire</description>
-      <guid isPermaLink="false">https://www.geo.fr/histoire</guid>
-    </item>
-    <item>
-      <title>Sciences</title>
-      <link>https://www.geo.fr/sciences</link>
-      <description>Sciences</description>
-      <guid isPermaLink="false">https://www.geo.fr/sciences</guid>
-    </item>
-    <item>
-      <title>Géopolitique</title>
-      <link>https://www.geo.fr/geopolitique</link>
-      <description>Géopolitique</description>
-      <guid isPermaLink="false">https://www.geo.fr/geopolitique</guid>
-    </item>
-    <item>
-      <title>Environnement</title>
-      <link>https://www.geo.fr/environnement</link>
-      <description>Environnement</description>
-      <guid isPermaLink="false">https://www.geo.fr/environnement</guid>
-    </item>
-    <item>
-      <title>Voyage</title>
-      <link>https://www.geo.fr/voyage</link>
-      <description>Voyage</description>
-      <guid isPermaLink="false">https://www.geo.fr/voyage</guid>
-    </item>
-    <item>
-      <title>Grands Dossiers</title>
-      <link>https://www.geo.fr/dossiers</link>
-      <description>Grands Dossiers</description>
-      <guid isPermaLink="false">https://www.geo.fr/dossiers</guid>
-    </item>
-    <item>
-      <title>Guide des destinations</title>
-      <link>https://www.geo.fr/destinations</link>
-      <description>Guide des destinations</description>
-      <guid isPermaLink="false">https://www.geo.fr/destinations</guid>
     </item>
   </channel>
 </rss>
