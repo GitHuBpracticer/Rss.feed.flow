@@ -7,26 +7,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 14:30:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 18:34:40 +0000</lastBuildDate>
     <item>
       <title>Voir toutes les Actualités</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/actualites</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites</guid>
-    </item>
-    <item>
-      <title>Google savait que Gemini a attaqué de vraies entreprises et l'a gardé secret pendant des moisCe n’est que des mois après l’incident que Google communique dessus et il a fallu que le Wall Street Journal lui demande pour que l’affai...il y a 10 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/google-savait-que-gemini-a-attaque-de-vraies-entreprises-et-l-a-garde-secret-pendant-des-mois-n262048.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/google-savait-que-gemini-a-attaque-de-vraies-entreprises-et-l-a-garde-secret-pendant-des-mois-n262048.html</guid>
-    </item>
-    <item>
-      <title>"Ça a failli déclencher une guerre" : comment une IA aurait pu plonger le monde dans un incident militaire entre les États-Unis et la ChineUne IA étasunienne aurait pu provoquer une crise militaire majeure avec la Chine. Tout remonte au printemps 2026, quand un rapport du ren...il y a 10 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/ca-a-failli-declencher-une-guerre-comment-une-ia-aurait-pu-plonger-le-monde-dans-un-incident-militaire-entre-les-etats-unis-et-la-chine-n262056.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/ca-a-failli-declencher-une-guerre-comment-une-ia-aurait-pu-plonger-le-monde-dans-un-incident-militaire-entre-les-etats-unis-et-la-chine-n262056.html</guid>
-    </item>
-    <item>
-      <title>4"0 % de chance" : Jensen Huang, patron de Nvidia, refuse de croire que l'IA détruira l'humanité en 2030Nada, aucune chance, 0 %. C’est ce que nous dit Jensen Huang. Selon le PDG de Nvidia, l’IA ne provoquera pas la disparition de l’humanité...il y a 9 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/0-de-chance-jensen-huang-patron-de-nvidia-refuse-de-croire-que-l-ia-detruira-l-humanite-en-2030-n262086.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/0-de-chance-jensen-huang-patron-de-nvidia-refuse-de-croire-que-l-ia-detruira-l-humanite-en-2030-n262086.html</guid>
     </item>
     <item>
       <title>10"C'est un cataclysme" : Cédric Villani et 24 autres médaillés Fields se disent secoués par la percée mathématique de l'IATrois jours après qu'OpenAI a annoncé avoir résolu l'un des problèmes du millénaire grâce à 10 000 agents d'IA autonomes, 25 lauréats de...il y a 8 jours</title>
@@ -69,6 +54,21 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/la-nature-comme-processeur-amazon-propose-un-modele-d-ia-dope-par-des-cerveaux-de-rats-n262196.html</guid>
     </item>
     <item>
+      <title>6"12 à 13 heures par jour à appuyer sur Entrée" : le cri d'alarme d'un développeur face à l'IA Claude CodeL'IA devait libérer les développeurs, elle les enchaîne à leur clavier. Un ingénieur décrit des journées de 13 heures à valider le code d...il y a 6 jours</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</guid>
+    </item>
+    <item>
+      <title>2"Profondément alarmant" : une IA d'OpenAI a piraté un portail de santé du gouvernement australien, une première mondialeUn agent d'IA d'OpenAI (ChatGPT) devait trouver des statistiques de santé sur le web. Pour y parvenir, il a forcé l'entrée d'un portail g...il y a 5 jours</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</guid>
+    </item>
+    <item>
+      <title>“L'abus d'IA le plus grave jamais documenté” : la première cyberattaque industrielle par IA a volé 600 000 cartes bancaires, et elle est toujours en coursUn pirate sinophone a lâché trois frameworks d'IA autonomes sur des centaines de sites de e-commerce depuis juillet. Coût moyen par entre...il y a 5 jours</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</guid>
+    </item>
+    <item>
       <title>Voir tous les tutoriels</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=tutoriels</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=tutoriels</guid>
@@ -94,21 +94,6 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/chatgpt-ne-fonctionne-plus-voici-comment-resoudre-rapidement-le-probleme-a233132.html</guid>
     </item>
     <item>
-      <title>6"12 à 13 heures par jour à appuyer sur Entrée" : le cri d'alarme d'un développeur face à l'IA Claude Codeil y a 6 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</guid>
-    </item>
-    <item>
-      <title>2"Profondément alarmant" : une IA d'OpenAI a piraté un portail de santé du gouvernement australien, une première mondialeil y a 5 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</guid>
-    </item>
-    <item>
-      <title>“L'abus d'IA le plus grave jamais documenté” : la première cyberattaque industrielle par IA a volé 600 000 cartes bancaires, et elle est toujours en coursil y a 5 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</guid>
-    </item>
-    <item>
       <title>Personne au monde ne contrôle l'IA : après un été de piratages et d'évasions, Google, OpenAI et Anthropic proposent... de se surveiller eux-mêmesil y a 4 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/personne-au-monde-ne-controle-l-ia-apres-un-ete-de-piratages-et-d-evasions-google-openai-et-anthropic-proposent-de-se-surveiller-eux-memes-n262313.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/personne-au-monde-ne-controle-l-ia-apres-un-ete-de-piratages-et-d-evasions-google-openai-et-anthropic-proposent-de-se-surveiller-eux-memes-n262313.html</guid>
@@ -119,19 +104,34 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/si-on-avait-su-on-se-serait-battus-l-arrivee-surprise-d-un-mini-datacenter-ultra-bruyant-revolte-ce-quartier-n262335.html</guid>
     </item>
     <item>
-      <title>L'Apple Watch peut résumer vos conversations, de quoi inquiéter ceux qu'elle écoute</title>
+      <title>L'Apple Watch peut résumer vos conversations, de quoi inquiéter ceux qu'elle écouteil y a 3 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/l-apple-watch-peut-resumer-vos-conversations-de-quoi-inquieter-ceux-qu-elle-ecoute-n262066.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-apple-watch-peut-resumer-vos-conversations-de-quoi-inquieter-ceux-qu-elle-ecoute-n262066.html</guid>
     </item>
     <item>
-      <title>“C'était surréaliste” : les IA de ChatGPT ont piraté des sites gouvernementaux américains, OpenAI arrête tout3</title>
+      <title>3“C'était surréaliste” : les IA de ChatGPT ont piraté des sites gouvernementaux américains, OpenAI arrête toutHier à 11:15</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</guid>
     </item>
     <item>
-      <title>Claude Sonnet 5.5 est là : presque aussi puissant qu'Opus 5.5, pour moitié moins cher</title>
+      <title>Claude Sonnet 5.5 est là : presque aussi puissant qu'Opus 5.5, pour moitié moins cher08:14</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-sonnet-5-5-est-la-presque-aussi-puissant-qu-opus-5-5-pour-moitie-moins-cher-n262465.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-sonnet-5-5-est-la-presque-aussi-puissant-qu-opus-5-5-pour-moitie-moins-cher-n262465.html</guid>
+    </item>
+    <item>
+      <title>Claude : son créateur alerte sur des “risques existentiels pour l'humanité” et une IA capable de ”résister à son propre arrêt” avant son entrée en Bourse2</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-son-createur-alerte-sur-des-risques-existentiels-pour-l-humanite-et-une-ia-capable-de-resister-a-son-propre-arret-avant-son-entree-en-bourse-n262488.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-son-createur-alerte-sur-des-risques-existentiels-pour-l-humanite-et-une-ia-capable-de-resister-a-son-propre-arret-avant-son-entree-en-bourse-n262488.html</guid>
+    </item>
+    <item>
+      <title>Claude en panne ce 29 septembre : des centaines de signalements et plusieurs services touchés</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-en-panne-ce-29-septembre-des-centaines-de-signalements-et-plusieurs-services-touches-n262496.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-en-panne-ce-29-septembre-des-centaines-de-signalements-et-plusieurs-services-touches-n262496.html</guid>
+    </item>
+    <item>
+      <title>Il se fait duper par une IA et transfère 95 millions d'euros sur le compte d'un escroc : la somme appartenait à son employeur, une grande banque européenne</title>
+      <link>https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</link>
+      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</guid>
     </item>
     <item>
       <title>Bloquer l'IA Google</title>

@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 14:30:13 +0000</lastBuildDate>
-    <item>
-      <title>ArchéologieDes fragments d’une peinture romaine révèlent un usage surprenant du "bleu égyptien"</title>
-      <link>https://www.geo.fr/histoire/des-fragments-dune-peinture-romaine-revelent-un-usage-surprenant-du-bleu-egyptien-233627</link>
-      <description>ArchéologieDes fragments d’une peinture romaine révèlent un usage surprenant du "bleu égyptien"</description>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/des-fragments-dune-peinture-romaine-revelent-un-usage-surprenant-du-bleu-egyptien-233627</guid>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 18:34:35 +0000</lastBuildDate>
     <item>
       <title>patrimoineA Paris, le musée d'Orsay rend hommage à Bartholdi, créateur de la statue de la Liberté</title>
       <link>https://www.geo.fr/histoire/a-paris-le-musee-d-orsay-rend-hommage-a-bartholdi-createur-de-la-statue-de-la-liberte-233621</link>
@@ -231,6 +225,12 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/de-disney-aux-studios-idefix-comment-goscinny-a-conquis-le-cinema-233727</guid>
     </item>
     <item>
+      <title>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</title>
+      <link>https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</link>
+      <description>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</guid>
+    </item>
+    <item>
       <title>En Grèce, des archéologues mettent au jour l'école où Aristote aurait formé Alexandre le Grand</title>
       <link>https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</link>
       <description>En Grèce, des archéologues mettent au jour l'école où Aristote aurait formé Alexandre le Grand</description>
@@ -259,12 +259,6 @@
       <link>https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</link>
       <description>Une église vieille de 800 ans découverte au Groenland révèle un étonnant village viking</description>
       <guid isPermaLink="false">https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</guid>
-    </item>
-    <item>
-      <title>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</title>
-      <link>https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</link>
-      <description>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</description>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</guid>
     </item>
     <item>
       <title>patrimoineVenise: la vérité sur les origines de la cité des Doges</title>
@@ -303,10 +297,16 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/lutece-gauloise-un-mur-decouvert-sur-lile-de-la-cite-a-paris-pourrait-confirmer-les-recits-de-cesar-233811</guid>
     </item>
     <item>
-      <title>Des grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de BulgarieDes grains de blé germés et carbonisés ont été découverts sur un site préhistorique bulgare. Cette découverte est la première preuve concrète de production de bière dans l’actuelle Bulgarie, il y a plus de 6 000 ans.</title>
+      <title>ArchéologieDes grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de Bulgarie</title>
       <link>https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</link>
-      <description>Des grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de BulgarieDes grains de blé germés et carbonisés ont été découverts sur un site préhistorique bulgare. Cette découverte est la première preuve concrète de production de bière dans l’actuelle Bulgarie, il y a plus de 6 000 ans.</description>
+      <description>ArchéologieDes grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de Bulgarie</description>
       <guid isPermaLink="false">https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</guid>
+    </item>
+    <item>
+      <title>Mexique: de mystérieux pétroglyphes découverts dans une grotte révèleraient les secrets de l’écriture de TeotihuacanÀ Chalcatzingo, au Mexique, des chercheurs ont réexaminé trois peintures rupestres découvertes dans les années 1980. Grâce au traitement numérique des images, ils ont identifié plusieurs motifs qui pourraient prouver l’existence d’un système d’écriture à Teotihuacan.</title>
+      <link>https://www.geo.fr/histoire/mexique-de-mysterieux-petroglyphes-decouverts-dans-une-grotte-reveleraient-les-secrets-de-lecriture-de-teotihuacan-233827</link>
+      <description>Mexique: de mystérieux pétroglyphes découverts dans une grotte révèleraient les secrets de l’écriture de TeotihuacanÀ Chalcatzingo, au Mexique, des chercheurs ont réexaminé trois peintures rupestres découvertes dans les années 1980. Grâce au traitement numérique des images, ils ont identifié plusieurs motifs qui pourraient prouver l’existence d’un système d’écriture à Teotihuacan.</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/mexique-de-mysterieux-petroglyphes-decouverts-dans-une-grotte-reveleraient-les-secrets-de-lecriture-de-teotihuacan-233827</guid>
     </item>
     <item>
       <title>La guerre d'Algérie</title>
