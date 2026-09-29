@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from datetime import datetime
 
 def build_geo_rss():
     url = "https://www.geo.fr/histoire"
@@ -20,36 +19,39 @@ def build_geo_rss():
     fg.language("fr")
 
     seen_links = set()
-
-    # Mots-clés à ignorer absolument
-    ignored_titles = ["aller à la prochaine page", "aller à la dernière page", "aller à la page précédente", "voir plus"]
+    ignored_texts = ["prochaine page", "dernière page", "page précédente", "voir plus", "accueil"]
 
     for a_tag in soup.find_all("a", href=True):
         title = a_tag.get_text(strip=True)
         href = a_tag["href"]
 
-        # Filtre : le titre doit faire plus de 20 caractères et ne pas contenir de texte parasite
-        if title and len(title) > 20 and href.startswith("/") and not any(bad in title.lower() for bad in ignored_titles):
+        # Doit avoir un titre correct
+        if not title or len(title) < 5:
+            continue
+
+        # Exclure la navigation
+        if any(bad in title.lower() for bad in ignored_texts):
+            continue
+
+        # Construire l'URL complète
+        if href.startswith("/"):
             full_url = f"https://www.geo.fr{href}"
+        elif href.startswith("https://www.geo.fr"):
+            full_url = href
+        else:
+            continue
 
-            if full_url not in seen_links:
-                seen_links.add(full_url)
+        # Garder uniquement les liens vers des articles/rubriques
+        if full_url not in seen_links:
+            seen_links.add(full_url)
 
-                parent = a_tag.find_parent(["article", "div"])
-                desc = ""
-                if parent:
-                    p_tag = parent.find("p")
-                    if p_tag:
-                        desc = p_tag.get_text(strip=True)
-
-                fe = fg.add_entry()
-                fe.title(title)
-                fe.link(href=full_url)
-                fe.id(full_url)
-                fe.description(desc if desc else title)
+            fe = fg.add_entry()
+            fe.title(title)
+            fe.link(href=full_url)
+            fe.id(full_url)
+            fe.description(title)
 
     fg.rss_file("geo_histoire.xml", pretty=True)
 
 if __name__ == "__main__":
     build_geo_rss()
-    

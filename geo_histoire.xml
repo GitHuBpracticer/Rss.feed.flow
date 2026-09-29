@@ -7,6 +7,474 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 12:42:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 13:18:46 +0000</lastBuildDate>
+    <item>
+      <title>Charte d'engagement GEO</title>
+      <link>https://www.geo.fr/page/charte-engagement</link>
+      <description>Charte d'engagement GEO</description>
+      <guid isPermaLink="false">https://www.geo.fr/page/charte-engagement</guid>
+    </item>
+    <item>
+      <title>Tous nos auteurs</title>
+      <link>https://www.geo.fr/equipe-editoriale/tous-nos-auteurs</link>
+      <description>Tous nos auteurs</description>
+      <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale/tous-nos-auteurs</guid>
+    </item>
+    <item>
+      <title>Equipe éditoriale</title>
+      <link>https://www.geo.fr/equipe-editoriale</link>
+      <description>Equipe éditoriale</description>
+      <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale</guid>
+    </item>
+    <item>
+      <title>Gérer le consentement Utiq</title>
+      <link>https://www.geo.fr/page/service-utiq</link>
+      <description>Gérer le consentement Utiq</description>
+      <guid isPermaLink="false">https://www.geo.fr/page/service-utiq</guid>
+    </item>
+    <item>
+      <title>Accessibilité : non conforme</title>
+      <link>https://www.geo.fr/page/accessibilite</link>
+      <description>Accessibilité : non conforme</description>
+      <guid isPermaLink="false">https://www.geo.fr/page/accessibilite</guid>
+    </item>
+    <item>
+      <title>ArchéologieDes fragments d’une peinture romaine révèlent un usage surprenant du "bleu égyptien"</title>
+      <link>https://www.geo.fr/histoire/des-fragments-dune-peinture-romaine-revelent-un-usage-surprenant-du-bleu-egyptien-233627</link>
+      <description>ArchéologieDes fragments d’une peinture romaine révèlent un usage surprenant du "bleu égyptien"</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-fragments-dune-peinture-romaine-revelent-un-usage-surprenant-du-bleu-egyptien-233627</guid>
+    </item>
+    <item>
+      <title>patrimoineA Paris, le musée d'Orsay rend hommage à Bartholdi, créateur de la statue de la Liberté</title>
+      <link>https://www.geo.fr/histoire/a-paris-le-musee-d-orsay-rend-hommage-a-bartholdi-createur-de-la-statue-de-la-liberte-233621</link>
+      <description>patrimoineA Paris, le musée d'Orsay rend hommage à Bartholdi, créateur de la statue de la Liberté</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/a-paris-le-musee-d-orsay-rend-hommage-a-bartholdi-createur-de-la-statue-de-la-liberte-233621</guid>
+    </item>
+    <item>
+      <title>ArchéologieEn Grande-Bretagne, l'origine des "Flèches du Diable" enfin dévoilée</title>
+      <link>https://www.geo.fr/histoire/en-grande-bretagne-l-origine-des-fleches-du-diable-enfin-devoilee-233640</link>
+      <description>ArchéologieEn Grande-Bretagne, l'origine des "Flèches du Diable" enfin dévoilée</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/en-grande-bretagne-l-origine-des-fleches-du-diable-enfin-devoilee-233640</guid>
+    </item>
+    <item>
+      <title>femme inspiranteReines et princesses rebelles 6/10: Didon Elissa, fondatrice et première reine de Carthage</title>
+      <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-6-10-didon-elissa-fondatrice-et-premiere-reine-de-carthage-233448</link>
+      <description>femme inspiranteReines et princesses rebelles 6/10: Didon Elissa, fondatrice et première reine de Carthage</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-6-10-didon-elissa-fondatrice-et-premiere-reine-de-carthage-233448</guid>
+    </item>
+    <item>
+      <title>paléontologieUne plume retrouvée dans les excréments fossilisés d’un dinosaure pourrait expliquer pourquoi les oiseaux ont disparu après l’impact de l’astéroïde</title>
+      <link>https://www.geo.fr/histoire/une-plume-retrouvee-dans-les-excrements-fossilises-dun-dinosaure-pourrait-expliquer-pourquoi-les-oiseaux-ont-disparu-apres-limpact-de-lasteroide-233647</link>
+      <description>paléontologieUne plume retrouvée dans les excréments fossilisés d’un dinosaure pourrait expliquer pourquoi les oiseaux ont disparu après l’impact de l’astéroïde</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/une-plume-retrouvee-dans-les-excrements-fossilises-dun-dinosaure-pourrait-expliquer-pourquoi-les-oiseaux-ont-disparu-apres-limpact-de-lasteroide-233647</guid>
+    </item>
+    <item>
+      <title>ArchéologieAu Pérou, un mausolée resté intact pendant 600 ans enrichit nos connaissances sur la civilisation Chimú</title>
+      <link>https://www.geo.fr/histoire/au-perou-un-mausolee-reste-intact-pendant-600-ans-enrichit-nos-connaissances-sur-la-civilisation-chimu-233652</link>
+      <description>ArchéologieAu Pérou, un mausolée resté intact pendant 600 ans enrichit nos connaissances sur la civilisation Chimú</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/au-perou-un-mausolee-reste-intact-pendant-600-ans-enrichit-nos-connaissances-sur-la-civilisation-chimu-233652</guid>
+    </item>
+    <item>
+      <title>Elizabeth d'AngleterreÀ Buckingham Palace, d’étonnants objets retrouvés dans les murs lors de travaux</title>
+      <link>https://www.geo.fr/histoire/a-buckingham-palace-detonnants-objets-retrouves-dans-les-murs-lors-de-travaux-233660</link>
+      <description>Elizabeth d'AngleterreÀ Buckingham Palace, d’étonnants objets retrouvés dans les murs lors de travaux</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/a-buckingham-palace-detonnants-objets-retrouves-dans-les-murs-lors-de-travaux-233660</guid>
+    </item>
+    <item>
+      <title>Union européenneEn quoi consiste le traité de Lisbonne de 2007 ?</title>
+      <link>https://www.geo.fr/histoire/en-quoi-consiste-le-traite-de-lisbonne-de-2007-233603</link>
+      <description>Union européenneEn quoi consiste le traité de Lisbonne de 2007 ?</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/en-quoi-consiste-le-traite-de-lisbonne-de-2007-233603</guid>
+    </item>
+    <item>
+      <title>ArchéologieLe mystère Merneith: une femme aurait bien détenu le pouvoir en Égypte, 5000 ans avant Cléopâtre</title>
+      <link>https://www.geo.fr/histoire/le-mystere-merneith-une-femme-aurait-bien-detenu-le-pouvoir-en-egypte-5000-ans-avant-cleopatre-233665</link>
+      <description>ArchéologieLe mystère Merneith: une femme aurait bien détenu le pouvoir en Égypte, 5000 ans avant Cléopâtre</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/le-mystere-merneith-une-femme-aurait-bien-detenu-le-pouvoir-en-egypte-5000-ans-avant-cleopatre-233665</guid>
+    </item>
+    <item>
+      <title>GrèceLes illusions d’optique du Parthénon seraient-elles un mythe? Un mathématicien enquête</title>
+      <link>https://www.geo.fr/histoire/les-illusions-doptique-du-parthenon-seraient-elles-un-mythe-un-mathematicien-enquete-233666</link>
+      <description>GrèceLes illusions d’optique du Parthénon seraient-elles un mythe? Un mathématicien enquête</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/les-illusions-doptique-du-parthenon-seraient-elles-un-mythe-un-mathematicien-enquete-233666</guid>
+    </item>
+    <item>
+      <title>criminalitéLizzie Borden, un "Monstre"? 134 ans après, l’affaire du double meurtre à la hache hante encore les esprits</title>
+      <link>https://www.geo.fr/histoire/lizzie-borden-un-monstre-134-ans-apres-laffaire-du-double-meurtre-a-la-hache-hante-encore-les-esprits-233667</link>
+      <description>criminalitéLizzie Borden, un "Monstre"? 134 ans après, l’affaire du double meurtre à la hache hante encore les esprits</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/lizzie-borden-un-monstre-134-ans-apres-laffaire-du-double-meurtre-a-la-hache-hante-encore-les-esprits-233667</guid>
+    </item>
+    <item>
+      <title>cultureExposition: à Dinard, Jean Dubuffet dans la houle d’un monde imaginaire</title>
+      <link>https://www.geo.fr/histoire/exposition-a-dinard-jean-dubuffet-dans-la-houle-dun-monde-imaginaire-233684</link>
+      <description>cultureExposition: à Dinard, Jean Dubuffet dans la houle d’un monde imaginaire</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/exposition-a-dinard-jean-dubuffet-dans-la-houle-dun-monde-imaginaire-233684</guid>
+    </item>
+    <item>
+      <title>mythologie grecqueUne page vieille de 1700 ans de l’Odyssée retrouvée dans une bibliothèque néerlandaise</title>
+      <link>https://www.geo.fr/histoire/une-page-vieille-de-1700-ans-de-lodyssee-retrouvee-dans-une-bibliotheque-neerlandaise-233685</link>
+      <description>mythologie grecqueUne page vieille de 1700 ans de l’Odyssée retrouvée dans une bibliothèque néerlandaise</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/une-page-vieille-de-1700-ans-de-lodyssee-retrouvee-dans-une-bibliotheque-neerlandaise-233685</guid>
+    </item>
+    <item>
+      <title>ArchéologieDes rouleaux antiques ensevelis par le Vésuve bientôt lisibles?</title>
+      <link>https://www.geo.fr/histoire/des-rouleaux-antiques-ensevelis-par-le-vesuve-bientot-lisibles-233686</link>
+      <description>ArchéologieDes rouleaux antiques ensevelis par le Vésuve bientôt lisibles?</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-rouleaux-antiques-ensevelis-par-le-vesuve-bientot-lisibles-233686</guid>
+    </item>
+    <item>
+      <title>ArchéologieNîmes aurait été frappé par un terrible mal vers 270 apr. J.-C., révèle une nouvelle étude</title>
+      <link>https://www.geo.fr/histoire/nimes-aurait-ete-frappe-par-un-terrible-mal-vers-270-apr-j-c-revele-une-nouvelle-etude-233692</link>
+      <description>ArchéologieNîmes aurait été frappé par un terrible mal vers 270 apr. J.-C., révèle une nouvelle étude</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/nimes-aurait-ete-frappe-par-un-terrible-mal-vers-270-apr-j-c-revele-une-nouvelle-etude-233692</guid>
+    </item>
+    <item>
+      <title>renaissanceExposition: au château d'Amboise, quand la Renaissance prenait la route</title>
+      <link>https://www.geo.fr/histoire/exposition-au-chateau-d-amboise-quand-la-renaissance-prenait-la-route-233698</link>
+      <description>renaissanceExposition: au château d'Amboise, quand la Renaissance prenait la route</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/exposition-au-chateau-d-amboise-quand-la-renaissance-prenait-la-route-233698</guid>
+    </item>
+    <item>
+      <title>patrimoineJournées du Patrimoine: à Paris, découvrez la secrète et éblouissante maison Guimet</title>
+      <link>https://www.geo.fr/histoire/journees-du-patrimoine-a-paris-decouvrez-la-secrete-et-eblouissante-maison-guimet-233710</link>
+      <description>patrimoineJournées du Patrimoine: à Paris, découvrez la secrète et éblouissante maison Guimet</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/journees-du-patrimoine-a-paris-decouvrez-la-secrete-et-eblouissante-maison-guimet-233710</guid>
+    </item>
+    <item>
+      <title>bande dessinéeDes Mille et Une Nuits à Saddam Hussein, l’étonnant destin d’Iznogoud</title>
+      <link>https://www.geo.fr/histoire/des-mille-et-une-nuits-a-saddam-hussein-letonnant-destin-diznogoud-233687</link>
+      <description>bande dessinéeDes Mille et Une Nuits à Saddam Hussein, l’étonnant destin d’Iznogoud</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-mille-et-une-nuits-a-saddam-hussein-letonnant-destin-diznogoud-233687</guid>
+    </item>
+    <item>
+      <title>palaisHistoire du Taj Mahal : pourquoi et comment a été construit le célèbre palais ?</title>
+      <link>https://www.geo.fr/histoire/quelle-est-lhistoire-du-taj-mahal-palais-de-lamour-en-inde-210299</link>
+      <description>palaisHistoire du Taj Mahal : pourquoi et comment a été construit le célèbre palais ?</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/quelle-est-lhistoire-du-taj-mahal-palais-de-lamour-en-inde-210299</guid>
+    </item>
+    <item>
+      <title>colonisationCanal de Suez : il y a 70 ans, Nasser mettait fin à l’ordre colonial</title>
+      <link>https://www.geo.fr/histoire/canal-de-suez-il-y-a-70-ans-nasser-mettait-fin-a-lordre-colonial-233708</link>
+      <description>colonisationCanal de Suez : il y a 70 ans, Nasser mettait fin à l’ordre colonial</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/canal-de-suez-il-y-a-70-ans-nasser-mettait-fin-a-lordre-colonial-233708</guid>
+    </item>
+    <item>
+      <title>guerreCivet de chat et consommé d'éléphant: Paris 1870, l’apocalypse des animaux</title>
+      <link>https://www.geo.fr/histoire/civet-de-chat-et-consomme-d-elephant-paris-1870-lapocalypse-des-animaux-233608</link>
+      <description>guerreCivet de chat et consommé d'éléphant: Paris 1870, l’apocalypse des animaux</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/civet-de-chat-et-consomme-d-elephant-paris-1870-lapocalypse-des-animaux-233608</guid>
+    </item>
+    <item>
+      <title>RoyautéHenri VIII avait chargé John Cage de dissoudre l'église catholique d'Angleterre... mais un manuscrit vient d'être retrouvé</title>
+      <link>https://www.geo.fr/histoire/henri-viii-avait-charge-john-cage-de-dissoudre-l-eglise-catholique-d-angleterre-mais-un-manuscrit-vient-d-etre-retrouve-233703</link>
+      <description>RoyautéHenri VIII avait chargé John Cage de dissoudre l'église catholique d'Angleterre... mais un manuscrit vient d'être retrouvé</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/henri-viii-avait-charge-john-cage-de-dissoudre-l-eglise-catholique-d-angleterre-mais-un-manuscrit-vient-d-etre-retrouve-233703</guid>
+    </item>
+    <item>
+      <title>conflitGuerre du Cachemire : causes et évolution du conflit de 1947 à nos jours</title>
+      <link>https://www.geo.fr/histoire/guerre-du-cachemire-causes-et-evolution-du-conflit-de-1947-a-nos-jours-233641</link>
+      <description>conflitGuerre du Cachemire : causes et évolution du conflit de 1947 à nos jours</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/guerre-du-cachemire-causes-et-evolution-du-conflit-de-1947-a-nos-jours-233641</guid>
+    </item>
+    <item>
+      <title>légendeFrères Grimm : qui étaient-ils et quelles sont leurs oeuvres majeures ?</title>
+      <link>https://www.geo.fr/histoire/freres-grimm-qui-etaient-ils-et-quelles-sont-leurs-oeuvres-majeures-233646</link>
+      <description>légendeFrères Grimm : qui étaient-ils et quelles sont leurs oeuvres majeures ?</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/freres-grimm-qui-etaient-ils-et-quelles-sont-leurs-oeuvres-majeures-233646</guid>
+    </item>
+    <item>
+      <title>ArchéologieLe corps d’une femme mutilée au nez il y a 700 ans révèle une ancienne punition chinoise</title>
+      <link>https://www.geo.fr/histoire/le-corps-dune-femme-mutilee-au-nez-il-y-a-700-ans-revele-une-ancienne-punition-chinoise-233743</link>
+      <description>ArchéologieLe corps d’une femme mutilée au nez il y a 700 ans révèle une ancienne punition chinoise</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/le-corps-dune-femme-mutilee-au-nez-il-y-a-700-ans-revele-une-ancienne-punition-chinoise-233743</guid>
+    </item>
+    <item>
+      <title>femmeReines et princesses rebelles 7/10: Urraque Ire, la première souveraine espagnole à régner en son propre nom?</title>
+      <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-7-10-urraque-ire-la-premiere-souveraine-espagnole-a-regner-en-son-propre-nom-233543</link>
+      <description>femmeReines et princesses rebelles 7/10: Urraque Ire, la première souveraine espagnole à régner en son propre nom?</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-7-10-urraque-ire-la-premiere-souveraine-espagnole-a-regner-en-son-propre-nom-233543</guid>
+    </item>
+    <item>
+      <title>ArchéologieÀ Mayotte, les fouilles d’une mosquée de 800 ans, la plus vieille de France, révèlent un étonnant mélange de cultures</title>
+      <link>https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</link>
+      <description>ArchéologieÀ Mayotte, les fouilles d’une mosquée de 800 ans, la plus vieille de France, révèlent un étonnant mélange de cultures</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</guid>
+    </item>
+    <item>
+      <title>ArchéologieEn Turquie, cette immense piscine romaine vieille de 2 000 ans dévoile enfin ses secrets</title>
+      <link>https://www.geo.fr/histoire/dans-louest-de-la-turquie-cette-piscine-romaine-de-37-metres-de-long-vieille-de-2000-ans-est-desormais-visible-au-public-232854</link>
+      <description>ArchéologieEn Turquie, cette immense piscine romaine vieille de 2 000 ans dévoile enfin ses secrets</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/dans-louest-de-la-turquie-cette-piscine-romaine-de-37-metres-de-long-vieille-de-2000-ans-est-desormais-visible-au-public-232854</guid>
+    </item>
+    <item>
+      <title>ArchéologieCes mystérieuses poteries trouvées en Floride révèlent enfin le secret d'une migration vieille de 1000 ans</title>
+      <link>https://www.geo.fr/histoire/ces-mysterieuses-poteries-trouvees-en-floride-revelent-enfin-le-secret-d-une-migration-vieille-de-1000-ans-233751</link>
+      <description>ArchéologieCes mystérieuses poteries trouvées en Floride révèlent enfin le secret d'une migration vieille de 1000 ans</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/ces-mysterieuses-poteries-trouvees-en-floride-revelent-enfin-le-secret-d-une-migration-vieille-de-1000-ans-233751</guid>
+    </item>
+    <item>
+      <title>ArchéologieUn mur gaulois vieux de plus de 2000 ans découvert sous l'Hôtel-Dieu pourrait révéler les origines de Paris</title>
+      <link>https://www.geo.fr/histoire/un-mur-gaulois-vieux-de-plus-de-2000-ans-decouvert-sous-l-hotel-dieu-pourrait-reveler-les-origines-de-paris-233771</link>
+      <description>ArchéologieUn mur gaulois vieux de plus de 2000 ans découvert sous l'Hôtel-Dieu pourrait révéler les origines de Paris</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/un-mur-gaulois-vieux-de-plus-de-2000-ans-decouvert-sous-l-hotel-dieu-pourrait-reveler-les-origines-de-paris-233771</guid>
+    </item>
+    <item>
+      <title>colonisationColonie de Roanoke : l’histoire vraie derrière le mythe</title>
+      <link>https://www.geo.fr/histoire/colonie-de-roanoke-lhistoire-vraie-derriere-le-mythe-233678</link>
+      <description>colonisationColonie de Roanoke : l’histoire vraie derrière le mythe</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/colonie-de-roanoke-lhistoire-vraie-derriere-le-mythe-233678</guid>
+    </item>
+    <item>
+      <title>DinosaureUn dinosaure géant aux dents minuscules et aux griffes étonnantes découvert en Chine</title>
+      <link>https://www.geo.fr/histoire/un-dinosaure-geant-aux-dents-minuscules-et-aux-griffes-etonnantes-decouvert-en-chine-233785</link>
+      <description>DinosaureUn dinosaure géant aux dents minuscules et aux griffes étonnantes découvert en Chine</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/un-dinosaure-geant-aux-dents-minuscules-et-aux-griffes-etonnantes-decouvert-en-chine-233785</guid>
+    </item>
+    <item>
+      <title>religionQui sont les mormons ? Origine, histoire, mode de vie, tenues...</title>
+      <link>https://www.geo.fr/histoire/qui-sont-les-mormons-208219</link>
+      <description>religionQui sont les mormons ? Origine, histoire, mode de vie, tenues...</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/qui-sont-les-mormons-208219</guid>
+    </item>
+    <item>
+      <title>bande dessinéeQuand Goscinny, patron de Pilote, se retrouve pris dans la tourmente de mai 68</title>
+      <link>https://www.geo.fr/histoire/quand-goscinny-patron-de-pilote-se-retrouve-pris-dans-la-tourmente-de-mai-68-233711</link>
+      <description>bande dessinéeQuand Goscinny, patron de Pilote, se retrouve pris dans la tourmente de mai 68</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/quand-goscinny-patron-de-pilote-se-retrouve-pris-dans-la-tourmente-de-mai-68-233711</guid>
+    </item>
+    <item>
+      <title>ArchéologieUn tombeau ouvert après 700 ans pourrait révéler les ossements d’une reine d’Aragon</title>
+      <link>https://www.geo.fr/histoire/un-tombeau-ouvert-apres-700-ans-pourrait-reveler-les-ossements-dune-reine-daragon-233716</link>
+      <description>ArchéologieUn tombeau ouvert après 700 ans pourrait révéler les ossements d’une reine d’Aragon</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/un-tombeau-ouvert-apres-700-ans-pourrait-reveler-les-ossements-dune-reine-daragon-233716</guid>
+    </item>
+    <item>
+      <title>expéditionConquistadors: dans la peau d’un prêtre aztèque au Templo Mayor</title>
+      <link>https://www.geo.fr/histoire/conquistadors-dans-la-peau-dun-pretre-azteque-au-templo-mayor-233735</link>
+      <description>expéditionConquistadors: dans la peau d’un prêtre aztèque au Templo Mayor</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/conquistadors-dans-la-peau-dun-pretre-azteque-au-templo-mayor-233735</guid>
+    </item>
+    <item>
+      <title>bande dessinéeDe Disney aux studios Idéfix, comment Goscinny a conquis le cinéma</title>
+      <link>https://www.geo.fr/histoire/de-disney-aux-studios-idefix-comment-goscinny-a-conquis-le-cinema-233727</link>
+      <description>bande dessinéeDe Disney aux studios Idéfix, comment Goscinny a conquis le cinéma</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/de-disney-aux-studios-idefix-comment-goscinny-a-conquis-le-cinema-233727</guid>
+    </item>
+    <item>
+      <title>En Grèce, des archéologues mettent au jour l'école où Aristote aurait formé Alexandre le Grand</title>
+      <link>https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</link>
+      <description>En Grèce, des archéologues mettent au jour l'école où Aristote aurait formé Alexandre le Grand</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</guid>
+    </item>
+    <item>
+      <title>Près de 500 lingots de fer antiques gisaient au fond du Danube</title>
+      <link>https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</link>
+      <description>Près de 500 lingots de fer antiques gisaient au fond du Danube</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</guid>
+    </item>
+    <item>
+      <title>Un ancien gardien du régime nazi rattrapé par la justice allemande à 105 ans</title>
+      <link>https://www.geo.fr/histoire/un-ancien-gardien-du-regime-nazi-rattrape-par-la-justice-allemande-a-105-ans-233794</link>
+      <description>Un ancien gardien du régime nazi rattrapé par la justice allemande à 105 ans</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/un-ancien-gardien-du-regime-nazi-rattrape-par-la-justice-allemande-a-105-ans-233794</guid>
+    </item>
+    <item>
+      <title>Des archives retrouvées à Munich mettent en doute la version officielle de la mort de Geli, la nièce d'Hitler</title>
+      <link>https://www.geo.fr/histoire/des-archives-retrouvees-a-munich-mettent-en-doute-la-version-officielle-de-la-mort-de-la-niece-d-hitler-233768</link>
+      <description>Des archives retrouvées à Munich mettent en doute la version officielle de la mort de Geli, la nièce d'Hitler</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-archives-retrouvees-a-munich-mettent-en-doute-la-version-officielle-de-la-mort-de-la-niece-d-hitler-233768</guid>
+    </item>
+    <item>
+      <title>Une église vieille de 800 ans découverte au Groenland révèle un étonnant village viking</title>
+      <link>https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</link>
+      <description>Une église vieille de 800 ans découverte au Groenland révèle un étonnant village viking</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</guid>
+    </item>
+    <item>
+      <title>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</title>
+      <link>https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</link>
+      <description>espaceApollo 11: 8 jours, 3 heures et 18 minutes pour conquérir la Lune</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</guid>
+    </item>
+    <item>
+      <title>patrimoineVenise: la vérité sur les origines de la cité des Doges</title>
+      <link>https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</link>
+      <description>patrimoineVenise: la vérité sur les origines de la cité des Doges</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</guid>
+    </item>
+    <item>
+      <title>théâtreUne pièce de théâtre donne la parole aux victimes de Jack L'Eventreur</title>
+      <link>https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</link>
+      <description>théâtreUne pièce de théâtre donne la parole aux victimes de Jack L'Eventreur</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</guid>
+    </item>
+    <item>
+      <title>ArchéologieIsraël : à Tel Shiloh, ce nouveau mur relance les recherches sur le Tabernacle biblique</title>
+      <link>https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</link>
+      <description>ArchéologieIsraël : à Tel Shiloh, ce nouveau mur relance les recherches sur le Tabernacle biblique</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</guid>
+    </item>
+    <item>
+      <title>ToutankhamonDes chercheurs détectent de possibles chambres cachées à quelques mètres du tombeau de Toutânkhamon</title>
+      <link>https://www.geo.fr/histoire/des-chercheurs-detectent-de-possibles-chambres-cachees-a-quelques-metres-du-tombeau-de-toutankhamon-233797</link>
+      <description>ToutankhamonDes chercheurs détectent de possibles chambres cachées à quelques mètres du tombeau de Toutânkhamon</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-chercheurs-detectent-de-possibles-chambres-cachees-a-quelques-metres-du-tombeau-de-toutankhamon-233797</guid>
+    </item>
+    <item>
+      <title>ArchéologiePompéi livre encore des secrets: l'éruption vieille de 2000 ans en dit long sur la datation de la Terre</title>
+      <link>https://www.geo.fr/histoire/pompei-livre-encore-des-secrets-l-eruption-vieille-de-2000-ans-en-dit-long-sur-la-datation-de-la-terre-233809</link>
+      <description>ArchéologiePompéi livre encore des secrets: l'éruption vieille de 2000 ans en dit long sur la datation de la Terre</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/pompei-livre-encore-des-secrets-l-eruption-vieille-de-2000-ans-en-dit-long-sur-la-datation-de-la-terre-233809</guid>
+    </item>
+    <item>
+      <title>ArchéologieLutèce gauloise: un mur découvert sur l’île de la Cité à Paris pourrait confirmer les récits de César</title>
+      <link>https://www.geo.fr/histoire/lutece-gauloise-un-mur-decouvert-sur-lile-de-la-cite-a-paris-pourrait-confirmer-les-recits-de-cesar-233811</link>
+      <description>ArchéologieLutèce gauloise: un mur découvert sur l’île de la Cité à Paris pourrait confirmer les récits de César</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/lutece-gauloise-un-mur-decouvert-sur-lile-de-la-cite-a-paris-pourrait-confirmer-les-recits-de-cesar-233811</guid>
+    </item>
+    <item>
+      <title>Des grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de BulgarieDes grains de blé germés et carbonisés ont été découverts sur un site préhistorique bulgare. Cette découverte est la première preuve concrète de production de bière dans l’actuelle Bulgarie, il y a plus de 6 000 ans.</title>
+      <link>https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</link>
+      <description>Des grains de blé vieux de 6500 ans révèlent les secrets de la plus ancienne bière de BulgarieDes grains de blé germés et carbonisés ont été découverts sur un site préhistorique bulgare. Cette découverte est la première preuve concrète de production de bière dans l’actuelle Bulgarie, il y a plus de 6 000 ans.</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</guid>
+    </item>
+    <item>
+      <title>Charles III</title>
+      <link>https://www.geo.fr/evenement/charles-iii-roi-du-royaume-uni-de-grande-bretagne-et-dirlande-du-nord</link>
+      <description>Charles III</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/charles-iii-roi-du-royaume-uni-de-grande-bretagne-et-dirlande-du-nord</guid>
+    </item>
+    <item>
+      <title>Jules César</title>
+      <link>https://www.geo.fr/evenement/pourquoi-jules-cesar-a-marque-lhistoire</link>
+      <description>Jules César</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/pourquoi-jules-cesar-a-marque-lhistoire</guid>
+    </item>
+    <item>
+      <title>Secrets des monuments français</title>
+      <link>https://www.geo.fr/evenement/monuments</link>
+      <description>Secrets des monuments français</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/monuments</guid>
+    </item>
+    <item>
+      <title>La guerre d'Algérie</title>
+      <link>https://www.geo.fr/evenement/la-guerre-dalgerie</link>
+      <description>La guerre d'Algérie</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/la-guerre-dalgerie</guid>
+    </item>
+    <item>
+      <title>Napoléon</title>
+      <link>https://www.geo.fr/evenement/napoleon</link>
+      <description>Napoléon</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/napoleon</guid>
+    </item>
+    <item>
+      <title>Religion</title>
+      <link>https://www.geo.fr/tag/religion</link>
+      <description>Religion</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/religion</guid>
+    </item>
+    <item>
+      <title>Paleontologie</title>
+      <link>https://www.geo.fr/tag/paleontologie</link>
+      <description>Paleontologie</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/paleontologie</guid>
+    </item>
+    <item>
+      <title>Antiquite</title>
+      <link>https://www.geo.fr/tag/antiquite</link>
+      <description>Antiquite</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/antiquite</guid>
+    </item>
+    <item>
+      <title>Pompéi</title>
+      <link>https://www.geo.fr/evenement/pompei</link>
+      <description>Pompéi</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/pompei</guid>
+    </item>
+    <item>
+      <title>Notre-Dame</title>
+      <link>https://www.geo.fr/evenement/notre-dame-de-paris-petites-et-grandes-histoires</link>
+      <description>Notre-Dame</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/notre-dame-de-paris-petites-et-grandes-histoires</guid>
+    </item>
+    <item>
+      <title>Archéologie</title>
+      <link>https://www.geo.fr/tag/archeologie</link>
+      <description>Archéologie</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/archeologie</guid>
+    </item>
+    <item>
+      <title>Podcasts</title>
+      <link>https://www.geo.fr/tag/podcast</link>
+      <description>Podcasts</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/podcast</guid>
+    </item>
+    <item>
+      <title>Quiz de culture générale</title>
+      <link>https://www.geo.fr/tag/quiz-culture-generale</link>
+      <description>Quiz de culture générale</description>
+      <guid isPermaLink="false">https://www.geo.fr/tag/quiz-culture-generale</guid>
+    </item>
+    <item>
+      <title>Voyages en France</title>
+      <link>https://www.geo.fr/evenement/vacances-en-france</link>
+      <description>Voyages en France</description>
+      <guid isPermaLink="false">https://www.geo.fr/evenement/vacances-en-france</guid>
+    </item>
+    <item>
+      <title>Aventure</title>
+      <link>https://www.geo.fr/aventure</link>
+      <description>Aventure</description>
+      <guid isPermaLink="false">https://www.geo.fr/aventure</guid>
+    </item>
+    <item>
+      <title>Animaux</title>
+      <link>https://www.geo.fr/animaux</link>
+      <description>Animaux</description>
+      <guid isPermaLink="false">https://www.geo.fr/animaux</guid>
+    </item>
+    <item>
+      <title>Histoire</title>
+      <link>https://www.geo.fr/histoire</link>
+      <description>Histoire</description>
+      <guid isPermaLink="false">https://www.geo.fr/histoire</guid>
+    </item>
+    <item>
+      <title>Sciences</title>
+      <link>https://www.geo.fr/sciences</link>
+      <description>Sciences</description>
+      <guid isPermaLink="false">https://www.geo.fr/sciences</guid>
+    </item>
+    <item>
+      <title>Géopolitique</title>
+      <link>https://www.geo.fr/geopolitique</link>
+      <description>Géopolitique</description>
+      <guid isPermaLink="false">https://www.geo.fr/geopolitique</guid>
+    </item>
+    <item>
+      <title>Environnement</title>
+      <link>https://www.geo.fr/environnement</link>
+      <description>Environnement</description>
+      <guid isPermaLink="false">https://www.geo.fr/environnement</guid>
+    </item>
+    <item>
+      <title>Voyage</title>
+      <link>https://www.geo.fr/voyage</link>
+      <description>Voyage</description>
+      <guid isPermaLink="false">https://www.geo.fr/voyage</guid>
+    </item>
+    <item>
+      <title>Grands Dossiers</title>
+      <link>https://www.geo.fr/dossiers</link>
+      <description>Grands Dossiers</description>
+      <guid isPermaLink="false">https://www.geo.fr/dossiers</guid>
+    </item>
+    <item>
+      <title>Guide des destinations</title>
+      <link>https://www.geo.fr/destinations</link>
+      <description>Guide des destinations</description>
+      <guid isPermaLink="false">https://www.geo.fr/destinations</guid>
+    </item>
   </channel>
 </rss>
