@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Météo - Côte-d'Or (21)</title>
+    <link>https://www.meteo-express.com</link>
+    <description>Prévisions et alertes météo</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 29 Sep 2026 18:57:31 +0000</lastBuildDate>
+    <item>
+      <title>Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
+      <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
+      <guid isPermaLink="false">https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</guid>
+    </item>
+    <item>
+      <title>Une semaine très sèche et ensoleillée avec des après-midi estivaux</title>
+      <link>https://meteo-express.com/une-semaine-tres-seche-et-ensoleillee-avec-des-apres-midi-estivaux/</link>
+      <guid isPermaLink="false">https://meteo-express.com/une-semaine-tres-seche-et-ensoleillee-avec-des-apres-midi-estivaux/</guid>
+    </item>
+    <item>
+      <title>Chaleur / Douceur</title>
+      <link>https://meteo-express.com/actualites/chaleur-douceur/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/chaleur-douceur/</guid>
+    </item>
+    <item>
+      <title>La sécheresse des sols atteints des niveaux records pour la saison</title>
+      <link>https://meteo-express.com/la-secheresse-des-sols-atteints-des-niveaux-records-pour-la-saison/</link>
+      <guid isPermaLink="false">https://meteo-express.com/la-secheresse-des-sols-atteints-des-niveaux-records-pour-la-saison/</guid>
+    </item>
+    <item>
+      <title>Environnement / Pollution</title>
+      <link>https://meteo-express.com/actualites/environnement-pollution/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/environnement-pollution/</guid>
+    </item>
+    <item>
+      <title>vendrediven.02</title>
+      <link>https://www.meteo-express.com#20261002-1</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20261002-1</guid>
+    </item>
+    <item>
+      <title>jeudijeu.01</title>
+      <link>https://www.meteo-express.com#20261001-1</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20261001-1</guid>
+    </item>
+    <item>
+      <title>mercredimer.30</title>
+      <link>https://www.meteo-express.com#20260930-0</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20260930-0</guid>
+    </item>
+    <item>
+      <title>mardimar.29</title>
+      <link>https://www.meteo-express.com#20260929-3</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20260929-3</guid>
+    </item>
+    <item>
+      <title>Faire un don</title>
+      <link>https://meteo-express.com/don/</link>
+      <guid isPermaLink="false">https://meteo-express.com/don/</guid>
+    </item>
+    <item>
+      <title>Partenaires</title>
+      <link>https://meteo-express.com/liens-utiles/partenaires/</link>
+      <guid isPermaLink="false">https://meteo-express.com/liens-utiles/partenaires/</guid>
+    </item>
+    <item>
+      <title>Liens utiles</title>
+      <link>https://meteo-express.com/liens-utiles/</link>
+      <guid isPermaLink="false">https://meteo-express.com/liens-utiles/</guid>
+    </item>
+    <item>
+      <title>Actualités météo</title>
+      <link>https://meteo-express.com/actualites/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/</guid>
+    </item>
+    <item>
+      <title>Le climat français</title>
+      <link>https://meteo-express.com/climatologie/climat-francais/</link>
+      <guid isPermaLink="false">https://meteo-express.com/climatologie/climat-francais/</guid>
+    </item>
+    <item>
+      <title>Normales par villes</title>
+      <link>https://meteo-express.com/climatologie/normales-par-villes/</link>
+      <guid isPermaLink="false">https://meteo-express.com/climatologie/normales-par-villes/</guid>
+    </item>
+    <item>
+      <title>Orages et foudre</title>
+      <link>https://meteo-express.com/observations/orages-et-foudre/</link>
+      <guid isPermaLink="false">https://meteo-express.com/observations/orages-et-foudre/</guid>
+    </item>
+    <item>
+      <title>Températures</title>
+      <link>https://meteo-express.com/observations/temperatures/</link>
+      <guid isPermaLink="false">https://meteo-express.com/observations/temperatures/</guid>
+    </item>
+    <item>
+      <title>Radar précipitations</title>
+      <link>https://meteo-express.com/observations/radar-precipitations/</link>
+      <guid isPermaLink="false">https://meteo-express.com/observations/radar-precipitations/</guid>
+    </item>
+    <item>
+      <title>Images satellite</title>
+      <link>https://meteo-express.com/observations/images-satellite/</link>
+      <guid isPermaLink="false">https://meteo-express.com/observations/images-satellite/</guid>
+    </item>
+    <item>
+      <title>Prévisions saisonnières</title>
+      <link>https://meteo-express.com/previsions/previsions-saisonnieres/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-saisonnieres/</guid>
+    </item>
+    <item>
+      <title>Analyse technique</title>
+      <link>https://meteo-express.com/previsions/analyse-technique/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/analyse-technique/</guid>
+    </item>
+    <item>
+      <title>Cartes de risques</title>
+      <link>https://meteo-express.com/previsions/cartes-de-risques/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/cartes-de-risques/</guid>
+    </item>
+    <item>
+      <title>Bulletin vidéo</title>
+      <link>https://meteo-express.com/previsions/bulletin-video/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/bulletin-video/</guid>
+    </item>
+    <item>
+      <title>Météo à 10 jours</title>
+      <link>https://meteo-express.com/previsions/previsions-10-jours/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-10-jours/</guid>
+    </item>
+    <item>
+      <title>Nous soutenir</title>
+      <link>https://www.meteo-express.com/don</link>
+      <guid isPermaLink="false">https://www.meteo-express.com/don</guid>
+    </item>
+    <item>
+      <title>Climatologie</title>
+      <link>https://meteo-express.com/climatologie/</link>
+      <guid isPermaLink="false">https://meteo-express.com/climatologie/</guid>
+    </item>
+    <item>
+      <title>Observations</title>
+      <link>https://meteo-express.com/observations/</link>
+      <guid isPermaLink="false">https://meteo-express.com/observations/</guid>
+    </item>
+  </channel>
+</rss>
