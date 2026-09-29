@@ -51,5 +51,5 @@ def build_geo_rss():
     fg.rss_file("geo_histoire.xml", pretty=True)
 
 if __name__ == "__main__":
-    bui
-    ld_geo_rss()
+    build_geo_rss()
+    
