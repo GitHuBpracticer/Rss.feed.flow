@@ -58,5 +58,4 @@ def build_geo_rss():
         print(f"Erreur GEO Histoire: {e}")
 
 if __name__ == "__main__":
-    buil
-    d_geo_rss()
+    build_geo_rss()
