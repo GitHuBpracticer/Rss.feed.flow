@@ -16,16 +16,20 @@ def build_geo_rss():
     fg = FeedGenerator()
     fg.title("GEO.fr - Histoire")
     fg.link(href=url, rel="alternate")
-    fg.description("Flux RSS généré automatiquement via GitHub Actions")
+    fg.description("Flux RSS généré automatiquement pour GEO Histoire")
     fg.language("fr")
 
     seen_links = set()
+
+    # Mots-clés à ignorer absolument
+    ignored_titles = ["aller à la prochaine page", "aller à la dernière page", "aller à la page précédente", "voir plus"]
 
     for a_tag in soup.find_all("a", href=True):
         title = a_tag.get_text(strip=True)
         href = a_tag["href"]
 
-        if title and len(title) > 20 and href.startswith("/"):
+        # Filtre : le titre doit faire plus de 20 caractères et ne pas contenir de texte parasite
+        if title and len(title) > 20 and href.startswith("/") and not any(bad in title.lower() for bad in ignored_titles):
             full_url = f"https://www.geo.fr{href}"
 
             if full_url not in seen_links:
@@ -48,4 +52,4 @@ def build_geo_rss():
 
 if __name__ == "__main__":
     build_geo_rss()
-  
+    

@@ -3,22 +3,10 @@
   <channel>
     <title>GEO.fr - Histoire</title>
     <link>https://www.geo.fr/histoire</link>
-    <description>Flux RSS généré automatiquement via GitHub Actions</description>
+    <description>Flux RSS généré automatiquement pour GEO Histoire</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 07:42:01 +0000</lastBuildDate>
-    <item>
-      <title>Aller à la dernière page</title>
-      <link>https://www.geo.fr/histoire?page=130</link>
-      <description>Aller à la dernière page</description>
-      <guid isPermaLink="false">https://www.geo.fr/histoire?page=130</guid>
-    </item>
-    <item>
-      <title>Aller à la prochaine page</title>
-      <link>https://www.geo.fr/histoire?page=2</link>
-      <description>Aller à la prochaine page</description>
-      <guid isPermaLink="false">https://www.geo.fr/histoire?page=2</guid>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 12:42:12 +0000</lastBuildDate>
   </channel>
 </rss>
