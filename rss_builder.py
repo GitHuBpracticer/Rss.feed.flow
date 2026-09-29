@@ -41,7 +41,7 @@ def build_geo_rss():
                 fe = fg.add_entry()
                 fe.title(title)
                 fe.link(href=full_url)
-                fe.guid(full_url, isPermalink=True)
+                fe.id(full_url)
                 fe.description(desc if desc else title)
 
     fg.rss_file("geo_histoire.xml", pretty=True)
