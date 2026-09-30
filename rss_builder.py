@@ -337,25 +337,7 @@ def build_tech_diy_rss():
     print("✓ tech_ia.xml généré.")
 
 # -------------------------------------------------------------------
-# 6. PAGE INDEX HTML
-# -------------------------------------------------------------------
-def build_index_html():
-    html_content = """<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rss.feed.flow - Flux RSS Automatisés</title>
-    <style>
-        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: #f4f6f8; color: #1a1a1a; line-height: 1.5; }
-        .container { max-width: 680px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        h1 { margin-top: 0; color: #0969da; font-size: 1.6rem; border-bottom: 2px solid #eaeef2; padding-bottom: 10px; }
-        h2 { font-size: 1.1rem; color: #24292f; margin-top: 20px; }
-        p { color: #57606a; font-size: 0.92rem; margin-bottom: 12px; }
-        .intro-box { background: #f6f8fa; border-left: 4px solid #0969da; padding: 12px 16px; border-radius: 4px; margin-bottom: 20px; }
-        ul { list-style: none; padding: 0; margin: 15px 0; }
-        li { margin-bottom: 12px; padding: 14px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-        .title { font-weight: 600; font-size: 0.95rem; color: #1f2328; }
+olor: #1f2328; }
         .btn { background: #0969da; color: white; padding: 7px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; display: inline-block; }
         .btn:hover { background: #0451a5; }
         .footer { margin-top: 25px; text-align: center; font-size: 0.8rem; color: #8c959f; border-top: 1px solid #eaeef2; padding-top: 15px; }
