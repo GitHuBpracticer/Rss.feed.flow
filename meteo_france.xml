@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:39:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 17:22:50 +0000</lastBuildDate>
     <item>
       <title>[France] Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
       <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
@@ -49,14 +49,19 @@
       <guid isPermaLink="false">https://www.meteo-express.com#20261002-1</guid>
     </item>
     <item>
+      <title>[France] Après-midi</title>
+      <link>https://www.meteo-express.com#20261001-2</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20261001-2</guid>
+    </item>
+    <item>
       <title>[France] jeudijeu.01</title>
-      <link>https://www.meteo-express.com#20261001-1</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20261001-1</guid>
+      <link>https://www.meteo-express.com#20261001-0</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20261001-0</guid>
     </item>
     <item>
       <title>[France] mercredimer.30</title>
-      <link>https://www.meteo-express.com#20260930-2</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20260930-2</guid>
+      <link>https://www.meteo-express.com#20260930-3</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20260930-3</guid>
     </item>
     <item>
       <title>[France] Consultez le suivi</title>
