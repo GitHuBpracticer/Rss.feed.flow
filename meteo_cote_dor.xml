@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Tue, 29 Sep 2026 20:22:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 03:22:55 +0000</lastBuildDate>
     <item>
       <title>Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
       <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
@@ -34,6 +34,11 @@
       <guid isPermaLink="false">https://meteo-express.com/actualites/environnement-pollution/</guid>
     </item>
     <item>
+      <title>samedisam.03</title>
+      <link>https://www.meteo-express.com#20261003-1</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20261003-1</guid>
+    </item>
+    <item>
       <title>vendrediven.02</title>
       <link>https://www.meteo-express.com#20261002-1</link>
       <guid isPermaLink="false">https://www.meteo-express.com#20261002-1</guid>
@@ -47,11 +52,6 @@
       <title>mercredimer.30</title>
       <link>https://www.meteo-express.com#20260930-0</link>
       <guid isPermaLink="false">https://www.meteo-express.com#20260930-0</guid>
-    </item>
-    <item>
-      <title>mardimar.29</title>
-      <link>https://www.meteo-express.com#20260929-3</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20260929-3</guid>
     </item>
     <item>
       <title>Faire un don</title>
