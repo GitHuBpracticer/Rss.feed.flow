@@ -7,26 +7,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 03:22:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 07:39:27 +0000</lastBuildDate>
     <item>
       <title>Equipe éditoriale</title>
       <link>https://www.geo.fr/equipe-editoriale</link>
       <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale</guid>
-    </item>
-    <item>
-      <title>patrimoineA Paris, le musée d'Orsay rend hommage à Bartholdi, créateur de la statue de la Liberté</title>
-      <link>https://www.geo.fr/histoire/a-paris-le-musee-d-orsay-rend-hommage-a-bartholdi-createur-de-la-statue-de-la-liberte-233621</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/a-paris-le-musee-d-orsay-rend-hommage-a-bartholdi-createur-de-la-statue-de-la-liberte-233621</guid>
-    </item>
-    <item>
-      <title>ArchéologieEn Grande-Bretagne, l'origine des "Flèches du Diable" enfin dévoilée</title>
-      <link>https://www.geo.fr/histoire/en-grande-bretagne-l-origine-des-fleches-du-diable-enfin-devoilee-233640</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/en-grande-bretagne-l-origine-des-fleches-du-diable-enfin-devoilee-233640</guid>
-    </item>
-    <item>
-      <title>femme inspiranteReines et princesses rebelles 6/10: Didon Elissa, fondatrice et première reine de Carthage</title>
-      <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-6-10-didon-elissa-fondatrice-et-premiere-reine-de-carthage-233448</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-6-10-didon-elissa-fondatrice-et-premiere-reine-de-carthage-233448</guid>
     </item>
     <item>
       <title>paléontologieUne plume retrouvée dans les excréments fossilisés d’un dinosaure pourrait expliquer pourquoi les oiseaux ont disparu après l’impact de l’astéroïde</title>
@@ -124,6 +109,11 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/guerre-du-cachemire-causes-et-evolution-du-conflit-de-1947-a-nos-jours-233641</guid>
     </item>
     <item>
+      <title>ArchéologiePrès de 500 lingots de fer antiques gisaient au fond du Danube</title>
+      <link>https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</guid>
+    </item>
+    <item>
       <title>légendeFrères Grimm : qui étaient-ils et quelles sont leurs oeuvres majeures ?</title>
       <link>https://www.geo.fr/histoire/freres-grimm-qui-etaient-ils-et-quelles-sont-leurs-oeuvres-majeures-233646</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/freres-grimm-qui-etaient-ils-et-quelles-sont-leurs-oeuvres-majeures-233646</guid>
@@ -137,11 +127,6 @@
       <title>femmeReines et princesses rebelles 7/10: Urraque Ire, la première souveraine espagnole à régner en son propre nom?</title>
       <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-7-10-urraque-ire-la-premiere-souveraine-espagnole-a-regner-en-son-propre-nom-233543</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-7-10-urraque-ire-la-premiere-souveraine-espagnole-a-regner-en-son-propre-nom-233543</guid>
-    </item>
-    <item>
-      <title>ArchéologieÀ Mayotte, les fouilles d’une mosquée de 800 ans, la plus vieille de France, révèlent un étonnant mélange de cultures</title>
-      <link>https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</guid>
     </item>
     <item>
       <title>ArchéologieEn Turquie, cette immense piscine romaine vieille de 2 000 ans dévoile enfin ses secrets</title>
@@ -199,14 +184,29 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/apollo-11-8-jours-3-heures-et-18-minutes-pour-conquerir-la-lune-233757</guid>
     </item>
     <item>
+      <title>patrimoineVenise: la vérité sur les origines de la cité des Doges</title>
+      <link>https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</guid>
+    </item>
+    <item>
+      <title>théâtreUne pièce de théâtre donne la parole aux victimes de Jack L'Eventreur</title>
+      <link>https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</guid>
+    </item>
+    <item>
+      <title>ArchéologieIsraël : à Tel Shiloh, ce nouveau mur relance les recherches sur le Tabernacle biblique</title>
+      <link>https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</guid>
+    </item>
+    <item>
+      <title>À Mayotte, les fouilles d’une mosquée de 800 ans, la plus vieille de France, révèlent un étonnant mélange de cultures</title>
+      <link>https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</guid>
+    </item>
+    <item>
       <title>En Grèce, des archéologues mettent au jour l'école où Aristote aurait formé Alexandre le Grand</title>
       <link>https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</guid>
-    </item>
-    <item>
-      <title>Près de 500 lingots de fer antiques gisaient au fond du Danube</title>
-      <link>https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/pres-de-500-lingots-de-fer-antiques-gisaient-au-fond-du-danube-233722</guid>
     </item>
     <item>
       <title>Un ancien gardien du régime nazi rattrapé par la justice allemande à 105 ans</title>
@@ -222,21 +222,6 @@
       <title>Une église vieille de 800 ans découverte au Groenland révèle un étonnant village viking</title>
       <link>https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/une-eglise-vieille-de-800-ans-decouverte-au-groenland-revele-un-etonnant-village-viking-233769</guid>
-    </item>
-    <item>
-      <title>patrimoineVenise: la vérité sur les origines de la cité des Doges</title>
-      <link>https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</guid>
-    </item>
-    <item>
-      <title>théâtreUne pièce de théâtre donne la parole aux victimes de Jack L'Eventreur</title>
-      <link>https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</guid>
-    </item>
-    <item>
-      <title>ArchéologieIsraël : à Tel Shiloh, ce nouveau mur relance les recherches sur le Tabernacle biblique</title>
-      <link>https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</guid>
     </item>
     <item>
       <title>ToutankhamonDes chercheurs détectent de possibles chambres cachées à quelques mètres du tombeau de Toutânkhamon</title>
@@ -259,9 +244,24 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/des-grains-de-ble-vieux-de-6500-ans-revelent-les-secrets-de-la-plus-ancienne-biere-de-bulgarie-233816</guid>
     </item>
     <item>
-      <title>Mexique: de mystérieux pétroglyphes découverts dans une grotte révèleraient les secrets de l’écriture de TeotihuacanÀ Chalcatzingo, au Mexique, des chercheurs ont réexaminé trois peintures rupestres découvertes dans les années 1980. Grâce au traitement numérique des images, ils ont identifié plusieurs motifs qui pourraient prouver l’existence d’un système d’écriture à Teotihuacan.</title>
+      <title>ArchéologieMexique: de mystérieux pétroglyphes découverts dans une grotte révèleraient les secrets de l’écriture de Teotihuacan</title>
       <link>https://www.geo.fr/histoire/mexique-de-mysterieux-petroglyphes-decouverts-dans-une-grotte-reveleraient-les-secrets-de-lecriture-de-teotihuacan-233827</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/mexique-de-mysterieux-petroglyphes-decouverts-dans-une-grotte-reveleraient-les-secrets-de-lecriture-de-teotihuacan-233827</guid>
+    </item>
+    <item>
+      <title>CléopâtreReines et princesses rebelles 8/10: Cléopâtre Séléné II, l'héritière oubliée de Cléopâtre VII et de Marc Antoine, qui régna sur la Maurétanie</title>
+      <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-8-10-cleopatre-selene-ii-l-heritiere-oubliee-de-cleopatre-vii-et-de-marc-antoine-qui-regna-sur-la-mauretanie-233573</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-8-10-cleopatre-selene-ii-l-heritiere-oubliee-de-cleopatre-vii-et-de-marc-antoine-qui-regna-sur-la-mauretanie-233573</guid>
+    </item>
+    <item>
+      <title>préhistoireLe visage d’un Homo sapiens reconstitué à partir de fossiles découverts dans le désert marocain</title>
+      <link>https://www.geo.fr/histoire/le-visage-dun-homo-sapiens-reconstitue-a-partir-de-fossiles-decouverts-dans-le-desert-marocain-233832</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/le-visage-dun-homo-sapiens-reconstitue-a-partir-de-fossiles-decouverts-dans-le-desert-marocain-233832</guid>
+    </item>
+    <item>
+      <title>Le chocolat est arrivé en France il y a plus de 400 ans, et voici comment il a conquis la cour de VersaillesProduit phare des fêtes de Pâques et des festivités de fin d'année, le chocolat est un mets ultra-populaire en France – les Français en consomment en moyenne 6,4 kilos par an et par habitant. Aujourd'hui cultivé en Amérique du Sud, en Afrique mais aussi en Indonésie, le chocolat n'est pourtant arrivé en France qu'au début du XVIIème siècle ! Retour sur sa découverte dans l'Hexagone à l'occasion de la Journée mondiale du chocolat célébrée le 1er octobre.</title>
+      <link>https://www.geo.fr/histoire/comment-le-chocolat-est-il-arrive-en-france-206524</link>
+      <guid isPermaLink="false">https://www.geo.fr/histoire/comment-le-chocolat-est-il-arrive-en-france-206524</guid>
     </item>
     <item>
       <title>La guerre d'Algérie</title>

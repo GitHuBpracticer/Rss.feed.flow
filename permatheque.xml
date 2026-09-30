@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Permathèque - Potager &amp; Permaculture</title>
+    <link>https://permatheque.fr</link>
+    <description>Guides et fiches pratiques de la Permathèque</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 30 Sep 2026 07:39:28 +0000</lastBuildDate>
+    <item>
+      <title>Valider la commande</title>
+      <link>https://www.permatheque.fr/commander/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/commander/</guid>
+    </item>
+    <item>
+      <title>Voir mon panier</title>
+      <link>https://www.permatheque.fr/panier/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/panier/</guid>
+    </item>
+    <item>
+      <title>Politique de confidentialité et RGPD</title>
+      <link>https://www.permatheque.fr/politique-de-confidentialite/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/politique-de-confidentialite/</guid>
+    </item>
+    <item>
+      <title>EscapeTheCity</title>
+      <link>https://escapethecity.life/permatheque-documents-permaculture</link>
+      <guid isPermaLink="false">https://escapethecity.life/permatheque-documents-permaculture</guid>
+    </item>
+    <item>
+      <title>AkashaProduction</title>
+      <link>https://www.permatheque.fr</link>
+      <guid isPermaLink="false">https://www.permatheque.fr</guid>
+    </item>
+    <item>
+      <title>Nos Réseaux Sociaux</title>
+      <link>https://linktr.ee/permatheque?utm_source=linktree_profile_share&lt;sid=55f5be4e-f305-4a75-8ea4-a3bc50c7152d</link>
+      <guid isPermaLink="false">https://linktr.ee/permatheque?utm_source=linktree_profile_share&lt;sid=55f5be4e-f305-4a75-8ea4-a3bc50c7152d</guid>
+    </item>
+    <item>
+      <title>Harmonie Holistique</title>
+      <link>https://www.harmonie-holistique.org</link>
+      <guid isPermaLink="false">https://www.harmonie-holistique.org</guid>
+    </item>
+    <item>
+      <title>Conseil Ayurveda</title>
+      <link>https://www.conseil-ayurveda.fr</link>
+      <guid isPermaLink="false">https://www.conseil-ayurveda.fr</guid>
+    </item>
+    <item>
+      <title>Vivre En Autonomie</title>
+      <link>https://www.vivre-en-autonomie.fr</link>
+      <guid isPermaLink="false">https://www.vivre-en-autonomie.fr</guid>
+    </item>
+    <item>
+      <title>Soumettre un projet</title>
+      <link>https://www.permatheque.fr/soumettre-un-projet-au-financement-participatif/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/soumettre-un-projet-au-financement-participatif/</guid>
+    </item>
+    <item>
+      <title>adhérez à l’association</title>
+      <link>https://www.helloasso.com/associations/permatheque/adhesions/adhesion-a-permatheque</link>
+      <guid isPermaLink="false">https://www.helloasso.com/associations/permatheque/adhesions/adhesion-a-permatheque</guid>
+    </item>
+    <item>
+      <title>la charte Permatheque</title>
+      <link>https://www.permatheque.fr/charte-dengagement-permatheque/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/charte-dengagement-permatheque/</guid>
+    </item>
+    <item>
+      <title>En savoir plus</title>
+      <link>https://www.permatheque.fr/association</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/association</guid>
+    </item>
+    <item>
+      <title>Maisonnette, Grange et Terrain AgroEcologique en Normandie</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/maisonnette-grange-et-terrain-agroecologique-en-normandie/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/maisonnette-grange-et-terrain-agroecologique-en-normandie/</guid>
+    </item>
+    <item>
+      <title>Vente terrain forêstier 9 hectares</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/vente-terrain-forestier-9-hectares/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/vente-terrain-forestier-9-hectares/</guid>
+    </item>
+    <item>
+      <title>Prête livre – La Permaculture au Jardin</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/prete-livre-la-permaculture-au-jardin/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/prete-livre-la-permaculture-au-jardin/</guid>
+    </item>
+    <item>
+      <title>Autres catégories</title>
+      <link>https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/categories-diverses/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/categories-diverses/</guid>
+    </item>
+    <item>
+      <title>Donne griffes de sorcières</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/donne-griffes-de-sorcieres/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/donne-griffes-de-sorcieres/</guid>
+    </item>
+    <item>
+      <title>Plantes et jeunes plants</title>
+      <link>https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/vegetaux/plantes-et-jeunes-plants/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/vegetaux/plantes-et-jeunes-plants/</guid>
+    </item>
+    <item>
+      <title>Oeufs de poules fécondés</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/oeufs-de-poules-fecondes/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/oeufs-de-poules-fecondes/</guid>
+    </item>
+    <item>
+      <title>Ajouter au panier</title>
+      <link>https://permatheque.fr/?add-to-cart=1923</link>
+      <guid isPermaLink="false">https://permatheque.fr/?add-to-cart=1923</guid>
+    </item>
+    <item>
+      <title>Promo !Déchets Land25,50€Le prix initial était : 25,50 €.12,20€Le prix actuel est : 12,20 €.</title>
+      <link>https://www.permatheque.fr/librairie/dechets-land/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/librairie/dechets-land/</guid>
+    </item>
+    <item>
+      <title>Ajouter au panier</title>
+      <link>https://permatheque.fr/?add-to-cart=1955</link>
+      <guid isPermaLink="false">https://permatheque.fr/?add-to-cart=1955</guid>
+    </item>
+    <item>
+      <title>Fromages Sauvages35,00€</title>
+      <link>https://www.permatheque.fr/librairie/fromages-sauvages/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/librairie/fromages-sauvages/</guid>
+    </item>
+    <item>
+      <title>Ajouter au panier</title>
+      <link>https://permatheque.fr/?add-to-cart=1963</link>
+      <guid isPermaLink="false">https://permatheque.fr/?add-to-cart=1963</guid>
+    </item>
+    <item>
+      <title>Plantes Bizarres25,00€</title>
+      <link>https://www.permatheque.fr/librairie/plantes-bizarres/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/librairie/plantes-bizarres/</guid>
+    </item>
+    <item>
+      <title>L’ostréiculteur qui replanta la forêt pour sauver ses huîtres</title>
+      <link>https://www.permatheque.fr/2026/01/10/lostreiculteur-qui-replanta-la-foret-pour-sauver-ses-huitres/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/10/lostreiculteur-qui-replanta-la-foret-pour-sauver-ses-huitres/</guid>
+    </item>
+    <item>
+      <title>Quand les villes cultivent des forêts</title>
+      <link>https://www.permatheque.fr/2026/01/16/quand-les-villes-cultivent-des-forets/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/16/quand-les-villes-cultivent-des-forets/</guid>
+    </item>
+    <item>
+      <title>La Synergie Humaine : Construire des Systèmes Collectifs Durables et Résilients</title>
+      <link>https://www.permatheque.fr/2026/01/24/la-synergie-humaine-construire-des-systemes-collectifs-durables-et-resilients/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/24/la-synergie-humaine-construire-des-systemes-collectifs-durables-et-resilients/</guid>
+    </item>
+    <item>
+      <title>Comprendre les Microclimats : modèles réduits qui façonnent le territoire</title>
+      <link>https://www.permatheque.fr/2026/02/01/comprendre-les-microclimats-modeles-reduits-qui-faconnent-le-territoire/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2026/02/01/comprendre-les-microclimats-modeles-reduits-qui-faconnent-le-territoire/</guid>
+    </item>
+    <item>
+      <title>Soutenir le Site Web</title>
+      <link>https://www.permatheque.fr/soutenir-le-site-web/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/soutenir-le-site-web/</guid>
+    </item>
+    <item>
+      <title>Remerciements</title>
+      <link>https://www.permatheque.fr/nos-remerciements/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/nos-remerciements/</guid>
+    </item>
+    <item>
+      <title>News Officielles</title>
+      <link>https://www.permatheque.fr/category/administration-de-l-association/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/administration-de-l-association/</guid>
+    </item>
+    <item>
+      <title>Nous Contacter</title>
+      <link>https://www.permatheque.fr/nous-contacter/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/nous-contacter/</guid>
+    </item>
+    <item>
+      <title>Formations en Ligne–S’initier ou approfondir ses connaissances en Permaculture</title>
+      <link>https://www.permatheque.fr/categorie-produit/formations-de-permaculture-en-ligne/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/formations-de-permaculture-en-ligne/</guid>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://www.permatheque.fr/categorie-produit/litterature/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/litterature/</guid>
+    </item>
+    <item>
+      <title>Culture &amp; Histoire</title>
+      <link>https://www.permatheque.fr/categorie-produit/culture-et-histoire/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/culture-et-histoire/</guid>
+    </item>
+    <item>
+      <title>Eco-Fabrication &amp; Résilience</title>
+      <link>https://www.permatheque.fr/categorie-produit/eco-fabrication-et-resilience/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/eco-fabrication-et-resilience/</guid>
+    </item>
+    <item>
+      <title>Thématiques littéraires</title>
+      <link>https://www.permatheque.fr/thematiques-litteraires/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/thematiques-litteraires/</guid>
+    </item>
+    <item>
+      <title>Jeunesse &amp; Petite Enfance</title>
+      <link>https://www.permatheque.fr/categorie-produit/jeunesse-et-petite-enfance/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/jeunesse-et-petite-enfance/</guid>
+    </item>
+    <item>
+      <title>Médecines Traditionnelles</title>
+      <link>https://www.permatheque.fr/categorie-produit/medecines-traditionnelles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/medecines-traditionnelles/</guid>
+    </item>
+    <item>
+      <title>Permaculture</title>
+      <link>https://www.permatheque.fr/categorie-produit/permaculture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/permaculture/</guid>
+    </item>
+    <item>
+      <title>Toute la Librairie</title>
+      <link>https://www.permatheque.fr/librairie/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/librairie/</guid>
+    </item>
+    <item>
+      <title>Cercles de Lecture</title>
+      <link>https://www.permatheque.fr/groupes/cercles-de-lecture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/groupes/cercles-de-lecture/</guid>
+    </item>
+    <item>
+      <title>Troc de Plantes</title>
+      <link>https://www.permatheque.fr/groupes/troc-de-plantes/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/groupes/troc-de-plantes/</guid>
+    </item>
+    <item>
+      <title>Tous les Groupes</title>
+      <link>https://www.permatheque.fr/groupes/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/groupes/</guid>
+    </item>
+    <item>
+      <title>Design Permacole</title>
+      <link>https://www.permatheque.fr/groupes/design-en-permaculture/forum/design-en-permaculture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/groupes/design-en-permaculture/forum/design-en-permaculture/</guid>
+    </item>
+    <item>
+      <title>Tous les Forums</title>
+      <link>https://www.permatheque.fr/forums/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/forums/</guid>
+    </item>
+    <item>
+      <title>Fil d’actualités</title>
+      <link>https://www.permatheque.fr/fil-dactualites/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/fil-dactualites/</guid>
+    </item>
+    <item>
+      <title>Rencontres &amp; Evènements–Toutes les annonces liées aux rencontres et évènements de la permaculture</title>
+      <link>https://www.permatheque.fr/categories-annonces/rencontres-et-evenements/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/rencontres-et-evenements/</guid>
+    </item>
+    <item>
+      <title>Volontariat &amp; Chantiers Participatifs–Toutes les annonces liées aux volontariats &amp; chantiers participatifs</title>
+      <link>https://www.permatheque.fr/categories-annonces/volontariat-et-chantiers-participatifs/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/volontariat-et-chantiers-participatifs/</guid>
+    </item>
+    <item>
+      <title>Emploi &amp; Service–Toutes les annonces liées à l’emploi et au service</title>
+      <link>https://www.permatheque.fr/categories-annonces/emplois-et-services/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/emplois-et-services/</guid>
+    </item>
+    <item>
+      <title>Immobilier &amp; Installations–Toutes les annonces ayant trait à l’immobilier et à l’installation en perma</title>
+      <link>https://www.permatheque.fr/categories-annonces/immobilier-installation/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/immobilier-installation/</guid>
+    </item>
+    <item>
+      <title>Seconde vie &amp; Récup–Toutes les annonces liées aux objets et matériaux d’occasion</title>
+      <link>https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/</guid>
+    </item>
+    <item>
+      <title>Artisanat &amp; Matériaux–Toutes les annonces liées à l’artisanat et aux matériaux nécessaires à sa fabrication</title>
+      <link>https://www.permatheque.fr/categories-annonces/artisanat-materiaux/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/artisanat-materiaux/</guid>
+    </item>
+    <item>
+      <title>Eco-Construction &amp; Habitat–Toutes les annonces liées à l’éco-construction et à l’habitat</title>
+      <link>https://www.permatheque.fr/categories-annonces/eco-construction-et-habitat/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/eco-construction-et-habitat/</guid>
+    </item>
+    <item>
+      <title>Agriculture &amp; Jardin–Toutes les annonces liées à l’agriculture et au jardinage</title>
+      <link>https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/</guid>
+    </item>
+    <item>
+      <title>Catégories d’annonces</title>
+      <link>https://www.permatheque.fr/categories-dannonces/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categories-dannonces/</guid>
+    </item>
+    <item>
+      <title>Tableau de bord</title>
+      <link>https://www.permatheque.fr/tableau-de-bord-mes-annonces/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/tableau-de-bord-mes-annonces/</guid>
+    </item>
+    <item>
+      <title>Vue Carte Interactive</title>
+      <link>https://www.permatheque.fr/carte-interactive-des-evenements/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/carte-interactive-des-evenements/</guid>
+    </item>
+    <item>
+      <title>Vue Calendrier</title>
+      <link>https://www.permatheque.fr/calendrier</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/calendrier</guid>
+    </item>
+    <item>
+      <title>Apparaitre sur la carte interactive</title>
+      <link>https://www.permatheque.fr/apparaitre-sur-la-carte-interactive/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/apparaitre-sur-la-carte-interactive/</guid>
+    </item>
+    <item>
+      <title>Adhérer à l’association</title>
+      <link>https://www.permatheque.fr/adherer-a-l-association-permatheque/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/adherer-a-l-association-permatheque/</guid>
+    </item>
+    <item>
+      <title>Un réseau permacole ?</title>
+      <link>https://www.permatheque.fr/decouvrir-le-reseau-permacole/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/decouvrir-le-reseau-permacole/</guid>
+    </item>
+    <item>
+      <title>Formations en Ligne</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/en-ligne/formations-en-ligne/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/en-ligne/formations-en-ligne/</guid>
+    </item>
+    <item>
+      <title>Lieux de Formation</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/lieux-de-formation/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/lieux-de-formation/</guid>
+    </item>
+    <item>
+      <title>Initiatives</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/initiatives/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/initiatives/</guid>
+    </item>
+    <item>
+      <title>Producteurs Locaux</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/producteurs-locaux/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/producteurs-locaux/</guid>
+    </item>
+    <item>
+      <title>Associations</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/associations/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/associations/</guid>
+    </item>
+    <item>
+      <title>A découvrir</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/</guid>
+    </item>
+    <item>
+      <title>Films Autonomie et Liberté</title>
+      <link>https://www.permatheque.fr/films-autonomie-et-liberte/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/films-autonomie-et-liberte/</guid>
+    </item>
+    <item>
+      <title>Voyages… Films &amp; Docs</title>
+      <link>https://www.permatheque.fr/quelques-voyages-films-et-documentaires/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/quelques-voyages-films-et-documentaires/</guid>
+    </item>
+    <item>
+      <title>Un Moment d’Evasion</title>
+      <link>https://www.permatheque.fr/un-moment-devasion/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/un-moment-devasion/</guid>
+    </item>
+    <item>
+      <title>Ouvrir les Yeux</title>
+      <link>https://www.permatheque.fr/ouvrir-les-yeux/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/ouvrir-les-yeux/</guid>
+    </item>
+    <item>
+      <title>Modes de Vie Alternatifs</title>
+      <link>https://www.permatheque.fr/modes-de-vie-alternatifs/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/modes-de-vie-alternatifs/</guid>
+    </item>
+    <item>
+      <title>Documentaires Société</title>
+      <link>https://www.permatheque.fr/documentaires-societe/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/documentaires-societe/</guid>
+    </item>
+    <item>
+      <title>EBOOKS Permaculture</title>
+      <link>https://www.permatheque.fr/2020/01/01/permaculture-et-autonomie-220-documents/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2020/01/01/permaculture-et-autonomie-220-documents/</guid>
+    </item>
+    <item>
+      <title>50 PDFs à télécharger</title>
+      <link>https://www.permatheque.fr/permaculture-et-autonomie-plus-de-50-pdf-a-telecharger-gratuitement/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/permaculture-et-autonomie-plus-de-50-pdf-a-telecharger-gratuitement/</guid>
+    </item>
+    <item>
+      <title>Dossiers Thématiques</title>
+      <link>https://www.permatheque.fr/selections-de-films-et-documentaires/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/selections-de-films-et-documentaires/</guid>
+    </item>
+    <item>
+      <title>Société et Alternatives</title>
+      <link>https://www.permatheque.fr/category/documentation/societe-et-alternatives/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/societe-et-alternatives/</guid>
+    </item>
+    <item>
+      <title>Science et Nature</title>
+      <link>https://www.permatheque.fr/category/documentation/science-et-nature/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/science-et-nature/</guid>
+    </item>
+    <item>
+      <title>Santé et Médecine</title>
+      <link>https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/</guid>
+    </item>
+    <item>
+      <title>Eco-Construction</title>
+      <link>https://www.permatheque.fr/category/documentation/eco-construction/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/eco-construction/</guid>
+    </item>
+    <item>
+      <title>Autonomie et résilience</title>
+      <link>https://www.permatheque.fr/category/documentation/autonomie-et-resilience/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/autonomie-et-resilience/</guid>
+    </item>
+    <item>
+      <title>Agriculture Naturelle</title>
+      <link>https://www.permatheque.fr/category/documentation/agricultures-naturelles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/agricultures-naturelles/</guid>
+    </item>
+    <item>
+      <title>Démarrer un Jardin en Permaculture</title>
+      <link>https://www.permatheque.fr/2017/05/27/demarrer-un-jardin-en-permaculture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2017/05/27/demarrer-un-jardin-en-permaculture/</guid>
+    </item>
+    <item>
+      <title>Le B-A BA de la Perma</title>
+      <link>https://www.permatheque.fr/le-b-a-ba-de-la-perma/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/le-b-a-ba-de-la-perma/</guid>
+    </item>
+    <item>
+      <title>Permaculture – Définition</title>
+      <link>https://www.permatheque.fr/2016/12/30/permaculture-definition/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/2016/12/30/permaculture-definition/</guid>
+    </item>
+    <item>
+      <title>Se connecter</title>
+      <link>https://www.permatheque.fr/mon-compte/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/mon-compte/</guid>
+    </item>
+    <item>
+      <title>Permatheque</title>
+      <link>https://www.permatheque.fr/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/</guid>
+    </item>
+    <item>
+      <title>Ajouter un évènement</title>
+      <link>https://www.permatheque.fr/ajouter-un-evenement/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/ajouter-un-evenement/</guid>
+    </item>
+    <item>
+      <title>Déposer une annonce</title>
+      <link>https://www.permatheque.fr/deposer-une-annonce/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/deposer-une-annonce/</guid>
+    </item>
+    <item>
+      <title>Publier un article</title>
+      <link>https://www.permatheque.fr/publier-sur-permatheque/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/publier-sur-permatheque/</guid>
+    </item>
+    <item>
+      <title>Nous contacter</title>
+      <link>https://www.permatheque.fr/contacter-permatheque/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/contacter-permatheque/</guid>
+    </item>
+    <item>
+      <title>Suivez-nous sur Instagram</title>
+      <link>https://www.instagram.com/permatheque/</link>
+      <guid isPermaLink="false">https://www.instagram.com/permatheque/</guid>
+    </item>
+    <item>
+      <title>Suivez-nous sur Facebook</title>
+      <link>https://www.facebook.com/Permatheque/</link>
+      <guid isPermaLink="false">https://www.facebook.com/Permatheque/</guid>
+    </item>
+    <item>
+      <title>Association</title>
+      <link>https://www.permatheque.fr/association/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/association/</guid>
+    </item>
+    <item>
+      <title>Pépinière de Projets</title>
+      <link>https://www.permatheque.fr/les-projets-en-financement-participatif/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-projets-en-financement-participatif/</guid>
+    </item>
+    <item>
+      <title>Réseau Permacole</title>
+      <link>https://www.permatheque.fr/reseau-permacole/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/reseau-permacole/</guid>
+    </item>
+    <item>
+      <title>Petites Annonces</title>
+      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/</guid>
+    </item>
+    <item>
+      <title>Documentation–Découvrez une sélection de documents, dossiers et actualités sur les thèmes liés à la permaculture</title>
+      <link>https://www.permatheque.fr/category/documentation/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/</guid>
+    </item>
+    <item>
+      <title>Soutenir l’Association</title>
+      <link>https://www.permatheque.fr/soutenir-l-association/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/soutenir-l-association/</guid>
+    </item>
+  </channel>
+</rss>

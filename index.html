@@ -3,23 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rss.feed.flow - Annuaire de flux RSS</title>
+    <title>Rss.feed.flow - Flux RSS Automatisés</title>
     <style>
-        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 20px; background: #f4f6f8; color: #1a1a1a; }
-        .container { max-width: 650px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        h1 { margin-top: 0; color: #0969da; font-size: 1.5rem; }
-        p { color: #57606a; font-size: 0.95rem; }
-        ul { list-style: none; padding: 0; margin: 20px 0; }
-        li { margin-bottom: 12px; padding: 12px; background: #f6f8fa; border-radius: 8px; border: 1px solid #d0d7de; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
-        .title { font-weight: 600; font-size: 0.95rem; }
-        .btn { background: #0969da; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; }
+        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: #f4f6f8; color: #1a1a1a; line-height: 1.5; }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { margin-top: 0; color: #0969da; font-size: 1.6rem; border-bottom: 2px solid #eaeef2; padding-bottom: 10px; }
+        h2 { font-size: 1.1rem; color: #24292f; margin-top: 20px; }
+        p { color: #57606a; font-size: 0.92rem; margin-bottom: 12px; }
+        .intro-box { background: #f6f8fa; border-left: 4px solid #0969da; padding: 12px 16px; border-radius: 4px; margin-bottom: 20px; }
+        ul { list-style: none; padding: 0; margin: 15px 0; }
+        li { margin-bottom: 12px; padding: 14px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .title { font-weight: 600; font-size: 0.95rem; color: #1f2328; }
+        .btn { background: #0969da; color: white; padding: 7px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; display: inline-block; }
         .btn:hover { background: #0451a5; }
+        .footer { margin-top: 25px; text-align: center; font-size: 0.8rem; color: #8c959f; border-top: 1px solid #eaeef2; padding-top: 15px; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📡 Rss.feed.flow</h1>
-        <p>Annuaire de flux RSS personnalisés mis à jour automatiquement.</p>
+        
+        <div class="intro-box">
+            <p><strong>À propos du projet :</strong> Ce service génère automatiquement des flux RSS personnalisés à partir de sites web ne proposant pas de flux natif. Il s'exécute de manière autonome via GitHub Actions.</p>
+            <p style="margin-bottom:0;">💡 <strong>Utilisation :</strong> Cliquez sur <em>« Ouvrir le flux »</em> pour consulter le XML brut, ou copiez l'adresse du lien pour l'ajouter directement dans votre lecteur RSS (ex: <em>Read You</em>, <em>Feeder</em>).</p>
+        </div>
+
+        <h2>📂 Flux RSS disponibles :</h2>
         <ul>
             <li>
                 <span class="title">📜 GEO Histoire</span>
@@ -27,14 +36,18 @@
             </li>
             <li>
                 <span class="title">🌱 Permaculture (Permathèque)</span>
-                <a class="btn" href="permathaque.xml" target="_blank">Ouvrir le flux</a>
+                <a class="btn" href="permatheque.xml" target="_blank">Ouvrir le flux</a>
             </li>
             <li>
                 <span class="title">💎 Web3 & Airdrops</span>
                 <a class="btn" href="web3_airdrops.xml" target="_blank">Ouvrir le flux</a>
             </li>
             <li>
-                <span class="title">🌤️ Météo Côte-d'Or (21)</span>
+                <span class="title">🇫🇷 Météo Express (France entière)</span>
+                <a class="btn" href="meteo_france.xml" target="_blank">Ouvrir le flux</a>
+            </li>
+            <li>
+                <span class="title">🌤️ Météo Régionale (Bourgogne / Côte-d'Or)</span>
                 <a class="btn" href="meteo_cote_dor.xml" target="_blank">Ouvrir le flux</a>
             </li>
             <li>
@@ -42,6 +55,10 @@
                 <a class="btn" href="tech_ia.xml" target="_blank">Ouvrir le flux</a>
             </li>
         </ul>
+
+        <div class="footer">
+            Généré automatiquement via Python & GitHub Pages
+        </div>
     </div>
 </body>
 </html>
