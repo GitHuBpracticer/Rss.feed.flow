@@ -1,62 +1,122 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Météo Express - France</title>
-    <link>https://meteo-express.com/actualites/</link>
-    <description>Actualités et bulletins météo France</description>
+    <title>Météo Express</title>
+    <link>https://meteo-express.com/</link>
+    <description>Flux Météo France</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
+    <image>
+      <url>https://githubpracticer.github.io/Rss.feed.flow/logo_meteo_fr.png</url>
+      <title>Météo Express</title>
+      <link>https://meteo-express.com/</link>
+    </image>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 18:50:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 21:16:36 +0000</lastBuildDate>
     <item>
-      <title>Vents violents</title>
-      <link>https://meteo-express.com/actualites/vents-violents/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/vents-violents/</guid>
+      <title>42.000 hectares et 220.000 évacués : l’incendie de Gironde est le pire depuis 1949</title>
+      <link>https://meteo-express.com/42000-hectares-et-220000-evacues-l-incendie-de-gironde-est-le-pire-depuis-1949/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/07/incendie-record-gironde-juillet-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/07/incendie-record-gironde-juillet-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Site / Médias</title>
-      <link>https://meteo-express.com/actualites/site-medias/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/site-medias/</guid>
+      <title>Le duo juin-juillet le plus chaud jamais vu en France, très loin devant 2003 !</title>
+      <link>https://meteo-express.com/le-duo-juin-juillet-le-plus-chaud-jamais-vu-en-france-tres-loin-devant-2003/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/07/ete-2026-chaleur-record.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/07/ete-2026-chaleur-record.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Pluie / Inondations</title>
-      <link>https://meteo-express.com/actualites/pluie-inondations/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/pluie-inondations/</guid>
+      <title>Pic de chaleur dimanche et lundi avant une baisse à partir de mardi</title>
+      <link>https://meteo-express.com/pic-de-chaleur-dimanche-et-lundi-avant-une-baisse-a-partir-de-mardi/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/chaleur-2-3-aout-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/chaleur-2-3-aout-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Neige / Verglas</title>
-      <link>https://meteo-express.com/actualites/neige-verglas/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/neige-verglas/</guid>
+      <title>Retour de fraîcheur nocturne les 6 et 7 août : parfois moins de 10°C</title>
+      <link>https://meteo-express.com/retour-de-fraicheur-nocturne-les-6-et-7-aout-parfois-moins-de-10c/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/fraicheur-nuit-6-7-aout-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/fraicheur-nuit-6-7-aout-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Froid / Fraîcheur</title>
-      <link>https://meteo-express.com/actualites/froid-fraicheur/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/froid-fraicheur/</guid>
+      <title>La météo et toutes les infos sur l’éclipse solaire du mercredi 12 août</title>
+      <link>https://meteo-express.com/la-meteo-et-toutes-les-infos-sur-leclipse-solaire-du-mercredi-12-aout/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/eclipse-12-aout-2026-infos.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/eclipse-12-aout-2026-infos.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Environnement / Pollution</title>
-      <link>https://meteo-express.com/actualites/environnement-pollution/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/environnement-pollution/</guid>
+      <title>Pic de canicule de mercredi à vendredi : souvent 36 à 40°C !</title>
+      <link>https://meteo-express.com/pic-de-canicule-de-mercredi-a-vendredi-souvent-36-a-40c/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/canicule-12-13-14-aout-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/canicule-12-13-14-aout-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Climat / Société</title>
-      <link>https://meteo-express.com/actualites/climat-societe/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/climat-societe/</guid>
+      <title>Fin des fortes chaleurs dès ce jeudi 20 août</title>
+      <link>https://meteo-express.com/fin-des-fortes-chaleurs-des-ce-jeudi-20-aout/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/fin-des-fortes-chaleurs-aout-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/fin-des-fortes-chaleurs-aout-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Chaleur / Douceur</title>
-      <link>https://meteo-express.com/actualites/chaleur-douceur/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/chaleur-douceur/</guid>
+      <title>Tornade et gros dégâts à Pomas dans l’Aude ce lundi 24 août</title>
+      <link>https://meteo-express.com/tornade-et-gros-degats-a-pomas-dans-laude-ce-lundi-24-aout/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/08/tornade-pomas-aude-24-aout-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/08/tornade-pomas-aude-24-aout-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Aurores boréales</title>
-      <link>https://meteo-express.com/actualites/aurores-boreales/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/aurores-boreales/</guid>
+      <title>C’est l’automne ce 1er septembre ! Que sont les saisons météo ?</title>
+      <link>https://meteo-express.com/cest-lautomne-ce-1er-septembre-que-sont-les-saisons-meteo/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/06/automne-meteo-1-septembre.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/06/automne-meteo-1-septembre.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
     <item>
-      <title>Astronomie / Espace</title>
-      <link>https://meteo-express.com/actualites/astronomie-espace/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/astronomie-espace/</guid>
+      <title>L’été 2026 fut le plus chaud jamais observé en France, battant 2003 !</title>
+      <link>https://meteo-express.com/lete-2026-fut-le-plus-chaud-jamais-observe-en-france-battant-2003/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/ete-le-plus-chaud-france-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/ete-le-plus-chaud-france-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chaleur record pour septembre : 35 à 40°C au sud jusqu’à dimanche</title>
+      <link>https://meteo-express.com/chaleur-record-pour-septembre-35-a-40c-au-sud-jusqua-dimanche/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/chaleur-canicule-septembre-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/chaleur-canicule-septembre-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chute des températures et retour de la fraîcheur dès mardi ou mercredi</title>
+      <link>https://meteo-express.com/chute-des-temperatures-et-retour-de-la-fraicheur-des-mardi-ou-mercredi/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/retour-fraicheur-8-9-septembre-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/retour-fraicheur-8-9-septembre-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
+      <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/chaleur-12-15-septembre-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/chaleur-12-15-septembre-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Une semaine très sèche et ensoleillée avec des après-midi estivaux</title>
+      <link>https://meteo-express.com/une-semaine-tres-seche-et-ensoleillee-avec-des-apres-midi-estivaux/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/anticyclone-soleil-chaleur-fin-septembre-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/anticyclone-soleil-chaleur-fin-septembre-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>La sécheresse des sols atteints des niveaux records pour la saison</title>
+      <link>https://meteo-express.com/la-secheresse-des-sols-atteints-des-niveaux-records-pour-la-saison/</link>
+      <description>&lt;p&gt;&lt;img src="https://meteo-express.com/wp-content/uploads/2026/09/secheresse-record-france-septembre-2026.png" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Bulletin Météo Express France&lt;/p&gt;</description>
+      <enclosure url="https://meteo-express.com/wp-content/uploads/2026/09/secheresse-record-france-septembre-2026.png" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:36 +0000</pubDate>
     </item>
   </channel>
 </rss>

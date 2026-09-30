@@ -5,42 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rss.feed.flow - Flux RSS Automatisés</title>
     <style>
-        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: #f4f6f8; color: #1a1a1a; line-height: 1.5; }
-        .container { max-width: 680px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        h1 { margin-top: 0; color: #0969da; font-size: 1.5rem; border-bottom: 2px solid #eaeef2; padding-bottom: 10px; }
-        h2 { font-size: 1.1rem; color: #24292f; margin-top: 20px; }
-        p { color: #57606a; font-size: 0.9rem; margin: 0 0 8px 0; }
-        .intro-box { background: #f0f7ff; border-left: 4px solid #0969da; padding: 12px 16px; border-radius: 6px; margin-bottom: 20px; }
-        .intro-box ol { margin: 8px 0 0 0; padding-left: 20px; font-size: 0.88rem; color: #24292f; }
-        .intro-box li { margin-bottom: 4px; }
-        ul { list-style: none; padding: 0; margin: 15px 0; }
-        li { margin-bottom: 12px; padding: 14px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
-        .title { font-weight: 600; font-size: 0.95rem; color: #1f2328; }
-        .btn { background: #0969da; color: white; padding: 7px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; display: inline-block; }
-        .btn:hover { background: #0451a5; }
-        .footer { margin-top: 25px; text-align: center; font-size: 0.8rem; color: #8c959f; border-top: 1px solid #eaeef2; padding-top: 15px; }
+        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 12px; background: #f4f6f8; color: #1a1a1a; line-height: 1.5; }
+        .container { max-width: 600px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { margin-top: 0; color: #0969da; font-size: 1.4rem; border-bottom: 2px solid #eaeef2; padding-bottom: 8px; }
+        h2 { font-size: 1.05rem; color: #24292f; margin-top: 18px; margin-bottom: 10px; }
+        p { color: #57606a; font-size: 0.88rem; margin: 0 0 8px 0; }
+        
+        .intro-box { background: #f0f7ff; border-left: 4px solid #0969da; padding: 12px; border-radius: 6px; margin-bottom: 18px; }
+        .intro-box ol { margin: 6px 0 0 0; padding-left: 18px; font-size: 0.85rem; color: #24292f; }
+        .intro-box li { margin-bottom: 6px; }
+        
+        .support-box { background: #fff8c5; border-left: 4px solid #d4a72c; padding: 14px; border-radius: 6px; margin-top: 22px; text-align: center; }
+        .support-box p { color: #4d3800; font-weight: 600; margin-bottom: 10px; }
+        .btn-kofi { background: #ff5e5b; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 600; display: inline-block; margin-bottom: 6px; }
+        .paypal-link { display: block; font-size: 0.8rem; color: #57606a; text-decoration: underline; }
+        
+        ul { list-style: none; padding: 0; margin: 10px 0; }
+        /* Style mobile : Titre en haut, bouton aligné en bas à droite */
+        li { margin-bottom: 10px; padding: 12px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; flex-direction: column; gap: 8px; }
+        .title { font-weight: 600; font-size: 0.9rem; color: #1f2328; width: 100%; }
+        .btn-container { text-align: right; width: 100%; }
+        .btn { background: #0969da; color: white; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 0.82rem; font-weight: 500; display: inline-block; }
+        
+        .footer { margin-top: 22px; text-align: center; font-size: 0.78rem; color: #8c959f; border-top: 1px solid #eaeef2; padding-top: 12px; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>📡 Rss.feed.flow</h1>
         <div class="intro-box">
-            <p><strong>💡 Comment s'abonner à un flux :</strong></p>
+            <p><strong>💡 Comment s'abonner :</strong></p>
             <ol>
-                <li>Maintenez un appui long sur le bouton <strong>Flux XML</strong> de votre choix et sélectionnez <em>Copier l'adresse du lien</em>.</li>
-                <li>Ouvrez votre lecteur RSS open source préféré (ex: <strong>ReadYou</strong>, <strong>Feeder</strong>, <strong>Fressh</strong>) et collez le lien dans l'option <em>S'abonner / +</em>.</li>
+                <li>Maintenez un appui long sur le bouton <strong>Flux XML</strong> et sélectionnez <em>Copier l'adresse du lien</em>.</li>
+                <li>Collez le lien dans votre lecteur RSS open source (ex: <strong>ReadYou</strong>, <strong>Feeder</strong>).</li>
+                <li>⚙️ <strong>Optimisations Python :</strong> mise à jour automatique toutes les 6 heures via GitHub Actions, aucun doublon multi-sources et purge automatique des contenus de plus de 30 jours.</li>
             </ol>
         </div>
+
         <h2>📂 Flux RSS disponibles :</h2>
         <ul>
-            <li><span class="title">📜 GEO Histoire</span><a class="btn" href="geo_histoire.xml" target="_blank">Flux XML</a></li>
-            <li><span class="title">🌱 Permaculture (Permathèque)</span><a class="btn" href="permatheque.xml" target="_blank">Flux XML</a></li>
-            <li><span class="title">💎 Web3 & Airdrops</span><a class="btn" href="web3_airdrops.xml" target="_blank">Flux XML</a></li>
-            <li><span class="title">🇫🇷 Météo Express (France)</span><a class="btn" href="meteo_france.xml" target="_blank">Flux XML</a></li>
-            <li><span class="title">🌤️️ Météo Régionale (Côte-d'Or)</span><a class="btn" href="meteo_cote_dor.xml" target="_blank">Flux XML</a></li>
-            <li><span class="title">🤖 Tech DIY & Agents IA</span><a class="btn" href="tech_ia.xml" target="_blank">Flux XML</a></li>
+            <li>
+                <span class="title">📜 GEO Histoire</span>
+                <div class="btn-container"><a class="btn" href="geo_histoire.xml" target="_blank">Flux XML</a></div>
+            </li>
+            <li>
+                <span class="title">🌱 Permaculture (Permathèque)</span>
+                <div class="btn-container"><a class="btn" href="permatheque.xml" target="_blank">Flux XML</a></div>
+            </li>
+            <li>
+                <span class="title">💎 Web3 & Airdrops</span>
+                <div class="btn-container"><a class="btn" href="web3_airdrops.xml" target="_blank">Flux XML</a></div>
+            </li>
+            <li>
+                <span class="title">🇫🇷 Météo Express (France)</span>
+                <div class="btn-container"><a class="btn" href="meteo_france.xml" target="_blank">Flux XML</a></div>
+            </li>
+            <li>
+                <span class="title">🌤 Météo Régionale (Côte-d'Or)</span>
+                <div class="btn-container"><a class="btn" href="meteo_cote_dor.xml" target="_blank">Flux XML</a></div>
+            </li>
+            <li>
+                <span class="title">🤖 Tech DIY & Agents IA</span>
+                <div class="btn-container"><a class="btn" href="tech_ia.xml" target="_blank">Flux XML</a></div>
+            </li>
         </ul>
-        <div class="footer">Rss.feed.flow</div>
+
+        <div class="support-box">
+            <p>☕ Ces flux vous sont utiles au quotidien ?</p>
+            <a class="btn-kofi" href="https://ko-fi.com/multifloow" target="_blank">Offrir un café sur Ko-fi</a>
+            <a class="paypal-link" href="https://paypal.com/paypalme/Multifloo" target="_blank">Ou soutenir via PayPal.me</a>
+        </div>
+
+        <div class="footer">
+            Rss.feed.flow — Développé par <strong>GitHubPracticer</strong>
+        </div>
     </div>
 </body>
 </html>

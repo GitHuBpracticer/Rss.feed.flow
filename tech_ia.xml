@@ -1,87 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Tech DIY, Hardware &amp; IA (Minimachines)</title>
-    <link>https://www.minimachines.net/</link>
-    <description>Actualité Tech, Minimachines et Mini-PC</description>
+    <title>Tech IA</title>
+    <link>https://www.tomshardware.fr/</link>
+    <description>Flux Tech &amp; IA</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
+    <image>
+      <url>https://githubpracticer.github.io/Rss.feed.flow/logo_tech.png</url>
+      <title>Tech IA</title>
+      <link>https://www.tomshardware.fr/</link>
+    </image>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 18:50:16 +0000</lastBuildDate>
-    <item>
-      <title>Bon Flan : Logitech G PRO X Superlight 2 à 89.99€</title>
-      <link>https://www.minimachines.net/actu/logitech-g-pro-x-superlight-2-143067</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/logitech-g-pro-x-superlight-2-143067</guid>
-    </item>
-    <item>
-      <title>Acemagic Kron Mini K5 : le MiniPC Wildcat Lake à 549€</title>
-      <link>https://www.minimachines.net/actu/acemagic-kron-mini-k5-un-minipc-wildcat-lake-a-suivre-141925</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/acemagic-kron-mini-k5-un-minipc-wildcat-lake-a-suivre-141925</guid>
-    </item>
-    <item>
-      <title>Bon Flan : Amazon propose une station d’accueil Thunderbolt 4 à 96€ 🍮🍮🍮</title>
-      <link>https://www.minimachines.net/actu/station-daccueil-thunderbolt-4-143074</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/station-daccueil-thunderbolt-4-143074</guid>
-    </item>
-    <item>
-      <title>Naissance des Googlebooks et questions autour de Gemini</title>
-      <link>https://www.minimachines.net/actu/naissance-des-googlebooks-et-questions-autour-de-gemini-143070</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/naissance-des-googlebooks-et-questions-autour-de-gemini-143070</guid>
-    </item>
-    <item>
-      <title>La manette 8BitDo Pro 3 avec socle de charge à 49€ 🍮</title>
-      <link>https://www.minimachines.net/actu/bon-plan-8bitdo-pro-3-143081</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/bon-plan-8bitdo-pro-3-143081</guid>
-    </item>
-    <item>
-      <title>La miniliseuse Boox Picco de 3.97 pouces officialisée</title>
-      <link>https://www.minimachines.net/actu/miniliseuse-boox-picco-143084</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/miniliseuse-boox-picco-143084</guid>
-    </item>
-    <item>
-      <title>Bigme Hibreak Dual 3 : un smartphone double écran original</title>
-      <link>https://www.minimachines.net/actu/bigme-hibreak-dual-3-double-ecran-143090</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/bigme-hibreak-dual-3-double-ecran-143090</guid>
-    </item>
-    <item>
-      <title>Bon Flan : Amazon Fire TV Stick 4K Select à 27.99€🍮</title>
-      <link>https://www.minimachines.net/actu/amazon-fire-tv-stick-4k-select-141860</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/amazon-fire-tv-stick-4k-select-141860</guid>
-    </item>
-    <item>
-      <title>Stratasys fait condamner Bambu Lab aux US : 27.6 millions de dollars contre un peu de plastique</title>
-      <link>https://www.minimachines.net/actu/stratasys-bambu-lab-143099</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/stratasys-bambu-lab-143099</guid>
-    </item>
-    <item>
-      <title>Bon Flan : La liseuse Kindle Colorsoft 16 Go à 164.99€ 🍮</title>
-      <link>https://www.minimachines.net/actu/actu-bon-plan/kindle-colorsoft-136264</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/actu-bon-plan/kindle-colorsoft-136264</guid>
-    </item>
-    <item>
-      <title>Ugreen Nexode 130W : la batterie 20 000 mAh en promo</title>
-      <link>https://www.minimachines.net/actu/ugreen-nexode-130w-130065</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/ugreen-nexode-130w-130065</guid>
-    </item>
-    <item>
-      <title>Google tire le tapis sous les pieds des Chromebooks</title>
-      <link>https://www.minimachines.net/actu/google-fin-chromebooks-143103</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/google-fin-chromebooks-143103</guid>
-    </item>
-    <item>
-      <title>Honor Life E Ink e-reader S3 : une nouvelle miniliseuse sur le marché</title>
-      <link>https://www.minimachines.net/actu/honor-life-e-ink-e-reader-s3-143106</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/honor-life-e-ink-e-reader-s3-143106</guid>
-    </item>
-    <item>
-      <title>Ugreen Nexode Pro : de nouveaux chargeur GaN jusqu’en 300W</title>
-      <link>https://www.minimachines.net/actu/ugreen-nexode-pro-chargeur-gan-142640</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/ugreen-nexode-pro-chargeur-gan-142640</guid>
-    </item>
-    <item>
-      <title>Framework pousse son Desktop vers le Ryzen AI Max+ Pro 495 et 192 Go de mémoire</title>
-      <link>https://www.minimachines.net/actu/framework-desktop-ai-max-pro-495-142455</link>
-      <guid isPermaLink="false">https://www.minimachines.net/actu/framework-desktop-ai-max-pro-495-142455</guid>
-    </item>
+    <lastBuildDate>Wed, 30 Sep 2026 21:16:37 +0000</lastBuildDate>
   </channel>
 </rss>

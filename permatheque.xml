@@ -1,107 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Permathèque - Potager &amp; Permaculture</title>
-    <link>https://permatheque.fr</link>
-    <description>Guides et fiches pratiques de la Permathèque</description>
+    <title>Permaculture</title>
+    <link>https://permatheque.fr/</link>
+    <description>Flux Permaculture</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
+    <image>
+      <url>https://githubpracticer.github.io/Rss.feed.flow/logo_perma.png</url>
+      <title>Permaculture</title>
+      <link>https://permatheque.fr/</link>
+    </image>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 18:50:05 +0000</lastBuildDate>
-    <item>
-      <title>la charte Permatheque</title>
-      <link>https://www.permatheque.fr/charte-dengagement-permatheque/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/charte-dengagement-permatheque/</guid>
-    </item>
-    <item>
-      <title>Maisonnette, Grange et Terrain AgroEcologique en Normandie</title>
-      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/maisonnette-grange-et-terrain-agroecologique-en-normandie/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/maisonnette-grange-et-terrain-agroecologique-en-normandie/</guid>
-    </item>
-    <item>
-      <title>Vente terrain forêstier 9 hectares</title>
-      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/vente-terrain-forestier-9-hectares/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/vente-terrain-forestier-9-hectares/</guid>
-    </item>
-    <item>
-      <title>Immobilier &amp;amp; Installations</title>
-      <link>https://www.permatheque.fr/categories-annonces/immobilier-installation/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/immobilier-installation/</guid>
-    </item>
-    <item>
-      <title>Prête livre – La Permaculture au Jardin</title>
-      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/prete-livre-la-permaculture-au-jardin/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/prete-livre-la-permaculture-au-jardin/</guid>
-    </item>
-    <item>
-      <title>Seconde vie &amp;amp; Récup</title>
-      <link>https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/</guid>
-    </item>
-    <item>
-      <title>Autres catégories</title>
-      <link>https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/categories-diverses/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/seconde-vie-et-recuperation/categories-diverses/</guid>
-    </item>
-    <item>
-      <title>Donne griffes de sorcières</title>
-      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/donne-griffes-de-sorcieres/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/donne-griffes-de-sorcieres/</guid>
-    </item>
-    <item>
-      <title>Plantes et jeunes plants</title>
-      <link>https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/vegetaux/plantes-et-jeunes-plants/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/vegetaux/plantes-et-jeunes-plants/</guid>
-    </item>
-    <item>
-      <title>Oeufs de poules fécondés</title>
-      <link>https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/oeufs-de-poules-fecondes/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/les-petites-annonces-de-la-permaculture/oeufs-de-poules-fecondes/</guid>
-    </item>
-    <item>
-      <title>Agriculture &amp;amp; Jardin</title>
-      <link>https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/categories-annonces/agriculture-et-jardin/</guid>
-    </item>
-    <item>
-      <title>Add to Favourites</title>
-      <link>https://permatheque.frvoid(0)</link>
-      <guid isPermaLink="false">https://permatheque.frvoid(0)</guid>
-    </item>
-    <item>
-      <title>Promo !Déchets Land25,50€Le prix initial était : 25,50 €.12,20€Le prix actuel est : 12,20 €.</title>
-      <link>https://www.permatheque.fr/librairie/dechets-land/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/librairie/dechets-land/</guid>
-    </item>
-    <item>
-      <title>Fromages Sauvages35,00€</title>
-      <link>https://www.permatheque.fr/librairie/fromages-sauvages/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/librairie/fromages-sauvages/</guid>
-    </item>
-    <item>
-      <title>Plantes Bizarres25,00€</title>
-      <link>https://www.permatheque.fr/librairie/plantes-bizarres/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/librairie/plantes-bizarres/</guid>
-    </item>
+    <lastBuildDate>Wed, 30 Sep 2026 21:16:31 +0000</lastBuildDate>
     <item>
       <title>L’ostréiculteur qui replanta la forêt pour sauver ses huîtres</title>
       <link>https://www.permatheque.fr/2026/01/10/lostreiculteur-qui-replanta-la-foret-pour-sauver-ses-huitres/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/10/lostreiculteur-qui-replanta-la-foret-pour-sauver-ses-huitres/</guid>
+      <description>&lt;p&gt;&lt;img src="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/ostreiculture-ostreiculteur-algues-ecologie-foret-sauve-nature512-1.webp?fit=300%2C200&amp;ssl=1" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Ressource Permaculture&lt;/p&gt;</description>
+      <enclosure url="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/ostreiculture-ostreiculteur-algues-ecologie-foret-sauve-nature512-1.webp?fit=300%2C200&amp;ssl=1" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:35 +0000</pubDate>
     </item>
     <item>
       <title>Quand les villes cultivent des forêts</title>
       <link>https://www.permatheque.fr/2026/01/16/quand-les-villes-cultivent-des-forets/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/16/quand-les-villes-cultivent-des-forets/</guid>
+      <description>&lt;p&gt;&lt;img src="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/Quand-les-villes-cultivent-les-forets.jpg?fit=300%2C169&amp;ssl=1" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Ressource Permaculture&lt;/p&gt;</description>
+      <enclosure url="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/Quand-les-villes-cultivent-les-forets.jpg?fit=300%2C169&amp;ssl=1" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:35 +0000</pubDate>
     </item>
     <item>
       <title>La Synergie Humaine : Construire des Systèmes Collectifs Durables et Résilients</title>
       <link>https://www.permatheque.fr/2026/01/24/la-synergie-humaine-construire-des-systemes-collectifs-durables-et-resilients/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/2026/01/24/la-synergie-humaine-construire-des-systemes-collectifs-durables-et-resilients/</guid>
+      <description>&lt;p&gt;&lt;img src="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/Permatheque-Synergie-Humaine-1-e1769262540774.jpg?fit=300%2C200&amp;ssl=1" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Ressource Permaculture&lt;/p&gt;</description>
+      <enclosure url="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/01/Permatheque-Synergie-Humaine-1-e1769262540774.jpg?fit=300%2C200&amp;ssl=1" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:35 +0000</pubDate>
     </item>
     <item>
       <title>Comprendre les Microclimats : modèles réduits qui façonnent le territoire</title>
       <link>https://www.permatheque.fr/2026/02/01/comprendre-les-microclimats-modeles-reduits-qui-faconnent-le-territoire/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/2026/02/01/comprendre-les-microclimats-modeles-reduits-qui-faconnent-le-territoire/</guid>
+      <description>&lt;p&gt;&lt;img src="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/02/Permatheque-Permaculture-MicroClimats.jpg?fit=300%2C173&amp;ssl=1" alt="Miniature" style="max-width:100%; height:auto;" /&gt;&lt;/p&gt;&lt;p&gt;Ressource Permaculture&lt;/p&gt;</description>
+      <enclosure url="https://i0.wp.com/www.permatheque.fr/wp-content/uploads/2026/02/Permatheque-Permaculture-MicroClimats.jpg?fit=300%2C173&amp;ssl=1" length="None" type="image/jpeg"/>
+      <pubDate>Wed, 30 Sep 2026 21:16:35 +0000</pubDate>
     </item>
   </channel>
 </rss>
