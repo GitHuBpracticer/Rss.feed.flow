@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 10:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:13:48 +0000</lastBuildDate>
     <item>
       <title>Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
       <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
@@ -34,6 +34,11 @@
       <guid isPermaLink="false">https://meteo-express.com/actualites/environnement-pollution/</guid>
     </item>
     <item>
+      <title>Chaleur2/6</title>
+      <link>https://www.meteo-express.com/previsions/cartes-de-risques/?risque=chaleur</link>
+      <guid isPermaLink="false">https://www.meteo-express.com/previsions/cartes-de-risques/?risque=chaleur</guid>
+    </item>
+    <item>
       <title>samedisam.03</title>
       <link>https://www.meteo-express.com#20261003-1</link>
       <guid isPermaLink="false">https://www.meteo-express.com#20261003-1</guid>
@@ -50,8 +55,8 @@
     </item>
     <item>
       <title>mercredimer.30</title>
-      <link>https://www.meteo-express.com#20260930-1</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20260930-1</guid>
+      <link>https://www.meteo-express.com#20260930-2</link>
+      <guid isPermaLink="false">https://www.meteo-express.com#20260930-2</guid>
     </item>
     <item>
       <title>Consultez le suivi</title>
@@ -129,9 +134,9 @@
       <guid isPermaLink="false">https://meteo-express.com/previsions/bulletin-video/</guid>
     </item>
     <item>
-      <title>Météo à 10 jours</title>
-      <link>https://meteo-express.com/previsions/previsions-10-jours/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-10-jours/</guid>
+      <title>Prévisions</title>
+      <link>https://meteo-express.com/previsions/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/</guid>
     </item>
     <item>
       <title>Nous soutenir</title>
@@ -147,6 +152,11 @@
       <title>Observations</title>
       <link>https://meteo-express.com/observations/</link>
       <guid isPermaLink="false">https://meteo-express.com/observations/</guid>
+    </item>
+    <item>
+      <title>Prévisions</title>
+      <link>https://meteo-express.com/previsions/previsions-10-jours/</link>
+      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-10-jours/</guid>
     </item>
   </channel>
 </rss>
