@@ -14,7 +14,6 @@ HEADERS = {
 RETENTION_DAYS = 30
 CUTOFF_DATE = datetime.now(timezone.utc) - timedelta(days=RETENTION_DAYS)
 
-# Exclusions spécifiques aux éléments administratifs/menus
 EXCLUDED_TITLES = [
     "Site / Médias", "Partenaires", "Mentions légales", "Contact", 
     "Not Found", "Aucune mise à jour détectée", "404"
@@ -41,10 +40,13 @@ def create_feed_generator(title, link, description, logo_filename):
     fg.description(description)
     fg.language('fr')
     
-    # URL de base GitHub Pages pour les miniatures/icônes
-    base_icon_url = "https://githubpracticer.github.io/Rss.feed.flow/"
-    full_logo_url = f"{base_icon_url}{logo_filename}"
-    fg.image(url=full_logo_url, title=title, link=link)
+    icon_url = f"https://githubpracticer.github.io/Rss.feed.flow/icons/{logo_filename}"
+    
+    # Image RSS standard & balises Atom pour ReadYou
+    fg.image(url=icon_url, title=title, link=link)
+    fg.icon(icon_url)
+    fg.logo(icon_url)
+    
     return fg
 
 def add_entry_with_media(fg, title, link, description, pub_date, img_url=None):
@@ -58,7 +60,6 @@ def add_entry_with_media(fg, title, link, description, pub_date, img_url=None):
     
     clean_desc = clean_text(description)
     
-    # Injection d'image pour le lecteur ReadYou
     if img_url:
         formatted_desc = f'<p><img src="{img_url}" alt="Miniature" style="max-width:100%; height:auto;" /></p><p>{clean_desc}</p>'
         entry.enclosure(url=img_url, type='image/jpeg')
@@ -87,7 +88,6 @@ def scrape_geo_histoire(fg):
                     link = a_tag["href"]
                     if not link.startswith("http"):
                         link = f"https://www.geo.fr{link}"
-                    
                     img_url = img_tag.get("src") or img_tag.get("data-src") if img_tag else None
                     add_entry_with_media(fg, title, link, "Article Histoire de GEO.fr", datetime.now(timezone.utc), img_url)
     except Exception as e:
@@ -158,37 +158,57 @@ def scrape_meteo_express(fg):
                     title = title_tag.get_text()
                     link = a_tag["href"]
                     img_url = img_tag.get("src") if img_tag else None
-                    
-                    # Le filtre is_valid_item éliminera "Site / Médias" tout en gardant "Aurores boréales"
                     add_entry_with_media(fg, title, link, "Bulletin Météo Express France", datetime.now(timezone.utc), img_url)
     except Exception as e:
         print(f"Erreur Météo Express: {e}")
 
 # ---------------------------------------------------------
-# 5. SCRAPER : MÉTÉO CÔTE-D'OR / BOURGOGNE (FRANCE 3)
+# 5. SCRAPER : MÉTÉO CÔTE-D'OR & REGION (DIJON + FR3 BFC)
 # ---------------------------------------------------------
 def scrape_meteo_cote_dor(fg):
-    url = "https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/cote-d-or"
+    # Source A : France 3 Bourgogne-Franche-Comté (Côte-d'Or)
+    url_fr3 = "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/"
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=10)
+        resp = requests.get(url_fr3, headers=HEADERS, timeout=10)
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.content, "html.parser")
-            articles = soup.find_all("article", limit=15)
+            articles = soup.find_all("article", limit=10)
             for art in articles:
                 a_tag = art.find("a", href=True)
                 title_tag = art.find(["h2", "h3", "span"])
                 img_tag = art.find("img")
                 
                 if a_tag and title_tag:
-                    title = title_tag.get_text()
+                    title = f"[FR3 BFC] {title_tag.get_text()}"
                     link = a_tag["href"]
                     if not link.startswith("http"):
-                        link = f"https://france3-regions.francetvinfo.fr{link}"
-                        
+                        link = f"https://france3-regions.franceinfo.fr{link}"
                     img_url = img_tag.get("src") or img_tag.get("data-src") if img_tag else None
-                    add_entry_with_media(fg, title, link, "Actualité Régionale & Météo Bourgogne", datetime.now(timezone.utc), img_url)
+                    add_entry_with_media(fg, title, link, "Actualité & Météo FR3 Bourgogne-Franche-Comté", datetime.now(timezone.utc), img_url)
     except Exception as e:
-        print(f"Erreur Météo Côte-d'Or: {e}")
+        print(f"Erreur FR3 BFC: {e}")
+
+    # Source B : Météo Dijon / Côte-d'Or (Météo-Villes / Dijon)
+    url_dijon = "https://www.meteo-dijon.com/"
+    try:
+        resp = requests.get(url_dijon, headers=HEADERS, timeout=10)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+            articles = soup.find_all(["article", "div"], class_=re.compile(r'(news|actualite|post)'), limit=10)
+            for art in articles:
+                a_tag = art.find("a", href=True)
+                title_tag = art.find(["h2", "h3", "a"])
+                img_tag = art.find("img")
+                
+                if a_tag and title_tag:
+                    title = f"[Météo Dijon] {title_tag.get_text()}"
+                    link = a_tag["href"]
+                    if not link.startswith("http"):
+                        link = f"https://www.meteo-dijon.com{link}"
+                    img_url = img_tag.get("src") if img_tag else None
+                    add_entry_with_media(fg, title, link, "Prévisions & Bulletin Météo Dijon Côte-d'Or", datetime.now(timezone.utc), img_url)
+    except Exception as e:
+        print(f"Erreur Météo Dijon: {e}")
 
 # ---------------------------------------------------------
 # 6. SCRAPER : TECH DIY & AGENTS IA
@@ -240,7 +260,6 @@ def build_index_html():
         .paypal-link { display: block; font-size: 0.8rem; color: #57606a; text-decoration: underline; }
         
         ul { list-style: none; padding: 0; margin: 10px 0; }
-        /* Style mobile : Titre en haut, bouton aligné en bas à droite */
         li { margin-bottom: 10px; padding: 12px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; flex-direction: column; gap: 8px; }
         .title { font-weight: 600; font-size: 0.9rem; color: #1f2328; width: 100%; }
         .btn-container { text-align: right; width: 100%; }
@@ -280,7 +299,7 @@ def build_index_html():
                 <div class="btn-container"><a class="btn" href="meteo_france.xml" target="_blank">Flux XML</a></div>
             </li>
             <li>
-                <span class="title">🌤 Météo Régionale (Côte-d'Or)</span>
+                <span class="title">🌤 Météo Régionale (Dijon & FR3 BFC)</span>
                 <div class="btn-container"><a class="btn" href="meteo_cote_dor.xml" target="_blank">Flux XML</a></div>
             </li>
             <li>
@@ -311,18 +330,18 @@ def build_index_html():
 # ---------------------------------------------------------
 if __name__ == "__main__":
     feeds = [
-        ("GEO Histoire", "https://www.geo.fr/histoire", "Flux Histoire GEO.fr", "geo_histoire.xml", "logo_geo.png", scrape_geo_histoire),
-        ("Permaculture", "https://permatheque.fr/", "Flux Permaculture", "permatheque.xml", "logo_perma.png", scrape_permatheque),
-        ("Web3 & Airdrops", "https://coinspeaker.com/", "Flux Web3", "web3_airdrops.xml", "logo_web3.png", scrape_web3),
-        ("Météo Express", "https://meteo-express.com/", "Flux Météo France", "meteo_france.xml", "logo_meteo_fr.png", scrape_meteo_express),
-        ("Météo Côte-d'Or", "https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/cote-d-or", "Flux Météo Bourgogne", "meteo_cote_dor.xml", "logo_meteo_cotedor.png", scrape_meteo_cote_dor),
-        ("Tech IA", "https://www.tomshardware.fr/", "Flux Tech & IA", "tech_ia.xml", "logo_tech.png", scrape_tech_ia),
+        ("GEO Histoire", "https://www.geo.fr/histoire", "Flux Histoire GEO.fr", "geo_histoire.xml", "Geo.jpg", scrape_geo_histoire),
+        ("Permaculture", "https://permatheque.fr/", "Flux Permaculture", "permatheque.xml", "Permatheque.jpg", scrape_permatheque),
+        ("Web3 & Airdrops", "https://coinspeaker.com/", "Flux Web3", "web3_airdrops.xml", "Airdrops.jpg", scrape_web3),
+        ("Météo Express", "https://meteo-express.com/", "Flux Météo France", "meteo_france.xml", "FranceMeteo.jpg", scrape_meteo_express),
+        ("Météo Côte-d'Or & BFC", "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/", "Flux Météo Dijon & Bourgogne FR3", "meteo_cote_dor.xml", "BourgogneMeteo.jpg", scrape_meteo_cote_dor),
+        ("Tech IA", "https://www.tomshardware.fr/", "Flux Tech & IA", "tech_ia.xml", "TechAiDIY.jpg", scrape_tech_ia),
     ]
 
     for title, link, desc, filename, logo, scraper_func in feeds:
         fg = create_feed_generator(title, link, desc, logo)
         scraper_func(fg)
         fg.rss_file(filename, pretty=True)
-        print(f"✓ {filename} mis à jour.")
+        print(f"✓ {filename} mis à jour avec le logo icons/{logo}.")
 
     build_index_html()
