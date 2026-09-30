@@ -1,3 +1,4 @@
+import html
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -7,21 +8,25 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX (Bruit commun)
+# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX
 GLOBAL_IGNORED = [
     "contact", "mentions", "politique", "cookies", "facebook", 
     "instagram", "twitter", "connexion", "connecter", "propos", 
     "accueil", "charte", "auteurs", "équipe", "accessibilité"
 ]
 
-# 2. FONCTIONS DE NETTOYAGE
+# 2. FONCTIONS DE NETTOYAGE ET SÉCURISATION XML
 def clean_title(raw_title):
+    if not raw_title:
+        return ""
     # Supprime la durée de lecture parasite (ex: "6 minmin de lecture", "7 minutesmin de lecture")
     cleaned = re.sub(r'\d+\s*(min|minutes)?\s*min\s*de\s*lecture', '', raw_title, flags=re.IGNORECASE)
-    # Supprime les préfixes parasites répétitifs si présents dans les balises
+    # Supprime les préfixes parasites répétitifs
     cleaned = re.sub(r'^(GEO\s*:|IA\s*:)', '', cleaned, flags=re.IGNORECASE)
-    # Nettoyage des espaces multiples
-    return " ".join(cleaned.split()).strip()
+    # Nettoie les espaces superflus
+    cleaned = " ".join(cleaned.split()).strip()
+    # Échappe les caractères XML réservés (&, <, >, etc.)
+    return html.escape(cleaned)
 
 def is_valid_link(title, href, min_length=8, specific_ignored=None):
     if specific_ignored is None:
@@ -87,7 +92,7 @@ def build_geo_rss():
     print("✓ geo_histoire.xml généré.")
 
 # -------------------------------------------------------------------
-# 2. PERMATHÈQUE (Filtre assoupli)
+# 2. PERMATHÈQUE
 # -------------------------------------------------------------------
 def build_permatheque_rss():
     url = "https://permatheque.fr"
@@ -98,7 +103,6 @@ def build_permatheque_rss():
     fg.language("fr")
     fg.icon("https://permatheque.fr/favicon.ico")
 
-    # Uniquement des exclusions de bruit, aucun mot-clé obligatoire
     perma_ignored = ["soutenir", "événement", "annonce", "publier", "association", "pépinière", "don", "connexion"]
     entries_count = 0
 
@@ -275,7 +279,7 @@ def build_meteo_regionale_rss():
     print("✓ meteo_cote_dor.xml généré.")
 
 # -------------------------------------------------------------------
-# 5. TECH DIY, AGENTS IA & AUTOMATISATION (Avec Regex pour titres propres)
+# 5. TECH DIY, AGENTS IA & AUTOMATISATION
 # -------------------------------------------------------------------
 def build_tech_diy_rss():
     fg = FeedGenerator()
@@ -288,7 +292,6 @@ def build_tech_diy_rss():
     entries_count = 0
     seen_links = set()
 
-    # Source 1 : Les Numériques - IA
     try:
         url_num = "https://www.lesnumeriques.com/intelligence-artificielle.html"
         res = requests.get(url_num, headers=HEADERS, timeout=15)
@@ -309,7 +312,6 @@ def build_tech_diy_rss():
     except Exception as e:
         print(f"Erreur Tech Numériques: {e}")
 
-    # Source 2 : École Cube - Blog (avec nettoyage des durées de lecture)
     try:
         url_cube = "https://www.ecole.cube.fr/blog"
         res = requests.get(url_cube, headers=HEADERS, timeout=15)
@@ -393,4 +395,3 @@ if __name__ == "__main__":
     build_meteo_regionale_rss()
     build_tech_diy_rss()
     build_index_html()
-
