@@ -1,23 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>GEO.fr - Histoire</title>
+    <title>GEO Histoire</title>
     <link>https://www.geo.fr/histoire</link>
-    <description>Flux RSS généré pour GEO Histoire</description>
+    <description>Les derniers articles Histoire de GEO.fr</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 17:22:42 +0000</lastBuildDate>
-    <item>
-      <title>Equipe éditoriale</title>
-      <link>https://www.geo.fr/equipe-editoriale</link>
-      <guid isPermaLink="false">https://www.geo.fr/equipe-editoriale</guid>
-    </item>
-    <item>
-      <title>Gérer le consentement Utiq</title>
-      <link>https://www.geo.fr/page/service-utiq</link>
-      <guid isPermaLink="false">https://www.geo.fr/page/service-utiq</guid>
-    </item>
+    <lastBuildDate>Wed, 30 Sep 2026 18:50:05 +0000</lastBuildDate>
     <item>
       <title>paléontologieUne plume retrouvée dans les excréments fossilisés d’un dinosaure pourrait expliquer pourquoi les oiseaux ont disparu après l’impact de l’astéroïde</title>
       <link>https://www.geo.fr/histoire/une-plume-retrouvee-dans-les-excrements-fossilises-dun-dinosaure-pourrait-expliquer-pourquoi-les-oiseaux-ont-disparu-apres-limpact-de-lasteroide-233647</link>
@@ -27,11 +17,6 @@
       <title>ArchéologieAu Pérou, un mausolée resté intact pendant 600 ans enrichit nos connaissances sur la civilisation Chimú</title>
       <link>https://www.geo.fr/histoire/au-perou-un-mausolee-reste-intact-pendant-600-ans-enrichit-nos-connaissances-sur-la-civilisation-chimu-233652</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/au-perou-un-mausolee-reste-intact-pendant-600-ans-enrichit-nos-connaissances-sur-la-civilisation-chimu-233652</guid>
-    </item>
-    <item>
-      <title>Elizabeth d&amp;#x27;AngleterreÀ Buckingham Palace, d’étonnants objets retrouvés dans les murs lors de travaux</title>
-      <link>https://www.geo.fr/histoire/a-buckingham-palace-detonnants-objets-retrouves-dans-les-murs-lors-de-travaux-233660</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/a-buckingham-palace-detonnants-objets-retrouves-dans-les-murs-lors-de-travaux-233660</guid>
     </item>
     <item>
       <title>Union européenneEn quoi consiste le traité de Lisbonne de 2007 ?</title>
@@ -74,11 +59,6 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/nimes-aurait-ete-frappe-par-un-terrible-mal-vers-270-apr-j-c-revele-une-nouvelle-etude-233692</guid>
     </item>
     <item>
-      <title>renaissanceExposition: au château d&amp;#x27;Amboise, quand la Renaissance prenait la route</title>
-      <link>https://www.geo.fr/histoire/exposition-au-chateau-d-amboise-quand-la-renaissance-prenait-la-route-233698</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/exposition-au-chateau-d-amboise-quand-la-renaissance-prenait-la-route-233698</guid>
-    </item>
-    <item>
       <title>patrimoineJournées du Patrimoine: à Paris, découvrez la secrète et éblouissante maison Guimet</title>
       <link>https://www.geo.fr/histoire/journees-du-patrimoine-a-paris-decouvrez-la-secrete-et-eblouissante-maison-guimet-233710</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/journees-du-patrimoine-a-paris-decouvrez-la-secrete-et-eblouissante-maison-guimet-233710</guid>
@@ -97,16 +77,6 @@
       <title>colonisationCanal de Suez : il y a 70 ans, Nasser mettait fin à l’ordre colonial</title>
       <link>https://www.geo.fr/histoire/canal-de-suez-il-y-a-70-ans-nasser-mettait-fin-a-lordre-colonial-233708</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/canal-de-suez-il-y-a-70-ans-nasser-mettait-fin-a-lordre-colonial-233708</guid>
-    </item>
-    <item>
-      <title>guerreCivet de chat et consommé d&amp;#x27;éléphant: Paris 1870, l’apocalypse des animaux</title>
-      <link>https://www.geo.fr/histoire/civet-de-chat-et-consomme-d-elephant-paris-1870-lapocalypse-des-animaux-233608</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/civet-de-chat-et-consomme-d-elephant-paris-1870-lapocalypse-des-animaux-233608</guid>
-    </item>
-    <item>
-      <title>RoyautéHenri VIII avait chargé John Cage de dissoudre l&amp;#x27;église catholique d&amp;#x27;Angleterre... mais un manuscrit vient d&amp;#x27;être retrouvé</title>
-      <link>https://www.geo.fr/histoire/henri-viii-avait-charge-john-cage-de-dissoudre-l-eglise-catholique-d-angleterre-mais-un-manuscrit-vient-d-etre-retrouve-233703</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/henri-viii-avait-charge-john-cage-de-dissoudre-l-eglise-catholique-d-angleterre-mais-un-manuscrit-vient-d-etre-retrouve-233703</guid>
     </item>
     <item>
       <title>conflitGuerre du Cachemire : causes et évolution du conflit de 1947 à nos jours</title>
@@ -137,16 +107,6 @@
       <title>ArchéologieEn Turquie, cette immense piscine romaine vieille de 2 000 ans dévoile enfin ses secrets</title>
       <link>https://www.geo.fr/histoire/dans-louest-de-la-turquie-cette-piscine-romaine-de-37-metres-de-long-vieille-de-2000-ans-est-desormais-visible-au-public-232854</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/dans-louest-de-la-turquie-cette-piscine-romaine-de-37-metres-de-long-vieille-de-2000-ans-est-desormais-visible-au-public-232854</guid>
-    </item>
-    <item>
-      <title>ArchéologieCes mystérieuses poteries trouvées en Floride révèlent enfin le secret d&amp;#x27;une migration vieille de 1000 ans</title>
-      <link>https://www.geo.fr/histoire/ces-mysterieuses-poteries-trouvees-en-floride-revelent-enfin-le-secret-d-une-migration-vieille-de-1000-ans-233751</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/ces-mysterieuses-poteries-trouvees-en-floride-revelent-enfin-le-secret-d-une-migration-vieille-de-1000-ans-233751</guid>
-    </item>
-    <item>
-      <title>ArchéologieUn mur gaulois vieux de plus de 2000 ans découvert sous l&amp;#x27;Hôtel-Dieu pourrait révéler les origines de Paris</title>
-      <link>https://www.geo.fr/histoire/un-mur-gaulois-vieux-de-plus-de-2000-ans-decouvert-sous-l-hotel-dieu-pourrait-reveler-les-origines-de-paris-233771</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/un-mur-gaulois-vieux-de-plus-de-2000-ans-decouvert-sous-l-hotel-dieu-pourrait-reveler-les-origines-de-paris-233771</guid>
     </item>
     <item>
       <title>colonisationColonie de Roanoke : l’histoire vraie derrière le mythe</title>
@@ -194,11 +154,6 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/venise-la-verite-sur-les-origines-de-la-cite-des-doges-233765</guid>
     </item>
     <item>
-      <title>théâtreUne pièce de théâtre donne la parole aux victimes de Jack L&amp;#x27;Eventreur</title>
-      <link>https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/une-piece-de-theatre-donne-la-parole-aux-victimes-de-jack-l-eventreur-233729</guid>
-    </item>
-    <item>
       <title>ArchéologieIsraël : à Tel Shiloh, ce nouveau mur relance les recherches sur le Tabernacle biblique</title>
       <link>https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/en-israel-des-fouilles-revelent-de-nouveaux-indices-sur-lemplacement-du-tabernacle-biblique-232711</guid>
@@ -209,19 +164,9 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/a-mayotte-les-fouilles-dune-mosquee-de-800-ans-la-plus-vieille-de-france-revelent-un-etonnant-melange-de-cultures-233725</guid>
     </item>
     <item>
-      <title>En Grèce, des archéologues mettent au jour l&amp;#x27;école où Aristote aurait formé Alexandre le Grand</title>
-      <link>https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/en-grece-des-archeologues-mettent-au-jour-l-ecole-ou-aristote-aurait-forme-alexandre-le-grand-233761</guid>
-    </item>
-    <item>
       <title>Un ancien gardien du régime nazi rattrapé par la justice allemande à 105 ans</title>
       <link>https://www.geo.fr/histoire/un-ancien-gardien-du-regime-nazi-rattrape-par-la-justice-allemande-a-105-ans-233794</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/un-ancien-gardien-du-regime-nazi-rattrape-par-la-justice-allemande-a-105-ans-233794</guid>
-    </item>
-    <item>
-      <title>Des archives retrouvées à Munich mettent en doute la version officielle de la mort de Geli, la nièce d&amp;#x27;Hitler</title>
-      <link>https://www.geo.fr/histoire/des-archives-retrouvees-a-munich-mettent-en-doute-la-version-officielle-de-la-mort-de-la-niece-d-hitler-233768</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/des-archives-retrouvees-a-munich-mettent-en-doute-la-version-officielle-de-la-mort-de-la-niece-d-hitler-233768</guid>
     </item>
     <item>
       <title>Une église vieille de 800 ans découverte au Groenland révèle un étonnant village viking</title>
@@ -232,11 +177,6 @@
       <title>ToutankhamonDes chercheurs détectent de possibles chambres cachées à quelques mètres du tombeau de Toutânkhamon</title>
       <link>https://www.geo.fr/histoire/des-chercheurs-detectent-de-possibles-chambres-cachees-a-quelques-metres-du-tombeau-de-toutankhamon-233797</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/des-chercheurs-detectent-de-possibles-chambres-cachees-a-quelques-metres-du-tombeau-de-toutankhamon-233797</guid>
-    </item>
-    <item>
-      <title>ArchéologiePompéi livre encore des secrets: l&amp;#x27;éruption vieille de 2000 ans en dit long sur la datation de la Terre</title>
-      <link>https://www.geo.fr/histoire/pompei-livre-encore-des-secrets-l-eruption-vieille-de-2000-ans-en-dit-long-sur-la-datation-de-la-terre-233809</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/pompei-livre-encore-des-secrets-l-eruption-vieille-de-2000-ans-en-dit-long-sur-la-datation-de-la-terre-233809</guid>
     </item>
     <item>
       <title>ArchéologieLutèce gauloise: un mur découvert sur l’île de la Cité à Paris pourrait confirmer les récits de César</title>
@@ -254,34 +194,9 @@
       <guid isPermaLink="false">https://www.geo.fr/histoire/mexique-de-mysterieux-petroglyphes-decouverts-dans-une-grotte-reveleraient-les-secrets-de-lecriture-de-teotihuacan-233827</guid>
     </item>
     <item>
-      <title>CléopâtreReines et princesses rebelles 8/10: Cléopâtre Séléné II, l&amp;#x27;héritière oubliée de Cléopâtre VII et de Marc Antoine, qui régna sur la Maurétanie</title>
-      <link>https://www.geo.fr/histoire/reines-et-princesses-rebelles-8-10-cleopatre-selene-ii-l-heritiere-oubliee-de-cleopatre-vii-et-de-marc-antoine-qui-regna-sur-la-mauretanie-233573</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/reines-et-princesses-rebelles-8-10-cleopatre-selene-ii-l-heritiere-oubliee-de-cleopatre-vii-et-de-marc-antoine-qui-regna-sur-la-mauretanie-233573</guid>
-    </item>
-    <item>
       <title>préhistoireLe visage d’un Homo sapiens reconstitué à partir de fossiles découverts dans le désert marocain</title>
       <link>https://www.geo.fr/histoire/le-visage-dun-homo-sapiens-reconstitue-a-partir-de-fossiles-decouverts-dans-le-desert-marocain-233832</link>
       <guid isPermaLink="false">https://www.geo.fr/histoire/le-visage-dun-homo-sapiens-reconstitue-a-partir-de-fossiles-decouverts-dans-le-desert-marocain-233832</guid>
-    </item>
-    <item>
-      <title>Le chocolat est arrivé en France il y a plus de 400 ans, et voici comment il a conquis la cour de VersaillesProduit phare des fêtes de Pâques et des festivités de fin d&amp;#x27;année, le chocolat est un mets ultra-populaire en France – les Français en consomment en moyenne 6,4 kilos par an et par habitant. Aujourd&amp;#x27;hui cultivé en Amérique du Sud, en Afrique mais aussi en Indonésie, le chocolat n&amp;#x27;est pourtant arrivé en France qu&amp;#x27;au début du XVIIème siècle ! Retour sur sa découverte dans l&amp;#x27;Hexagone à l&amp;#x27;occasion de la Journée mondiale du chocolat célébrée le 1er octobre.</title>
-      <link>https://www.geo.fr/histoire/comment-le-chocolat-est-il-arrive-en-france-206524</link>
-      <guid isPermaLink="false">https://www.geo.fr/histoire/comment-le-chocolat-est-il-arrive-en-france-206524</guid>
-    </item>
-    <item>
-      <title>La guerre d&amp;#x27;Algérie</title>
-      <link>https://www.geo.fr/evenement/la-guerre-dalgerie</link>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/la-guerre-dalgerie</guid>
-    </item>
-    <item>
-      <title>Quiz de culture générale</title>
-      <link>https://www.geo.fr/tag/quiz-culture-generale</link>
-      <guid isPermaLink="false">https://www.geo.fr/tag/quiz-culture-generale</guid>
-    </item>
-    <item>
-      <title>Voyages en France</title>
-      <link>https://www.geo.fr/evenement/vacances-en-france</link>
-      <guid isPermaLink="false">https://www.geo.fr/evenement/vacances-en-france</guid>
     </item>
   </channel>
 </rss>

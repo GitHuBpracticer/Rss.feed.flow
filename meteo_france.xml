@@ -2,166 +2,61 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Météo Express - France</title>
-    <link>https://www.meteo-express.com</link>
-    <description>Prévisions et alertes météo nationales</description>
+    <link>https://meteo-express.com/actualites/</link>
+    <description>Actualités et bulletins météo France</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 17:22:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:50:14 +0000</lastBuildDate>
     <item>
-      <title>[France] Retour de la chaleur du 12 au 15 septembre : pics de 30 à 35°C lundi et mardi</title>
-      <link>https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</link>
-      <guid isPermaLink="false">https://meteo-express.com/retour-de-la-chaleur-du-12-au-15-septembre-pics-de-30-a-35c-lundi-et-mardi/</guid>
+      <title>Vents violents</title>
+      <link>https://meteo-express.com/actualites/vents-violents/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/vents-violents/</guid>
     </item>
     <item>
-      <title>[France] Une semaine très sèche et ensoleillée avec des après-midi estivaux</title>
-      <link>https://meteo-express.com/une-semaine-tres-seche-et-ensoleillee-avec-des-apres-midi-estivaux/</link>
-      <guid isPermaLink="false">https://meteo-express.com/une-semaine-tres-seche-et-ensoleillee-avec-des-apres-midi-estivaux/</guid>
+      <title>Site / Médias</title>
+      <link>https://meteo-express.com/actualites/site-medias/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/site-medias/</guid>
     </item>
     <item>
-      <title>[France] Chaleur / Douceur</title>
-      <link>https://meteo-express.com/actualites/chaleur-douceur/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/chaleur-douceur/</guid>
+      <title>Pluie / Inondations</title>
+      <link>https://meteo-express.com/actualites/pluie-inondations/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/pluie-inondations/</guid>
     </item>
     <item>
-      <title>[France] La sécheresse des sols atteints des niveaux records pour la saison</title>
-      <link>https://meteo-express.com/la-secheresse-des-sols-atteints-des-niveaux-records-pour-la-saison/</link>
-      <guid isPermaLink="false">https://meteo-express.com/la-secheresse-des-sols-atteints-des-niveaux-records-pour-la-saison/</guid>
+      <title>Neige / Verglas</title>
+      <link>https://meteo-express.com/actualites/neige-verglas/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/neige-verglas/</guid>
     </item>
     <item>
-      <title>[France] Environnement / Pollution</title>
+      <title>Froid / Fraîcheur</title>
+      <link>https://meteo-express.com/actualites/froid-fraicheur/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/froid-fraicheur/</guid>
+    </item>
+    <item>
+      <title>Environnement / Pollution</title>
       <link>https://meteo-express.com/actualites/environnement-pollution/</link>
       <guid isPermaLink="false">https://meteo-express.com/actualites/environnement-pollution/</guid>
     </item>
     <item>
-      <title>[France] Chaleur2/6</title>
-      <link>https://www.meteo-express.com/previsions/cartes-de-risques/?risque=chaleur</link>
-      <guid isPermaLink="false">https://www.meteo-express.com/previsions/cartes-de-risques/?risque=chaleur</guid>
+      <title>Climat / Société</title>
+      <link>https://meteo-express.com/actualites/climat-societe/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/climat-societe/</guid>
     </item>
     <item>
-      <title>[France] samedisam.03</title>
-      <link>https://www.meteo-express.com#20261003-1</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20261003-1</guid>
+      <title>Chaleur / Douceur</title>
+      <link>https://meteo-express.com/actualites/chaleur-douceur/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/chaleur-douceur/</guid>
     </item>
     <item>
-      <title>[France] vendrediven.02</title>
-      <link>https://www.meteo-express.com#20261002-1</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20261002-1</guid>
+      <title>Aurores boréales</title>
+      <link>https://meteo-express.com/actualites/aurores-boreales/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/aurores-boreales/</guid>
     </item>
     <item>
-      <title>[France] Après-midi</title>
-      <link>https://www.meteo-express.com#20261001-2</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20261001-2</guid>
-    </item>
-    <item>
-      <title>[France] jeudijeu.01</title>
-      <link>https://www.meteo-express.com#20261001-0</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20261001-0</guid>
-    </item>
-    <item>
-      <title>[France] mercredimer.30</title>
-      <link>https://www.meteo-express.com#20260930-3</link>
-      <guid isPermaLink="false">https://www.meteo-express.com#20260930-3</guid>
-    </item>
-    <item>
-      <title>[France] Consultez le suivi</title>
-      <link>https://meteo-express.com/suivi-vigilance/</link>
-      <guid isPermaLink="false">https://meteo-express.com/suivi-vigilance/</guid>
-    </item>
-    <item>
-      <title>[France] Faire un don</title>
-      <link>https://meteo-express.com/don/</link>
-      <guid isPermaLink="false">https://meteo-express.com/don/</guid>
-    </item>
-    <item>
-      <title>[France] Partenaires</title>
-      <link>https://meteo-express.com/liens-utiles/partenaires/</link>
-      <guid isPermaLink="false">https://meteo-express.com/liens-utiles/partenaires/</guid>
-    </item>
-    <item>
-      <title>[France] Liens utiles</title>
-      <link>https://meteo-express.com/liens-utiles/</link>
-      <guid isPermaLink="false">https://meteo-express.com/liens-utiles/</guid>
-    </item>
-    <item>
-      <title>[France] Actualités météo</title>
-      <link>https://meteo-express.com/actualites/</link>
-      <guid isPermaLink="false">https://meteo-express.com/actualites/</guid>
-    </item>
-    <item>
-      <title>[France] Le climat français</title>
-      <link>https://meteo-express.com/climatologie/climat-francais/</link>
-      <guid isPermaLink="false">https://meteo-express.com/climatologie/climat-francais/</guid>
-    </item>
-    <item>
-      <title>[France] Normales par villes</title>
-      <link>https://meteo-express.com/climatologie/normales-par-villes/</link>
-      <guid isPermaLink="false">https://meteo-express.com/climatologie/normales-par-villes/</guid>
-    </item>
-    <item>
-      <title>[France] Orages et foudre</title>
-      <link>https://meteo-express.com/observations/orages-et-foudre/</link>
-      <guid isPermaLink="false">https://meteo-express.com/observations/orages-et-foudre/</guid>
-    </item>
-    <item>
-      <title>[France] Températures</title>
-      <link>https://meteo-express.com/observations/temperatures/</link>
-      <guid isPermaLink="false">https://meteo-express.com/observations/temperatures/</guid>
-    </item>
-    <item>
-      <title>[France] Radar précipitations</title>
-      <link>https://meteo-express.com/observations/radar-precipitations/</link>
-      <guid isPermaLink="false">https://meteo-express.com/observations/radar-precipitations/</guid>
-    </item>
-    <item>
-      <title>[France] Images satellite</title>
-      <link>https://meteo-express.com/observations/images-satellite/</link>
-      <guid isPermaLink="false">https://meteo-express.com/observations/images-satellite/</guid>
-    </item>
-    <item>
-      <title>[France] Prévisions saisonnières</title>
-      <link>https://meteo-express.com/previsions/previsions-saisonnieres/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-saisonnieres/</guid>
-    </item>
-    <item>
-      <title>[France] Analyse technique</title>
-      <link>https://meteo-express.com/previsions/analyse-technique/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/analyse-technique/</guid>
-    </item>
-    <item>
-      <title>[France] Cartes de risques</title>
-      <link>https://meteo-express.com/previsions/cartes-de-risques/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/cartes-de-risques/</guid>
-    </item>
-    <item>
-      <title>[France] Bulletin vidéo</title>
-      <link>https://meteo-express.com/previsions/bulletin-video/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/bulletin-video/</guid>
-    </item>
-    <item>
-      <title>[France] Prévisions</title>
-      <link>https://meteo-express.com/previsions/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/</guid>
-    </item>
-    <item>
-      <title>[France] Nous soutenir</title>
-      <link>https://www.meteo-express.com/don</link>
-      <guid isPermaLink="false">https://www.meteo-express.com/don</guid>
-    </item>
-    <item>
-      <title>[France] Climatologie</title>
-      <link>https://meteo-express.com/climatologie/</link>
-      <guid isPermaLink="false">https://meteo-express.com/climatologie/</guid>
-    </item>
-    <item>
-      <title>[France] Observations</title>
-      <link>https://meteo-express.com/observations/</link>
-      <guid isPermaLink="false">https://meteo-express.com/observations/</guid>
-    </item>
-    <item>
-      <title>[France] Prévisions</title>
-      <link>https://meteo-express.com/previsions/previsions-10-jours/</link>
-      <guid isPermaLink="false">https://meteo-express.com/previsions/previsions-10-jours/</guid>
+      <title>Astronomie / Espace</title>
+      <link>https://meteo-express.com/actualites/astronomie-espace/</link>
+      <guid isPermaLink="false">https://meteo-express.com/actualites/astronomie-espace/</guid>
     </item>
   </channel>
 </rss>

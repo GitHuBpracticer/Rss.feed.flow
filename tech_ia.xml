@@ -1,262 +1,87 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Tech DIY, IA Locale &amp; Open Source</title>
-    <link>https://www.ecole.cube.fr/blog</link>
-    <description>Tutoriels et actualités sur les agents IA et l'automatisation</description>
+    <title>Tech DIY, Hardware &amp; IA (Minimachines)</title>
+    <link>https://www.minimachines.net/</link>
+    <description>Actualité Tech, Minimachines et Mini-PC</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 17:22:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:50:16 +0000</lastBuildDate>
     <item>
-      <title>[Tuto IA/Auto] IAAgent IA en 2026 - Mode d’emploiThomas Groc17/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/agent-ia</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/agent-ia</guid>
+      <title>Bon Flan : Logitech G PRO X Superlight 2 à 89.99€</title>
+      <link>https://www.minimachines.net/actu/logitech-g-pro-x-superlight-2-143067</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/logitech-g-pro-x-superlight-2-143067</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IATop 17 des applications IA gratuites en 2026Thomas Groc17/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/application-ia-gratuite</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/application-ia-gratuite</guid>
+      <title>Acemagic Kron Mini K5 : le MiniPC Wildcat Lake à 549€</title>
+      <link>https://www.minimachines.net/actu/acemagic-kron-mini-k5-un-minipc-wildcat-lake-a-suivre-141925</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/acemagic-kron-mini-k5-un-minipc-wildcat-lake-a-suivre-141925</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IAChat IA : les 9 meilleurs chats IA en 2026Thomas Groc17/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/meilleur-chat-ia</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleur-chat-ia</guid>
+      <title>Bon Flan : Amazon propose une station d’accueil Thunderbolt 4 à 96€ 🍮🍮🍮</title>
+      <link>https://www.minimachines.net/actu/station-daccueil-thunderbolt-4-143074</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/station-daccueil-thunderbolt-4-143074</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] CommunautéPortrait d&amp;#x27;Alumni : Grégoire MoreelsPierre Launay17/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/retour-alumni-gregoire-moreels</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/retour-alumni-gregoire-moreels</guid>
+      <title>Naissance des Googlebooks et questions autour de Gemini</title>
+      <link>https://www.minimachines.net/actu/naissance-des-googlebooks-et-questions-autour-de-gemini-143070</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/naissance-des-googlebooks-et-questions-autour-de-gemini-143070</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IANotre classement des meilleurs outils IA pour les designersThomas Groc21/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/meilleurs-outils-ia-designers</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleurs-outils-ia-designers</guid>
+      <title>La manette 8BitDo Pro 3 avec socle de charge à 49€ 🍮</title>
+      <link>https://www.minimachines.net/actu/bon-plan-8bitdo-pro-3-143081</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/bon-plan-8bitdo-pro-3-143081</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] CarrièreReconversion IA : bonne ou mauvaise idée ?Thomas Groc21/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/reconversion-ia---bonne-ou-mauvaise-idee</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/reconversion-ia---bonne-ou-mauvaise-idee</guid>
+      <title>La miniliseuse Boox Picco de 3.97 pouces officialisée</title>
+      <link>https://www.minimachines.net/actu/miniliseuse-boox-picco-143084</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/miniliseuse-boox-picco-143084</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IAMeilleurs outils d&amp;#x27;intelligence artificielle gratuits : Notre top 6Thomas Groc21/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/top-5-des-meilleurs-outils-pour-utiliser-lintelligence-artificielle-gratuitement</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/top-5-des-meilleurs-outils-pour-utiliser-lintelligence-artificielle-gratuitement</guid>
+      <title>Bigme Hibreak Dual 3 : un smartphone double écran original</title>
+      <link>https://www.minimachines.net/actu/bigme-hibreak-dual-3-double-ecran-143090</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/bigme-hibreak-dual-3-double-ecran-143090</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA11 outils d&amp;#x27;intelligence artificielle qui révolutionnent la traductionThomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/8-outils-dintelligence-artificielle-qui-revolutionnent-la-traduction-2025</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/8-outils-dintelligence-artificielle-qui-revolutionnent-la-traduction-2025</guid>
+      <title>Bon Flan : Amazon Fire TV Stick 4K Select à 27.99€🍮</title>
+      <link>https://www.minimachines.net/actu/amazon-fire-tv-stick-4k-select-141860</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/amazon-fire-tv-stick-4k-select-141860</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 mnmin de lectureMeilleurs agents IA : Notre classement en 2026Thomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/agent-ia-classement</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/agent-ia-classement</guid>
+      <title>Stratasys fait condamner Bambu Lab aux US : 27.6 millions de dollars contre un peu de plastique</title>
+      <link>https://www.minimachines.net/actu/stratasys-bambu-lab-143099</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/stratasys-bambu-lab-143099</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] No-CodeLes meilleurs outils No-Code open source en 2026Thomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/les-meilleurs-outils-no-code-open-source-en-2024</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/les-meilleurs-outils-no-code-open-source-en-2024</guid>
+      <title>Bon Flan : La liseuse Kindle Colorsoft 16 Go à 164.99€ 🍮</title>
+      <link>https://www.minimachines.net/actu/actu-bon-plan/kindle-colorsoft-136264</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/actu-bon-plan/kindle-colorsoft-136264</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IAMeilleurs outils IA pour les développeurs : Notre classement en 2026Thomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/meilleurs-outils-ia-developpeurs</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleurs-outils-ia-developpeurs</guid>
+      <title>Ugreen Nexode 130W : la batterie 20 000 mAh en promo</title>
+      <link>https://www.minimachines.net/actu/ugreen-nexode-130w-130065</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/ugreen-nexode-130w-130065</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IANotebookLM : Des notes intelligentes pour un travail plus efficaceThomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/notebooklm-des-notes-intelligentes-pour-un-travail-plus-efficace</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/notebooklm-des-notes-intelligentes-pour-un-travail-plus-efficace</guid>
+      <title>Google tire le tapis sous les pieds des Chromebooks</title>
+      <link>https://www.minimachines.net/actu/google-fin-chromebooks-143103</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/google-fin-chromebooks-143103</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA6 mnmin de lectureTop 10 des meilleurs podcasts IA en 2026Pierre Launay22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/podcasts-ia</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/podcasts-ia</guid>
+      <title>Honor Life E Ink e-reader S3 : une nouvelle miniliseuse sur le marché</title>
+      <link>https://www.minimachines.net/actu/honor-life-e-ink-e-reader-s3-143106</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/honor-life-e-ink-e-reader-s3-143106</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] No-CodeQuel outil en ligne pour créer mon site facilement sans coder ?Thomas Groc22/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/quel-outil-en-ligne-creer-site-sans-coder</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/quel-outil-en-ligne-creer-site-sans-coder</guid>
+      <title>Ugreen Nexode Pro : de nouveaux chargeur GaN jusqu’en 300W</title>
+      <link>https://www.minimachines.net/actu/ugreen-nexode-pro-chargeur-gan-142640</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/ugreen-nexode-pro-chargeur-gan-142640</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IAFormation Claude Code (Anthropic)Thomas Groc24/4/2026</title>
-      <link>https://www.ecole.cube.fr/blog/formation-claude-code</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/formation-claude-code</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IAGénérer une image avec l&amp;#x27;IA : Meilleurs outils 2026Thomas Groc26/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/classement-generation-image-ia</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/classement-generation-image-ia</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IAComparateur d’IA : Choisissez intelligemment votre outil IAThomas Groc26/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/comparateur-dia-choisissez-intelligemment</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/comparateur-dia-choisissez-intelligemment</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IAMistral vs ChatGPT - Le match en 2026Thomas Groc26/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/mistral-vs-chatgpt</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/mistral-vs-chatgpt</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IASora AI, le générateur de vidéo d’OpenAI en 2026Thomas Groc26/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/sora-ai-le-nouveau-generateur-de-video-d-open-ai</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/sora-ai-le-nouveau-generateur-de-video-d-open-ai</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] Growth MarketingAnswer Engine Optimization (AEO)Pierre Launay27/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/aeo</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/aeo</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IASkills Claude : comment automatiser vos tâches avec l’IA ?Pierre Launay27/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/skills-claude</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/skills-claude</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] Growth MarketingGEO : tout ce qu’il faut savoir sur le Generative Engine OptimizationPierre Launay27/5/2026</title>
-      <link>https://www.ecole.cube.fr/blog/geo-generative-engine-optimization</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/geo-generative-engine-optimization</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IAAI Act : ce que la réglementation européenne change pour les entreprises, les salariés et les créateurs de contenusMorgane Sérée11/8/2026</title>
-      <link>https://www.ecole.cube.fr/blog/ai-act</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/ai-act</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] Growth MarketingCertification marketing digital : le guide 2026 pour choisirMorgane Sérée3/9/2026</title>
-      <link>https://www.ecole.cube.fr/blog/certifications-marketing-digital</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/certifications-marketing-digital</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] Growth MarketingHumaniser l&amp;#x27;IA : Comment rendre un texte d’intelligence artificielle plus humain ?Thomas Groc17/9/2026</title>
-      <link>https://www.ecole.cube.fr/blog/humaniser-ia</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/humaniser-ia</guid>
-    </item>
-    <item>
-      <title>[Tuto IA/Auto] IAWorld models : comment ils révolutionnent l’intelligence artificielle ?Thomas Groc17/9/2026</title>
-      <link>https://www.ecole.cube.fr/blog/world-models</link>
-      <guid isPermaLink="false">https://www.ecole.cube.fr/blog/world-models</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] &amp;quot;C&amp;#x27;est un cataclysme&amp;quot; : Cédric Villani et 24 autres médaillés Fields se disent secoués par la percée mathématique de l&amp;#x27;IA</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/c-est-un-cataclysme-cedric-villani-et-24-autres-medailles-fields-se-disent-secoues-par-la-percee-mathematique-de-l-ia-n262074.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/c-est-un-cataclysme-cedric-villani-et-24-autres-medailles-fields-se-disent-secoues-par-la-percee-mathematique-de-l-ia-n262074.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Voir toutes les Actualités</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/actualites</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] &amp;quot;Personne n&amp;#x27;avait réussi en 108 ans&amp;quot; : GPT-6 Astra déchiffre un code militaire allemand de la Première Guerre mondiale27 novembre 1918, 1 h 27 du matin. Un opérateur radio allemand transmet un message chiffré à destination d&amp;#x27;un amiral à Berlin. Le contenu...il y a 9 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/personne-n-avait-reussi-en-108-ans-gpt-6-astra-dechiffre-un-code-militaire-allemand-de-la-premiere-guerre-mondiale-n262096.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/personne-n-avait-reussi-en-108-ans-gpt-6-astra-dechiffre-un-code-militaire-allemand-de-la-premiere-guerre-mondiale-n262096.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 3Premier combat officiel entre un homme et un robot : le Terminator T800 d&amp;#x27;EngineAI n&amp;#x27;a eu aucune pitiéUn homme, une cage, un robot de 1,73 m capable de délivrer 450 N·m de couple par articulation. Le premier combat officiel humain contre r...il y a 8 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/premier-combat-officiel-entre-un-homme-et-un-robot-le-terminator-t800-d-engineai-n-a-eu-aucune-pitie-n262131.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/premier-combat-officiel-entre-un-homme-et-un-robot-le-terminator-t800-d-engineai-n-a-eu-aucune-pitie-n262131.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 2Oubliez l&amp;#x27;intelligence artificielle, Trump change son nom en &amp;quot;super intelligence&amp;quot; pour une raison lunaireOubliez l’intelligence artificielle, Donald Trump veut changer son nom pour &amp;quot;super intelligence&amp;quot;. Et la raison pour justifier cette décis...il y a 8 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/oubliez-l-intelligence-artificielle-trump-change-son-nom-en-super-intelligence-pour-une-raison-lunaire-n262199.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/oubliez-l-intelligence-artificielle-trump-change-son-nom-en-super-intelligence-pour-une-raison-lunaire-n262199.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Claude Opus 5.5 face à GPT-6 Sol et Luna : trois nouvelles IA d&amp;#x27;un coup, et des prix qui chutentLe 12 septembre, le patron d&amp;#x27;Anthropic appelait l&amp;#x27;industrie à lever le pied. Ce mardi 22 septembre, la société dégaine Claude Opus 5.5, m...il y a 7 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-opus-5-5-face-a-gpt-6-sol-et-luna-trois-nouvelles-ia-d-un-coup-et-des-prix-qui-chutent-n262202.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-opus-5-5-face-a-gpt-6-sol-et-luna-trois-nouvelles-ia-d-un-coup-et-des-prix-qui-chutent-n262202.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 6Plus de datacenters en France pour rendre l’IA moins polluante : l’étonnante conclusion des sénateursPour réduire l’empreinte environnementale de l’intelligence artificielle, le Sénat recommande de bâtir plus de datacenters en France. Une...il y a 7 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/plus-de-datacenters-en-france-pour-rendre-l-ia-moins-polluante-l-etonnante-conclusion-des-senateurs-n262230.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/plus-de-datacenters-en-france-pour-rendre-l-ia-moins-polluante-l-etonnante-conclusion-des-senateurs-n262230.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 6&amp;quot;12 à 13 heures par jour à appuyer sur Entrée&amp;quot; : le cri d&amp;#x27;alarme d&amp;#x27;un développeur face à l&amp;#x27;IA Claude CodeL&amp;#x27;IA devait libérer les développeurs, elle les enchaîne à leur clavier. Un ingénieur décrit des journées de 13 heures à valider le code d...il y a 7 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 2&amp;quot;Profondément alarmant&amp;quot; : une IA d&amp;#x27;OpenAI a piraté un portail de santé du gouvernement australien, une première mondialeUn agent d&amp;#x27;IA d&amp;#x27;OpenAI (ChatGPT) devait trouver des statistiques de santé sur le web. Pour y parvenir, il a forcé l&amp;#x27;entrée d&amp;#x27;un portail g...il y a 6 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] “L&amp;#x27;abus d&amp;#x27;IA le plus grave jamais documenté” : la première cyberattaque industrielle par IA a volé 600 000 cartes bancaires, et elle est toujours en coursUn pirate sinophone a lâché trois frameworks d&amp;#x27;IA autonomes sur des centaines de sites de e-commerce depuis juillet. Coût moyen par entre...il y a 6 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Voir tous les tutoriels</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=tutoriels</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=tutoriels</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Balance ton spam : l’IA peut vous aider à vous protéger contre le courrier indésirable et le phishingTutoriel parStephane Ruscher</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/balance-ton-spam-l-ia-peut-vous-aider-a-vous-proteger-contre-le-courrier-indesirable-et-le-phishing-a237654.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/balance-ton-spam-l-ia-peut-vous-aider-a-vous-proteger-contre-le-courrier-indesirable-et-le-phishing-a237654.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Voir tous les dossiers</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=articles</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites?type=articles</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 2L&amp;#x27;IA est déjà en train de dévorer votre métier : ces secteurs sont les prochains sur la listeDossier parFlorent Lanne</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/l-ia-est-deja-en-train-de-devorer-votre-metier-ces-secteurs-sont-les-prochains-sur-la-liste-a260477.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-ia-est-deja-en-train-de-devorer-votre-metier-ces-secteurs-sont-les-prochains-sur-la-liste-a260477.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] ChatGPT ne fonctionne plus ? Voici comment résoudre rapidement le problèmeDossier parAymeric Geoffre-Rouland</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/chatgpt-ne-fonctionne-plus-voici-comment-resoudre-rapidement-le-probleme-a233132.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/chatgpt-ne-fonctionne-plus-voici-comment-resoudre-rapidement-le-probleme-a233132.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 2“Si on avait su, on se serait battus” : l’arrivée surprise d’un mini datacenter ultra-bruyant révolte ce quartieril y a 5 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/si-on-avait-su-on-se-serait-battus-l-arrivee-surprise-d-un-mini-datacenter-ultra-bruyant-revolte-ce-quartier-n262335.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/si-on-avait-su-on-se-serait-battus-l-arrivee-surprise-d-un-mini-datacenter-ultra-bruyant-revolte-ce-quartier-n262335.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] L&amp;#x27;Apple Watch peut résumer vos conversations, de quoi inquiéter ceux qu&amp;#x27;elle écouteil y a 4 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/l-apple-watch-peut-resumer-vos-conversations-de-quoi-inquieter-ceux-qu-elle-ecoute-n262066.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-apple-watch-peut-resumer-vos-conversations-de-quoi-inquieter-ceux-qu-elle-ecoute-n262066.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 3“C&amp;#x27;était surréaliste” : les IA de ChatGPT ont piraté des sites gouvernementaux américains, OpenAI arrête toutil y a 2 jours</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Claude Sonnet 5.5 est là : presque aussi puissant qu&amp;#x27;Opus 5.5, pour moitié moins cherHier à 08:14</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-sonnet-5-5-est-la-presque-aussi-puissant-qu-opus-5-5-pour-moitie-moins-cher-n262465.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-sonnet-5-5-est-la-presque-aussi-puissant-qu-opus-5-5-pour-moitie-moins-cher-n262465.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] 3Claude : son créateur alerte sur des “risques existentiels pour l&amp;#x27;humanité” et une IA capable de ”résister à son propre arrêt” avant son entrée en BourseHier à 16:25</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-son-createur-alerte-sur-des-risques-existentiels-pour-l-humanite-et-une-ia-capable-de-resister-a-son-propre-arret-avant-son-entree-en-bourse-n262488.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-son-createur-alerte-sur-des-risques-existentiels-pour-l-humanite-et-une-ia-capable-de-resister-a-son-propre-arret-avant-son-entree-en-bourse-n262488.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Il se fait duper par une IA et transfère 95 millions d&amp;#x27;euros sur le compte d&amp;#x27;un escroc : la somme appartenait à son employeur, une grande banque européenne2</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Claude en panne ce 29 septembre : des centaines de signalements et plusieurs services touchés</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/claude-en-panne-ce-29-septembre-des-centaines-de-signalements-et-plusieurs-services-touches-n262496.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-en-panne-ce-29-septembre-des-centaines-de-signalements-et-plusieurs-services-touches-n262496.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Un fermier vend son terrain à 10 € dans le but d&amp;#x27;en faire un parc pour les enfants, la ville le revend plusieurs millions afin d&amp;#x27;y construire un centre de données IA à la place</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/un-fermier-vend-son-terrain-a-10-dans-le-but-d-en-faire-un-parc-pour-les-enfants-la-ville-le-revend-plusieurs-millions-afin-d-y-construire-un-centre-de-donnees-ia-a-la-place-n262539.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/un-fermier-vend-son-terrain-a-10-dans-le-but-d-en-faire-un-parc-pour-les-enfants-la-ville-le-revend-plusieurs-millions-afin-d-y-construire-un-centre-de-donnees-ia-a-la-place-n262539.html</guid>
-    </item>
-    <item>
-      <title>[Les Numériques] Bloquer l&amp;#x27;IA Google</title>
-      <link>https://www.lesnumeriques.com/intelligence-artificielle/desactivez-les-reponses-ia-de-google-en-une-minute-sur-chrome-firefox-et-safari-n259612.html</link>
-      <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/desactivez-les-reponses-ia-de-google-en-une-minute-sur-chrome-firefox-et-safari-n259612.html</guid>
+      <title>Framework pousse son Desktop vers le Ryzen AI Max+ Pro 495 et 192 Go de mémoire</title>
+      <link>https://www.minimachines.net/actu/framework-desktop-ai-max-pro-495-142455</link>
+      <guid isPermaLink="false">https://www.minimachines.net/actu/framework-desktop-ai-max-pro-495-142455</guid>
     </item>
   </channel>
 </rss>
