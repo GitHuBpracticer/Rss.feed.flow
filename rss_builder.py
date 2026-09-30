@@ -1,3 +1,4 @@
+import re
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
@@ -6,15 +7,23 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX (Bruit présent sur presque tous les sites)
+# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX (Bruit commun)
 GLOBAL_IGNORED = [
     "contact", "mentions", "politique", "cookies", "facebook", 
     "instagram", "twitter", "connexion", "connecter", "propos", 
     "accueil", "charte", "auteurs", "équipe", "accessibilité"
 ]
 
-# 2. FONCTION DE FILTRAGE CENTRALISÉE
-def is_valid_link(title, href, min_length=12, specific_ignored=None):
+# 2. FONCTIONS DE NETTOYAGE
+def clean_title(raw_title):
+    # Supprime la durée de lecture parasite (ex: "6 minmin de lecture", "7 minutesmin de lecture")
+    cleaned = re.sub(r'\d+\s*(min|minutes)?\s*min\s*de\s*lecture', '', raw_title, flags=re.IGNORECASE)
+    # Supprime les préfixes parasites répétitifs si présents dans les balises
+    cleaned = re.sub(r'^(GEO\s*:|IA\s*:)', '', cleaned, flags=re.IGNORECASE)
+    # Nettoyage des espaces multiples
+    return " ".join(cleaned.split()).strip()
+
+def is_valid_link(title, href, min_length=8, specific_ignored=None):
     if specific_ignored is None:
         specific_ignored = []
     
@@ -42,9 +51,10 @@ def build_geo_rss():
     fg = FeedGenerator()
     fg.title("GEO.fr - Histoire")
     fg.link(href=url, rel="alternate")
-    fg.description("Flux RSS généré automatiquement pour GEO Histoire")
+    fg.description("Flux RSS généré pour GEO Histoire")
     fg.language("fr")
-    
+    fg.icon("https://www.geo.fr/favicon.ico")
+
     geo_ignored = ["abonner", "abonnement", "offre", "boutique", "kiosque", "magazine"]
     entries_count = 0
 
@@ -55,7 +65,7 @@ def build_geo_rss():
             seen_links = set()
 
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
 
                 if is_valid_link(title, href, min_length=15, specific_ignored=geo_ignored):
@@ -77,7 +87,7 @@ def build_geo_rss():
     print("✓ geo_histoire.xml généré.")
 
 # -------------------------------------------------------------------
-# 2. PERMATHÈQUE
+# 2. PERMATHÈQUE (Filtre assoupli)
 # -------------------------------------------------------------------
 def build_permatheque_rss():
     url = "https://permatheque.fr"
@@ -86,8 +96,10 @@ def build_permatheque_rss():
     fg.link(href=url, rel="alternate")
     fg.description("Guides et fiches pratiques de la Permathèque")
     fg.language("fr")
+    fg.icon("https://permatheque.fr/favicon.ico")
 
-    perma_ignored = ["soutenir", "événement", "annonce", "publier", "association", "pépinière", "don"]
+    # Uniquement des exclusions de bruit, aucun mot-clé obligatoire
+    perma_ignored = ["soutenir", "événement", "annonce", "publier", "association", "pépinière", "don", "connexion"]
     entries_count = 0
 
     try:
@@ -97,10 +109,10 @@ def build_permatheque_rss():
             seen_links = set()
 
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
 
-                if is_valid_link(title, href, min_length=12, specific_ignored=perma_ignored):
+                if is_valid_link(title, href, min_length=8, specific_ignored=perma_ignored):
                     full_url = href if href.startswith("http") else f"https://permatheque.fr{href}"
                     if full_url not in seen_links and full_url != "https://permatheque.fr/":
                         seen_links.add(full_url)
@@ -119,7 +131,7 @@ def build_permatheque_rss():
     print("✓ permatheque.xml généré.")
 
 # -------------------------------------------------------------------
-# 3. WEB3 & AIRDROPS (Cryptoast + CoinAcademy)
+# 3. WEB3 & AIRDROPS
 # -------------------------------------------------------------------
 def build_web3_rss():
     fg = FeedGenerator()
@@ -127,20 +139,20 @@ def build_web3_rss():
     fg.link(href="https://cryptoast.fr/actu/airdrop/", rel="alternate")
     fg.description("Guides, opportunités et actualités Airdrops Web3")
     fg.language("fr")
+    fg.icon("https://cryptoast.fr/favicon.ico")
 
     entries_count = 0
     seen_links = set()
 
-    # Source 1 : Cryptoast Airdrops
     try:
         url_cryptoast = "https://cryptoast.fr/actu/airdrop/"
         res = requests.get(url_cryptoast, headers=HEADERS, timeout=15)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
-                if is_valid_link(title, href, min_length=15) and "airdrop" in href.lower():
+                if is_valid_link(title, href, min_length=12) and "airdrop" in href.lower():
                     if href.startswith("https://cryptoast.fr") and href not in seen_links:
                         seen_links.add(href)
                         fe = fg.add_entry()
@@ -151,16 +163,15 @@ def build_web3_rss():
     except Exception as e:
         print(f"Erreur Web3 Cryptoast: {e}")
 
-    # Source 2 : CoinAcademy Airdrops
     try:
         url_coinacademy = "https://coinacademy.fr/crypto-airdrops/"
         res = requests.get(url_coinacademy, headers=HEADERS, timeout=15)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
-                if is_valid_link(title, href, min_length=15) and ("airdrop" in href.lower() or "guide" in href.lower()):
+                if is_valid_link(title, href, min_length=12) and ("airdrop" in href.lower() or "guide" in href.lower()):
                     full_url = href if href.startswith("http") else f"https://coinacademy.fr{href}"
                     if full_url not in seen_links:
                         seen_links.add(full_url)
@@ -186,8 +197,9 @@ def build_meteo_nationale_rss():
     fg = FeedGenerator()
     fg.title("Météo Express - France")
     fg.link(href=url, rel="alternate")
-    fg.description("Prévisions et alertes météo au niveau national")
+    fg.description("Prévisions et alertes météo nationales")
     fg.language("fr")
+    fg.icon("https://www.meteo-express.com/favicon.ico")
 
     entries_count = 0
     try:
@@ -197,7 +209,7 @@ def build_meteo_nationale_rss():
             seen_links = set()
 
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
 
                 if is_valid_link(title, href, min_length=10):
@@ -205,7 +217,7 @@ def build_meteo_nationale_rss():
                     if full_url not in seen_links:
                         seen_links.add(full_url)
                         fe = fg.add_entry()
-                        fe.title(title)
+                        fe.title(f"[France] {title}")
                         fe.link(href=full_url)
                         fe.id(full_url)
                         entries_count += 1
@@ -226,8 +238,9 @@ def build_meteo_regionale_rss():
     fg = FeedGenerator()
     fg.title("Météo - Bourgogne & Côte-d'Or")
     fg.link(href=url, rel="alternate")
-    fg.description("Actualités et alertes météo ciblées Bourgogne / Côte-d'Or (21)")
+    fg.description("Actualités météo Bourgogne / Côte-d'Or (21)")
     fg.language("fr")
+    fg.icon("https://www.meteo-express.com/favicon.ico")
 
     keywords = ["bourgogne", "côte-d'or", "cote-d'or", "21", "dijon", "est", "centre-est"]
     entries_count = 0
@@ -239,7 +252,7 @@ def build_meteo_regionale_rss():
             seen_links = set()
 
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
 
                 text_to_check = f"{title} {href}".lower()
@@ -262,14 +275,15 @@ def build_meteo_regionale_rss():
     print("✓ meteo_cote_dor.xml généré.")
 
 # -------------------------------------------------------------------
-# 5. TECH DIY, AGENTS IA & AUTOMATISATION
+# 5. TECH DIY, AGENTS IA & AUTOMATISATION (Avec Regex pour titres propres)
 # -------------------------------------------------------------------
 def build_tech_diy_rss():
     fg = FeedGenerator()
-    fg.title("Tech DIY, Agents IA & Automatisation")
+    fg.title("Tech DIY, IA Locale & Open Source")
     fg.link(href="https://www.ecole.cube.fr/blog", rel="alternate")
-    fg.description("Tutoriels et actualités sur les agents IA, le no-code et l'automatisation")
+    fg.description("Tutoriels et actualités sur les agents IA et l'automatisation")
     fg.language("fr")
+    fg.icon("https://www.lesnumeriques.com/favicon.ico")
 
     entries_count = 0
     seen_links = set()
@@ -281,7 +295,7 @@ def build_tech_diy_rss():
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
                 if is_valid_link(title, href, min_length=15) and ("/ia-" in href.lower() or "/intelligence-artificielle/" in href.lower()):
                     full_url = href if href.startswith("http") else f"https://www.lesnumeriques.com{href}"
@@ -295,16 +309,16 @@ def build_tech_diy_rss():
     except Exception as e:
         print(f"Erreur Tech Numériques: {e}")
 
-    # Source 2 : École Cube - Blog Agents IA & Automatisation
+    # Source 2 : École Cube - Blog (avec nettoyage des durées de lecture)
     try:
         url_cube = "https://www.ecole.cube.fr/blog"
         res = requests.get(url_cube, headers=HEADERS, timeout=15)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, "html.parser")
             for a_tag in soup.find_all("a", href=True):
-                title = a_tag.get_text(strip=True)
+                title = clean_title(a_tag.get_text(strip=True))
                 href = a_tag["href"]
-                if is_valid_link(title, href, min_length=12) and ("/blog/" in href.lower()):
+                if is_valid_link(title, href, min_length=10) and ("/blog/" in href.lower()):
                     full_url = href if href.startswith("http") else f"https://www.ecole.cube.fr{href}"
                     if full_url not in seen_links and full_url != "https://www.ecole.cube.fr/blog":
                         seen_links.add(full_url)
@@ -350,43 +364,19 @@ def build_index_html():
 <body>
     <div class="container">
         <h1>📡 Rss.feed.flow</h1>
-        
         <div class="intro-box">
-            <p><strong>À propos du projet :</strong> Ce service génère automatiquement des flux RSS personnalisés à partir de sites web ne proposant pas de flux natif. Il s'exécute de manière autonome via GitHub Actions.</p>
-            <p style="margin-bottom:0;">💡 <strong>Utilisation :</strong> Cliquez sur <em>« Ouvrir le flux »</em> pour consulter le XML brut, ou copiez l'adresse du lien pour l'ajouter directement dans votre lecteur RSS (ex: <em>Read You</em>, <em>Feeder</em>).</p>
+            <p><strong>Service autonome :</strong> Flux RSS personnalisés générés par GitHub Actions.</p>
         </div>
-
         <h2>📂 Flux RSS disponibles :</h2>
         <ul>
-            <li>
-                <span class="title">📜 GEO Histoire</span>
-                <a class="btn" href="geo_histoire.xml" target="_blank">Ouvrir le flux</a>
-            </li>
-            <li>
-                <span class="title">🌱 Permaculture (Permathèque)</span>
-                <a class="btn" href="permatheque.xml" target="_blank">Ouvrir le flux</a>
-            </li>
-            <li>
-                <span class="title">💎 Web3 & Airdrops</span>
-                <a class="btn" href="web3_airdrops.xml" target="_blank">Ouvrir le flux</a>
-            </li>
-            <li>
-                <span class="title">🇫🇷 Météo Express (France entière)</span>
-                <a class="btn" href="meteo_france.xml" target="_blank">Ouvrir le flux</a>
-            </li>
-            <li>
-                <span class="title">🌤️ Météo Régionale (Bourgogne / Côte-d'Or)</span>
-                <a class="btn" href="meteo_cote_dor.xml" target="_blank">Ouvrir le flux</a>
-            </li>
-            <li>
-                <span class="title">🤖 Tech DIY, Agents IA & Automatisation</span>
-                <a class="btn" href="tech_ia.xml" target="_blank">Ouvrir le flux</a>
-            </li>
+            <li><span class="title">📜 GEO Histoire</span><a class="btn" href="geo_histoire.xml" target="_blank">Ouvrir le flux</a></li>
+            <li><span class="title">🌱 Permaculture (Permathèque)</span><a class="btn" href="permatheque.xml" target="_blank">Ouvrir le flux</a></li>
+            <li><span class="title">💎 Web3 & Airdrops</span><a class="btn" href="web3_airdrops.xml" target="_blank">Ouvrir le flux</a></li>
+            <li><span class="title">🇫🇷 Météo Express (France)</span><a class="btn" href="meteo_france.xml" target="_blank">Ouvrir le flux</a></li>
+            <li><span class="title">🌤️ Météo Régionale (Côte-d'Or)</span><a class="btn" href="meteo_cote_dor.xml" target="_blank">Ouvrir le flux</a></li>
+            <li><span class="title">🤖 Tech DIY & Agents IA</span><a class="btn" href="tech_ia.xml" target="_blank">Ouvrir le flux</a></li>
         </ul>
-
-        <div class="footer">
-            Généré automatiquement via Python & GitHub Pages
-        </div>
+        <div class="footer">Rss.feed.flow</div>
     </div>
 </body>
 </html>
@@ -403,4 +393,4 @@ if __name__ == "__main__":
     build_meteo_regionale_rss()
     build_tech_diy_rss()
     build_index_html()
-    
+

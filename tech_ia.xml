@@ -1,50 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Tech DIY, Agents IA &amp; Automatisation</title>
+    <title>Tech DIY, IA Locale &amp; Open Source</title>
     <link>https://www.ecole.cube.fr/blog</link>
-    <description>Tutoriels et actualités sur les agents IA, le no-code et l'automatisation</description>
+    <description>Tutoriels et actualités sur les agents IA et l'automatisation</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 12:13:51 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:20:31 +0000</lastBuildDate>
     <item>
-      <title>[Tuto IA/Auto] IA7 minmin de lectureAgent IA en 2026 - Mode d’emploiThomas Groc17/4/2026</title>
+      <title>[Tuto IA/Auto] IAAgent IA en 2026 - Mode d’emploiThomas Groc17/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/agent-ia</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/agent-ia</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA7 minmin de lectureTop 17 des applications IA gratuites en 2026Thomas Groc17/4/2026</title>
+      <title>[Tuto IA/Auto] IATop 17 des applications IA gratuites en 2026Thomas Groc17/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/application-ia-gratuite</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/application-ia-gratuite</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureChat IA : les 9 meilleurs chats IA en 2026Thomas Groc17/4/2026</title>
+      <title>[Tuto IA/Auto] IAChat IA : les 9 meilleurs chats IA en 2026Thomas Groc17/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/meilleur-chat-ia</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleur-chat-ia</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Communauté5 minmin de lecturePortrait d'Alumni : Grégoire MoreelsPierre Launay17/4/2026</title>
+      <title>[Tuto IA/Auto] CommunautéPortrait d'Alumni : Grégoire MoreelsPierre Launay17/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/retour-alumni-gregoire-moreels</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/retour-alumni-gregoire-moreels</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureNotre classement des meilleurs outils IA pour les designersThomas Groc21/4/2026</title>
+      <title>[Tuto IA/Auto] IANotre classement des meilleurs outils IA pour les designersThomas Groc21/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/meilleurs-outils-ia-designers</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleurs-outils-ia-designers</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Carrière5 minmin de lectureReconversion IA : bonne ou mauvaise idée ?Thomas Groc21/4/2026</title>
+      <title>[Tuto IA/Auto] CarrièreReconversion IA : bonne ou mauvaise idée ?Thomas Groc21/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/reconversion-ia---bonne-ou-mauvaise-idee</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/reconversion-ia---bonne-ou-mauvaise-idee</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureMeilleurs outils d'intelligence artificielle gratuits : Notre top 6Thomas Groc21/4/2026</title>
+      <title>[Tuto IA/Auto] IAMeilleurs outils d'intelligence artificielle gratuits : Notre top 6Thomas Groc21/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/top-5-des-meilleurs-outils-pour-utiliser-lintelligence-artificielle-gratuitement</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/top-5-des-meilleurs-outils-pour-utiliser-lintelligence-artificielle-gratuitement</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lecture11 outils d'intelligence artificielle qui révolutionnent la traductionThomas Groc22/4/2026</title>
+      <title>[Tuto IA/Auto] IA11 outils d'intelligence artificielle qui révolutionnent la traductionThomas Groc22/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/8-outils-dintelligence-artificielle-qui-revolutionnent-la-traduction-2025</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/8-outils-dintelligence-artificielle-qui-revolutionnent-la-traduction-2025</guid>
     </item>
@@ -54,17 +54,17 @@
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/agent-ia-classement</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] No-Code4 minmin de lectureLes meilleurs outils No-Code open source en 2026Thomas Groc22/4/2026</title>
+      <title>[Tuto IA/Auto] No-CodeLes meilleurs outils No-Code open source en 2026Thomas Groc22/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/les-meilleurs-outils-no-code-open-source-en-2024</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/les-meilleurs-outils-no-code-open-source-en-2024</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureMeilleurs outils IA pour les développeurs : Notre classement en 2026Thomas Groc22/4/2026</title>
+      <title>[Tuto IA/Auto] IAMeilleurs outils IA pour les développeurs : Notre classement en 2026Thomas Groc22/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/meilleurs-outils-ia-developpeurs</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/meilleurs-outils-ia-developpeurs</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureNotebookLM : Des notes intelligentes pour un travail plus efficaceThomas Groc22/4/2026</title>
+      <title>[Tuto IA/Auto] IANotebookLM : Des notes intelligentes pour un travail plus efficaceThomas Groc22/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/notebooklm-des-notes-intelligentes-pour-un-travail-plus-efficace</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/notebooklm-des-notes-intelligentes-pour-un-travail-plus-efficace</guid>
     </item>
@@ -74,67 +74,67 @@
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/podcasts-ia</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] No-Code9 minmin de lectureQuel outil en ligne pour créer mon site facilement sans coder ?Thomas Groc22/4/2026</title>
+      <title>[Tuto IA/Auto] No-CodeQuel outil en ligne pour créer mon site facilement sans coder ?Thomas Groc22/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/quel-outil-en-ligne-creer-site-sans-coder</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/quel-outil-en-ligne-creer-site-sans-coder</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA6 minmin de lectureFormation Claude Code (Anthropic)Thomas Groc24/4/2026</title>
+      <title>[Tuto IA/Auto] IAFormation Claude Code (Anthropic)Thomas Groc24/4/2026</title>
       <link>https://www.ecole.cube.fr/blog/formation-claude-code</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/formation-claude-code</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureGénérer une image avec l'IA : Meilleurs outils 2026Thomas Groc26/5/2026</title>
+      <title>[Tuto IA/Auto] IAGénérer une image avec l'IA : Meilleurs outils 2026Thomas Groc26/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/classement-generation-image-ia</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/classement-generation-image-ia</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA6 minmin de lectureComparateur d’IA : Choisissez intelligemment votre outil IAThomas Groc26/5/2026</title>
+      <title>[Tuto IA/Auto] IAComparateur d’IA : Choisissez intelligemment votre outil IAThomas Groc26/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/comparateur-dia-choisissez-intelligemment</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/comparateur-dia-choisissez-intelligemment</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5min de lectureMistral vs ChatGPT - Le match en 2026Thomas Groc26/5/2026</title>
+      <title>[Tuto IA/Auto] IAMistral vs ChatGPT - Le match en 2026Thomas Groc26/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/mistral-vs-chatgpt</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/mistral-vs-chatgpt</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA3 minmin de lectureSora AI, le générateur de vidéo d’OpenAI en 2026Thomas Groc26/5/2026</title>
+      <title>[Tuto IA/Auto] IASora AI, le générateur de vidéo d’OpenAI en 2026Thomas Groc26/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/sora-ai-le-nouveau-generateur-de-video-d-open-ai</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/sora-ai-le-nouveau-generateur-de-video-d-open-ai</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Growth Marketing5 minmin de lectureAnswer Engine Optimization (AEO)Pierre Launay27/5/2026</title>
+      <title>[Tuto IA/Auto] Growth MarketingAnswer Engine Optimization (AEO)Pierre Launay27/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/aeo</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/aeo</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureSkills Claude : comment automatiser vos tâches avec l’IA ?Pierre Launay27/5/2026</title>
+      <title>[Tuto IA/Auto] IASkills Claude : comment automatiser vos tâches avec l’IA ?Pierre Launay27/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/skills-claude</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/skills-claude</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Growth Marketing6 minmin de lectureGEO : tout ce qu’il faut savoir sur le Generative Engine OptimizationPierre Launay27/5/2026</title>
+      <title>[Tuto IA/Auto] Growth MarketingGEO : tout ce qu’il faut savoir sur le Generative Engine OptimizationPierre Launay27/5/2026</title>
       <link>https://www.ecole.cube.fr/blog/geo-generative-engine-optimization</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/geo-generative-engine-optimization</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA7 minutesmin de lectureAI Act : ce que la réglementation européenne change pour les entreprises, les salariés et les créateurs de contenusMorgane Sérée11/8/2026</title>
+      <title>[Tuto IA/Auto] IAAI Act : ce que la réglementation européenne change pour les entreprises, les salariés et les créateurs de contenusMorgane Sérée11/8/2026</title>
       <link>https://www.ecole.cube.fr/blog/ai-act</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/ai-act</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Growth Marketing5 minutesmin de lectureCertification marketing digital : le guide 2026 pour choisirMorgane Sérée3/9/2026</title>
+      <title>[Tuto IA/Auto] Growth MarketingCertification marketing digital : le guide 2026 pour choisirMorgane Sérée3/9/2026</title>
       <link>https://www.ecole.cube.fr/blog/certifications-marketing-digital</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/certifications-marketing-digital</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] Growth Marketing5 minmin de lectureHumaniser l'IA : Comment rendre un texte d’intelligence artificielle plus humain ?Thomas Groc17/9/2026</title>
+      <title>[Tuto IA/Auto] Growth MarketingHumaniser l'IA : Comment rendre un texte d’intelligence artificielle plus humain ?Thomas Groc17/9/2026</title>
       <link>https://www.ecole.cube.fr/blog/humaniser-ia</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/humaniser-ia</guid>
     </item>
     <item>
-      <title>[Tuto IA/Auto] IA5 minmin de lectureWorld models : comment ils révolutionnent l’intelligence artificielle ?Thomas Groc17/9/2026</title>
+      <title>[Tuto IA/Auto] IAWorld models : comment ils révolutionnent l’intelligence artificielle ?Thomas Groc17/9/2026</title>
       <link>https://www.ecole.cube.fr/blog/world-models</link>
       <guid isPermaLink="false">https://www.ecole.cube.fr/blog/world-models</guid>
     </item>
@@ -144,12 +144,12 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/actualites</guid>
     </item>
     <item>
-      <title>[Les Numériques] 10"C'est un cataclysme" : Cédric Villani et 24 autres médaillés Fields se disent secoués par la percée mathématique de l'IATrois jours après qu'OpenAI a annoncé avoir résolu l'un des problèmes du millénaire grâce à 10 000 agents d'IA autonomes, 25 lauréats de...il y a 9 jours</title>
+      <title>[Les Numériques] 10"C'est un cataclysme" : Cédric Villani et 24 autres médaillés Fields se disent secoués par la percée mathématique de l'IATrois jours après qu'OpenAI a annoncé avoir résolu l'un des problèmes du millénaire grâce à 10 000 agents d'IA autonomes, 25 lauréats de...il y a 9 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/c-est-un-cataclysme-cedric-villani-et-24-autres-medailles-fields-se-disent-secoues-par-la-percee-mathematique-de-l-ia-n262074.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/c-est-un-cataclysme-cedric-villani-et-24-autres-medailles-fields-se-disent-secoues-par-la-percee-mathematique-de-l-ia-n262074.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] "Personne n'avait réussi en 108 ans" : GPT-6 Astra déchiffre un code militaire allemand de la Première Guerre mondiale27 novembre 1918, 1 h 27 du matin. Un opérateur radio allemand transmet un message chiffré à destination d'un amiral à Berlin. Le contenu...il y a 9 jours</title>
+      <title>[Les Numériques] "Personne n'avait réussi en 108 ans" : GPT-6 Astra déchiffre un code militaire allemand de la Première Guerre mondiale27 novembre 1918, 1 h 27 du matin. Un opérateur radio allemand transmet un message chiffré à destination d'un amiral à Berlin. Le contenu...il y a 9 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/personne-n-avait-reussi-en-108-ans-gpt-6-astra-dechiffre-un-code-militaire-allemand-de-la-premiere-guerre-mondiale-n262096.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/personne-n-avait-reussi-en-108-ans-gpt-6-astra-dechiffre-un-code-militaire-allemand-de-la-premiere-guerre-mondiale-n262096.html</guid>
     </item>
@@ -174,17 +174,17 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/plus-de-datacenters-en-france-pour-rendre-l-ia-moins-polluante-l-etonnante-conclusion-des-senateurs-n262230.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] 6"12 à 13 heures par jour à appuyer sur Entrée" : le cri d'alarme d'un développeur face à l'IA Claude CodeL'IA devait libérer les développeurs, elle les enchaîne à leur clavier. Un ingénieur décrit des journées de 13 heures à valider le code d...il y a 7 jours</title>
+      <title>[Les Numériques] 6"12 à 13 heures par jour à appuyer sur Entrée" : le cri d'alarme d'un développeur face à l'IA Claude CodeL'IA devait libérer les développeurs, elle les enchaîne à leur clavier. Un ingénieur décrit des journées de 13 heures à valider le code d...il y a 7 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/12-a-13-heures-par-jour-a-appuyer-sur-entree-le-cri-d-alarme-d-un-developpeur-face-a-l-ia-claude-code-n262240.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] 2"Profondément alarmant" : une IA d'OpenAI a piraté un portail de santé du gouvernement australien, une première mondialeUn agent d'IA d'OpenAI (ChatGPT) devait trouver des statistiques de santé sur le web. Pour y parvenir, il a forcé l'entrée d'un portail g...il y a 6 jours</title>
+      <title>[Les Numériques] 2"Profondément alarmant" : une IA d'OpenAI a piraté un portail de santé du gouvernement australien, une première mondialeUn agent d'IA d'OpenAI (ChatGPT) devait trouver des statistiques de santé sur le web. Pour y parvenir, il a forcé l'entrée d'un portail g...il y a 6 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/profondement-alarmant-une-ia-d-openai-a-pirate-un-portail-de-sante-du-gouvernement-australien-une-premiere-mondiale-n262253.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] “L'abus d'IA le plus grave jamais documenté” : la première cyberattaque industrielle par IA a volé 600 000 cartes bancaires, et elle est toujours en coursUn pirate sinophone a lâché trois frameworks d'IA autonomes sur des centaines de sites de e-commerce depuis juillet. Coût moyen par entre...il y a 6 jours</title>
+      <title>[Les Numériques] “L'abus d'IA le plus grave jamais documenté” : la première cyberattaque industrielle par IA a volé 600 000 cartes bancaires, et elle est toujours en coursUn pirate sinophone a lâché trois frameworks d'IA autonomes sur des centaines de sites de e-commerce depuis juillet. Coût moyen par entre...il y a 6 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-abus-d-ia-le-plus-grave-jamais-documente-la-premiere-cyberattaque-industrielle-par-ia-a-vole-600-000-cartes-bancaires-et-elle-est-toujours-en-cours-n262286.html</guid>
     </item>
@@ -209,7 +209,7 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-ia-est-deja-en-train-de-devorer-votre-metier-ces-secteurs-sont-les-prochains-sur-la-liste-a260477.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] ChatGPT ne fonctionne plus ? Voici comment résoudre rapidement le problèmeDossier parAymeric Geoffre-Rouland</title>
+      <title>[Les Numériques] ChatGPT ne fonctionne plus ? Voici comment résoudre rapidement le problèmeDossier parAymeric Geoffre-Rouland</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/chatgpt-ne-fonctionne-plus-voici-comment-resoudre-rapidement-le-probleme-a233132.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/chatgpt-ne-fonctionne-plus-voici-comment-resoudre-rapidement-le-probleme-a233132.html</guid>
     </item>
@@ -224,7 +224,7 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/l-apple-watch-peut-resumer-vos-conversations-de-quoi-inquieter-ceux-qu-elle-ecoute-n262066.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] 3“C'était surréaliste” : les IA de ChatGPT ont piraté des sites gouvernementaux américains, OpenAI arrête toutil y a 2 jours</title>
+      <title>[Les Numériques] 3“C'était surréaliste” : les IA de ChatGPT ont piraté des sites gouvernementaux américains, OpenAI arrête toutil y a 2 jours</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/c-etait-surrealiste-les-ia-de-chatgpt-ont-pirate-des-sites-gouvernementaux-americains-openai-arrete-tout-n262416.html</guid>
     </item>
@@ -239,7 +239,7 @@
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/claude-son-createur-alerte-sur-des-risques-existentiels-pour-l-humanite-et-une-ia-capable-de-resister-a-son-propre-arret-avant-son-entree-en-bourse-n262488.html</guid>
     </item>
     <item>
-      <title>[Les Numériques] Il se fait duper par une IA et transfère 95 millions d'euros sur le compte d'un escroc : la somme appartenait à son employeur, une grande banque européenne2</title>
+      <title>[Les Numériques] Il se fait duper par une IA et transfère 95 millions d'euros sur le compte d'un escroc : la somme appartenait à son employeur, une grande banque européenne2</title>
       <link>https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</link>
       <guid isPermaLink="false">https://www.lesnumeriques.com/intelligence-artificielle/il-se-fait-duper-par-une-ia-et-transfere-95-millions-d-euros-sur-le-compte-d-un-escroc-la-somme-appartenait-a-son-employeur-une-grande-banque-europeenne-n262497.html</guid>
     </item>

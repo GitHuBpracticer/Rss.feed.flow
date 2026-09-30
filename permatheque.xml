@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>fr</language>
-    <lastBuildDate>Wed, 30 Sep 2026 12:13:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 13:20:20 +0000</lastBuildDate>
     <item>
       <title>Valider la commande</title>
       <link>https://www.permatheque.fr/commander/</link>
@@ -39,6 +39,11 @@
       <guid isPermaLink="false">https://www.harmonie-holistique.org</guid>
     </item>
     <item>
+      <title>Zen Fusion</title>
+      <link>https://www.zen-fusion.com</link>
+      <guid isPermaLink="false">https://www.zen-fusion.com</guid>
+    </item>
+    <item>
       <title>Conseil Ayurveda</title>
       <link>https://www.conseil-ayurveda.fr</link>
       <guid isPermaLink="false">https://www.conseil-ayurveda.fr</guid>
@@ -54,6 +59,21 @@
       <guid isPermaLink="false">https://www.permatheque.fr/soumettre-un-projet-au-financement-participatif/</guid>
     </item>
     <item>
+      <title>Les Bases</title>
+      <link>https://www.permatheque.fr/category/les-bases-de-la-permaculture/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/les-bases-de-la-permaculture/</guid>
+    </item>
+    <item>
+      <title>Pinterest</title>
+      <link>https://fr.pinterest.com/permatheque/</link>
+      <guid isPermaLink="false">https://fr.pinterest.com/permatheque/</guid>
+    </item>
+    <item>
+      <title>LinkedIn</title>
+      <link>https://www.linkedin.com/in/site-permatheque-73540189/</link>
+      <guid isPermaLink="false">https://www.linkedin.com/in/site-permatheque-73540189/</guid>
+    </item>
+    <item>
       <title>Add to Favourites</title>
       <link>https://permatheque.frvoid(0)</link>
       <guid isPermaLink="false">https://permatheque.frvoid(0)</guid>
@@ -64,7 +84,7 @@
       <guid isPermaLink="false">https://permatheque.fr/?add-to-cart=1923</guid>
     </item>
     <item>
-      <title>Promo !Déchets Land25,50€Le prix initial était : 25,50 €.12,20€Le prix actuel est : 12,20 €.</title>
+      <title>Promo !Déchets Land25,50€Le prix initial était : 25,50 €.12,20€Le prix actuel est : 12,20 €.</title>
       <link>https://www.permatheque.fr/librairie/dechets-land/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/librairie/dechets-land/</guid>
     </item>
@@ -119,6 +139,16 @@
       <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/formations-de-permaculture-en-ligne/</guid>
     </item>
     <item>
+      <title>Occasion</title>
+      <link>https://www.permatheque.fr/type-2/solde/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/type-2/solde/</guid>
+    </item>
+    <item>
+      <title>Littérature</title>
+      <link>https://www.permatheque.fr/categorie-produit/litterature/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/litterature/</guid>
+    </item>
+    <item>
       <title>Culture &amp; Histoire</title>
       <link>https://www.permatheque.fr/categorie-produit/culture-et-histoire/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/culture-et-histoire/</guid>
@@ -149,11 +179,6 @@
       <guid isPermaLink="false">https://www.permatheque.fr/categorie-produit/permaculture/</guid>
     </item>
     <item>
-      <title>Toute la Librairie</title>
-      <link>https://www.permatheque.fr/librairie/</link>
-      <guid isPermaLink="false">https://www.permatheque.fr/librairie/</guid>
-    </item>
-    <item>
       <title>Cercles de Lecture</title>
       <link>https://www.permatheque.fr/groupes/cercles-de-lecture/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/groupes/cercles-de-lecture/</guid>
@@ -169,6 +194,11 @@
       <guid isPermaLink="false">https://www.permatheque.fr/groupes/</guid>
     </item>
     <item>
+      <title>Réflexions</title>
+      <link>https://www.permatheque.fr/groupes/reflexions/forum/reflexions/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/groupes/reflexions/forum/reflexions/</guid>
+    </item>
+    <item>
       <title>Design Permacole</title>
       <link>https://www.permatheque.fr/groupes/design-en-permaculture/forum/design-en-permaculture/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/groupes/design-en-permaculture/forum/design-en-permaculture/</guid>
@@ -179,7 +209,7 @@
       <guid isPermaLink="false">https://www.permatheque.fr/forums/</guid>
     </item>
     <item>
-      <title>Fil d’actualités</title>
+      <title>Communauté</title>
       <link>https://www.permatheque.fr/fil-dactualites/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/fil-dactualites/</guid>
     </item>
@@ -194,6 +224,11 @@
       <guid isPermaLink="false">https://www.permatheque.fr/calendrier</guid>
     </item>
     <item>
+      <title>Evènements</title>
+      <link>https://www.permatheque.fr/agenda/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/agenda/</guid>
+    </item>
+    <item>
       <title>Apparaitre sur la carte interactive</title>
       <link>https://www.permatheque.fr/apparaitre-sur-la-carte-interactive/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/apparaitre-sur-la-carte-interactive/</guid>
@@ -204,9 +239,19 @@
       <guid isPermaLink="false">https://www.permatheque.fr/decouvrir-le-reseau-permacole/</guid>
     </item>
     <item>
+      <title>Sites Web</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/en-ligne/sites-web/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/en-ligne/sites-web/</guid>
+    </item>
+    <item>
       <title>Formations en Ligne</title>
       <link>https://www.permatheque.fr/category/a-decouvrir/en-ligne/formations-en-ligne/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/en-ligne/formations-en-ligne/</guid>
+    </item>
+    <item>
+      <title>Magazines</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/magazines/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/magazines/</guid>
     </item>
     <item>
       <title>Lieux de Formation</title>
@@ -214,9 +259,24 @@
       <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/lieux-de-formation/</guid>
     </item>
     <item>
+      <title>Eco-Lieux</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/eco-lieux/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/eco-lieux/</guid>
+    </item>
+    <item>
+      <title>Initiatives</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/initiatives/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/initiatives/</guid>
+    </item>
+    <item>
       <title>Producteurs Locaux</title>
       <link>https://www.permatheque.fr/category/a-decouvrir/producteurs-locaux/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/producteurs-locaux/</guid>
+    </item>
+    <item>
+      <title>A découvrir</title>
+      <link>https://www.permatheque.fr/category/a-decouvrir/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/a-decouvrir/</guid>
     </item>
     <item>
       <title>Films Autonomie et Liberté</title>
@@ -264,9 +324,29 @@
       <guid isPermaLink="false">https://www.permatheque.fr/selections-de-films-et-documentaires/</guid>
     </item>
     <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/societe-et-alternatives/documents-pdf-societe-et-alternatives/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/societe-et-alternatives/documents-pdf-societe-et-alternatives/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/societe-et-alternatives/articles-societe-et-alternatives/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/societe-et-alternatives/articles-societe-et-alternatives/</guid>
+    </item>
+    <item>
       <title>Société et Alternatives</title>
       <link>https://www.permatheque.fr/category/documentation/societe-et-alternatives/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/societe-et-alternatives/</guid>
+    </item>
+    <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/science-et-nature/docs-pdf/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/science-et-nature/docs-pdf/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/science-et-nature/articles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/science-et-nature/articles/</guid>
     </item>
     <item>
       <title>Science et Nature</title>
@@ -274,9 +354,29 @@
       <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/science-et-nature/</guid>
     </item>
     <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/documents-pdf-sante-naturelle-et-medecines-traditionnelles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/documents-pdf-sante-naturelle-et-medecines-traditionnelles/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/articles-sante-naturelle-et-medecines-traditionnelles/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/articles-sante-naturelle-et-medecines-traditionnelles/</guid>
+    </item>
+    <item>
       <title>Santé et Médecine</title>
       <link>https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/sante-naturelle-et-medecines-traditionnelles/</guid>
+    </item>
+    <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/eco-construction/documents-pdf-eco-construction/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/eco-construction/documents-pdf-eco-construction/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/eco-construction/articles-eco-construction/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/eco-construction/articles-eco-construction/</guid>
     </item>
     <item>
       <title>Eco-Construction</title>
@@ -284,9 +384,29 @@
       <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/eco-construction/</guid>
     </item>
     <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/autonomie-et-resilience/documents-pdf-autonomie-et-resilience/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/autonomie-et-resilience/documents-pdf-autonomie-et-resilience/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/autonomie-et-resilience/articles-autonomie-et-resilience/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/autonomie-et-resilience/articles-autonomie-et-resilience/</guid>
+    </item>
+    <item>
       <title>Autonomie et résilience</title>
       <link>https://www.permatheque.fr/category/documentation/autonomie-et-resilience/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/autonomie-et-resilience/</guid>
+    </item>
+    <item>
+      <title>Docs PDF</title>
+      <link>https://www.permatheque.fr/category/documentation/agricultures-naturelles/documents-pdf-agriculture-naturelle/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/agricultures-naturelles/documents-pdf-agriculture-naturelle/</guid>
+    </item>
+    <item>
+      <title>Articles</title>
+      <link>https://www.permatheque.fr/category/documentation/agricultures-naturelles/articles-agriculture-naturelle/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/category/documentation/agricultures-naturelles/articles-agriculture-naturelle/</guid>
     </item>
     <item>
       <title>Agriculture Naturelle</title>
@@ -309,9 +429,39 @@
       <guid isPermaLink="false">https://www.permatheque.fr/2016/12/30/permaculture-definition/</guid>
     </item>
     <item>
+      <title>Concepts</title>
+      <link>https://www.permatheque.fr/concepts/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/concepts/</guid>
+    </item>
+    <item>
+      <title>Ressources</title>
+      <link>https://www.permatheque.fr/ressources/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/ressources/</guid>
+    </item>
+    <item>
+      <title>S’inscrire</title>
+      <link>https://www.permatheque.fr/sinscrire/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/sinscrire/</guid>
+    </item>
+    <item>
+      <title>Permatheque</title>
+      <link>https://www.permatheque.fr/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/</guid>
+    </item>
+    <item>
+      <title>Mon compte</title>
+      <link>https://www.permatheque.fr/mon-compte/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/mon-compte/</guid>
+    </item>
+    <item>
       <title>Ajouter un évènement</title>
       <link>https://www.permatheque.fr/ajouter-un-evenement/</link>
       <guid isPermaLink="false">https://www.permatheque.fr/ajouter-un-evenement/</guid>
+    </item>
+    <item>
+      <title>Librairie</title>
+      <link>https://www.permatheque.fr/librairie/</link>
+      <guid isPermaLink="false">https://www.permatheque.fr/librairie/</guid>
     </item>
     <item>
       <title>Réseau Permacole</title>
