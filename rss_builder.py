@@ -1,3 +1,4 @@
+import html
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -7,21 +8,25 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX (Bruit commun)
+# 1. MOTS-CLÉS DE NAVIGATION GLOBAUX
 GLOBAL_IGNORED = [
     "contact", "mentions", "politique", "cookies", "facebook", 
     "instagram", "twitter", "connexion", "connecter", "propos", 
     "accueil", "charte", "auteurs", "équipe", "accessibilité"
 ]
 
-# 2. FONCTIONS DE NETTOYAGE
+# 2. FONCTIONS DE NETTOYAGE ET SÉCURISATION XML
 def clean_title(raw_title):
+    if not raw_title:
+        return ""
     # Supprime la durée de lecture parasite (ex: "6 minmin de lecture", "7 minutesmin de lecture")
     cleaned = re.sub(r'\d+\s*(min|minutes)?\s*min\s*de\s*lecture', '', raw_title, flags=re.IGNORECASE)
-    # Supprime les préfixes parasites répétitifs si présents dans les balises
+    # Supprime les préfixes parasites répétitifs
     cleaned = re.sub(r'^(GEO\s*:|IA\s*:)', '', cleaned, flags=re.IGNORECASE)
-    # Nettoyage des espaces multiples
-    return " ".join(cleaned.split()).strip()
+    # Nettoie les espaces superflus
+    cleaned = " ".join(cleaned.split()).strip()
+    # Échappe les caractères XML réservés (&, <, >, etc.)
+    return html.escape(cleaned)
 
 def is_valid_link(title, href, min_length=8, specific_ignored=None):
     if specific_ignored is None:
@@ -87,7 +92,7 @@ def build_geo_rss():
     print("✓ geo_histoire.xml généré.")
 
 # -------------------------------------------------------------------
-# 2. PERMATHÈQUE (Filtre assoupli)
+# 2. PERMATHÈQUE
 # -------------------------------------------------------------------
 def build_permatheque_rss():
     url = "https://permatheque.fr"
@@ -98,7 +103,6 @@ def build_permatheque_rss():
     fg.language("fr")
     fg.icon("https://permatheque.fr/favicon.ico")
 
-    # Uniquement des exclusions de bruit, aucun mot-clé obligatoire
     perma_ignored = ["soutenir", "événement", "annonce", "publier", "association", "pépinière", "don", "connexion"]
     entries_count = 0
 
@@ -275,7 +279,7 @@ def build_meteo_regionale_rss():
     print("✓ meteo_cote_dor.xml généré.")
 
 # -------------------------------------------------------------------
-# 5. TECH DIY, AGENTS IA & AUTOMATISATION (Avec Regex pour titres propres)
+# 5. TECH DIY, AGENTS IA & AUTOMATISATION
 # -------------------------------------------------------------------
 def build_tech_diy_rss():
     fg = FeedGenerator()
@@ -288,7 +292,6 @@ def build_tech_diy_rss():
     entries_count = 0
     seen_links = set()
 
-    # Source 1 : Les Numériques - IA
     try:
         url_num = "https://www.lesnumeriques.com/intelligence-artificielle.html"
         res = requests.get(url_num, headers=HEADERS, timeout=15)
@@ -309,7 +312,6 @@ def build_tech_diy_rss():
     except Exception as e:
         print(f"Erreur Tech Numériques: {e}")
 
-    # Source 2 : École Cube - Blog (avec nettoyage des durées de lecture)
     try:
         url_cube = "https://www.ecole.cube.fr/blog"
         res = requests.get(url_cube, headers=HEADERS, timeout=15)
@@ -337,7 +339,25 @@ def build_tech_diy_rss():
     print("✓ tech_ia.xml généré.")
 
 # -------------------------------------------------------------------
-olor: #1f2328; }
+# 6. PAGE INDEX HTML
+# -------------------------------------------------------------------
+def build_index_html():
+    html_content = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rss.feed.flow - Flux RSS Automatisés</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; margin: 0; padding: 15px; background: #f4f6f8; color: #1a1a1a; line-height: 1.5; }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { margin-top: 0; color: #0969da; font-size: 1.6rem; border-bottom: 2px solid #eaeef2; padding-bottom: 10px; }
+        h2 { font-size: 1.1rem; color: #24292f; margin-top: 20px; }
+        p { color: #57606a; font-size: 0.92rem; margin-bottom: 12px; }
+        .intro-box { background: #f6f8fa; border-left: 4px solid #0969da; padding: 12px 16px; border-radius: 4px; margin-bottom: 20px; }
+        ul { list-style: none; padding: 0; margin: 15px 0; }
+        li { margin-bottom: 12px; padding: 14px; background: #ffffff; border-radius: 8px; border: 1px solid #d0d7de; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; }
+        .title { font-weight: 600; font-size: 0.95rem; color: #1f2328; }
         .btn { background: #0969da; color: white; padding: 7px 14px; border-radius: 6px; text-decoration: none; font-size: 0.85rem; font-weight: 500; display: inline-block; }
         .btn:hover { background: #0451a5; }
         .footer { margin-top: 25px; text-align: center; font-size: 0.8rem; color: #8c959f; border-top: 1px solid #eaeef2; padding-top: 15px; }
@@ -375,4 +395,3 @@ if __name__ == "__main__":
     build_meteo_regionale_rss()
     build_tech_diy_rss()
     build_index_html()
-
