@@ -40,9 +40,13 @@ def create_feed_generator(title, link, description, logo_filename):
     fg.description(description)
     fg.language('fr')
     
+    # URL complète du logo sur GitHub Pages
     icon_url = f"https://githubpracticer.github.io/Rss.feed.flow/icons/{logo_filename}"
     
-    # Image RSS standard & balises Atom pour ReadYou
+    # Configuration complète des images/logos pour RSS
+    # - fg.image() : pour RSS standard
+    # - fg.icon() : pour Atom (ReadYou, Feeder, etc.)
+    # - fg.logo() : alias pour icon
     fg.image(url=icon_url, title=title, link=link)
     fg.icon(icon_url)
     fg.logo(icon_url)
@@ -330,12 +334,12 @@ def build_index_html():
 # ---------------------------------------------------------
 if __name__ == "__main__":
     feeds = [
-        ("GEO Histoire", "https://www.geo.fr/histoire", "Flux Histoire GEO.fr", "geo_histoire.xml", "Geo.jpg", scrape_geo_histoire),
-        ("Permaculture", "https://permatheque.fr/", "Flux Permaculture", "permatheque.xml", "Permatheque.jpg", scrape_permatheque),
-        ("Web3 & Airdrops", "https://coinspeaker.com/", "Flux Web3", "web3_airdrops.xml", "Airdrops.jpg", scrape_web3),
-        ("Météo Express", "https://meteo-express.com/", "Flux Météo France", "meteo_france.xml", "FranceMeteo.jpg", scrape_meteo_express),
-        ("Météo Côte-d'Or & BFC", "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/", "Flux Météo Dijon & Bourgogne FR3", "meteo_cote_dor.xml", "BourgogneMeteo.jpg", scrape_meteo_cote_dor),
-        ("Tech IA", "https://www.tomshardware.fr/", "Flux Tech & IA", "tech_ia.xml", "TechAiDIY.jpg", scrape_tech_ia),
+        ("GEO Histoire", "https://www.geo.fr/histoire", "Flux Histoire GEO.fr", "geo_histoire.xml", "geo.jpg", scrape_geo_histoire),
+        ("Permaculture", "https://permatheque.fr/", "Flux Permaculture", "permatheque.xml", "permatheque.jpg", scrape_permatheque),
+        ("Web3 & Airdrops", "https://coinspeaker.com/", "Flux Web3", "web3_airdrops.xml", "airdrops.jpg", scrape_web3),
+        ("Météo Express", "https://meteo-express.com/", "Flux Météo France", "meteo_france.xml", "francemeteo.jpg", scrape_meteo_express),
+        ("Météo Côte-d'Or & BFC", "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/cote-d-or/", "Flux Météo Dijon & Bourgogne FR3", "meteo_cote_dor.xml", "bourgognemeteo.jpg", scrape_meteo_cote_dor),
+        ("Tech IA", "https://www.tomshardware.fr/", "Flux Tech & IA", "tech_ia.xml", "techaidiy.jpg", scrape_tech_ia),
     ]
 
     for title, link, desc, filename, logo, scraper_func in feeds:
