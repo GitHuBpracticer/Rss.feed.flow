@@ -1,26 +1,84 @@
 # Rss.feed.flow
+
 personnal rss flux solution
 
-# 📡 Rss.feed.flow
+## Prise en main rapide
 
-Générateur automatique de flux RSS personnalisés hébergés via GitHub Pages. Mis à jour régulièrement par GitHub Actions.
+1. Vérifie que les dépendances Python sont installées :
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Modifie les sources de flux dans `feeds_config.json` si tu veux ajouter, désactiver ou renommer un flux.
+3. Génère les fichiers RSS :
+   ```bash
+   python rss_builder.py
+   ```
+4. Les flux XML seront créés dans le dossier racine du projet.
+5. La page `index.html` sert de vitrine pour copier les liens vers ton lecteur RSS préféré (ReadYou, Feeder, Inoreader, etc.).
 
-## 🔗 Flux RSS disponibles
+## Fichier de configuration
 
-| Catégorie | Nom du flux | Source originale | URL du flux RSS |
-| :--- | :--- | :--- | :--- |
-| 📜 **Histoire** | GEO Histoire | GEO.fr | `https://githubpracticer.github.io/Rss.feed.flow/geo_histoire.xml` |
-| 🌱 **Jardin & Permaculture** | Permathèque | Permathaque.fr | `https://githubpracticer.github.io/Rss.feed.flow/permathaque.xml` |
-| 💎 **Web3 & Crypto** | Airdrops & Guides | CoinAcademy.fr | `https://githubpracticer.github.io/Rss.feed.flow/web3_airdrops.xml` |
-| 🌤️ **Météo** | Météo Côte-d'Or (21) | Meteo-Express.com | `https://githubpracticer.github.io/Rss.feed.flow/meteo_cote_dor.xml` |
-| 🤖 **Tech & IA** | IA Locale & Open Source | LesNumeriques.com | `https://githubpracticer.github.io/Rss.feed.flow/tech_ia.xml` |
+Le fichier `feeds_config.json` contient la liste des flux à générer.
 
----
+Exemple :
+```json
+{
+  "feeds": [
+    {
+      "name": "Permaculture",
+      "enabled": true,
+      "url": "https://permatheque.fr/",
+      "description": "Flux Permaculture",
+      "xml_filename": "permatheque.xml",
+      "logo": "permatheque.jpg",
+      "scraper": "scrape_permatheque",
+      "max_items": 20
+    }
+  ]
+}
+```
 
-## 🛠️ Utilisation
+### Que tu peux modifier facilement
+- `enabled`: met `false` pour désactiver un flux sans le supprimer
+- `url`: remplace la source du flux
+- `xml_filename`: nom du fichier généré
+- `logo`: nom de l'icône dans le dossier `icons/`
+- `max_items`: limite le nombre d'articles exportés
 
-1. Copiez l'URL du flux souhaité dans le tableau ci-dessus.
-2. Ouvrez votre lecteur RSS préféré
-3. (**Read You**, **Feeder**, **Inoreader**, **NetNewsWire**, etc.).
-4. Ajoutez un nouveau flux
-5.  et collez l'URL.
+## Lecteurs RSS supportés
+
+Le script est conçu pour rester compatible avec :
+- ReadYou
+- Feeder
+- Inoreader
+- NetNewsWire
+- Feedly
+- autres lecteurs standards
+
+## Fichiers générés
+
+- `geo_histoire.xml`
+- `permatheque.xml`
+- `web3_airdrops.xml`
+- `meteo_france.xml`
+- `meteo_cote_dor.xml`
+- `tech_ia.xml`
+- `index.html`
+
+## Logs
+
+Le script enregistre des informations dans le dossier `logs/` et affiche aussi les messages dans le terminal.
+
+Cela permet de vérifier rapidement :
+- si un flux a bien été généré
+- s'il y a eu une erreur sur une source
+- combien d'articles ont été traités
+
+## Astuce
+
+Si tu veux ajouter un nouveau flux, il suffit de :
+1. créer un scraper dans `rss_builder.py`
+2. ajouter une entrée dans `feeds_config.json`
+3. relancer `python rss_builder.py`
+
+Cela évite de modifier le code principal à chaque ajout.
