@@ -1,0 +1,64 @@
+{
+  "feeds": [
+    {
+      "name": "GEO Histoire",
+      "enabled": true,
+      "url": "https://www.geo.fr/histoire",
+      "description": "Flux Histoire GEO.fr",
+      "xml_filename": "geo_histoire.xml",
+      "logo": "geo.jpg",
+      "scraper": "scrape_geo_histoire",
+      "max_items": 15
+    },
+    {
+      "name": "Permaculture",
+      "enabled": true,
+      "url": "https://permatheque.fr/",
+      "description": "Flux Permaculture",
+      "xml_filename": "permatheque.xml",
+      "logo": "permatheque.jpg",
+      "scraper": "scrape_permatheque",
+      "max_items": 20
+    },
+    {
+      "name": "Web3 & Airdrops",
+      "enabled": true,
+      "url": "https://coinspeaker.com/",
+      "description": "Flux Web3",
+      "xml_filename": "web3_airdrops.xml",
+      "logo": "airdrops.jpg",
+      "scraper": "scrape_web3",
+      "max_items": 15
+    },
+    {
+      "name": "Météo Express",
+      "enabled": true,
+      "url": "https://meteo-express.com/",
+      "description": "Flux Météo France",
+      "xml_filename": "meteo_france.xml",
+      "logo": "francemeteo.jpg",
+      "scraper": "scrape_meteo_express",
+      "max_items": 15
+    },
+    {
+      "name": "Météo Côte-d'Or & BFC",
+      "enabled": true,
+      "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/",
+      "description": "Flux Météo Dijon & Bourgogne FR3",
+      "xml_filename": "meteo_cote_dor.xml",
+      "logo": "bourgognemeteo.jpg",
+      "scraper": "scrape_meteo_cote_dor",
+      "max_items": 15
+    },
+    {
+      "name": "Tech IA",
+      "enabled": true,
+      "url": "https://www.tomshardware.fr/",
+      "description": "Flux Tech & IA",
+      "xml_filename": "tech_ia.xml",
+      "logo": "techaidiy.jpg",
+      "scraper": "scrape_tech_ia",
+      "max_items": 15
+    }
+  ]
+}
